@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: Large_DressShirt-BlackWatch
+  m_EditorClassIdentifier: 
+  bodyPartName: DressShirt
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: d7b383b7b83ae5746a3aa9bc7d39417a, type: 2}
+  - {fileID: 7400000, guid: 3213921ef89e1d546b5fe4339cc6bdda, type: 2}
+  - {fileID: 7400000, guid: 02d97b645eeb2aa4f8ce5df85f815d63, type: 2}
+  - {fileID: 7400000, guid: fa4f0e8349c978347b01e3676e4d918e, type: 2}
+  - {fileID: 7400000, guid: 6bfe8cfa3cfca384ba49eedaabcd90ae, type: 2}
+  - {fileID: 7400000, guid: 603ecca2eff1bac489bdfaae21cf2e2d, type: 2}
+  - {fileID: 7400000, guid: 642aaf32c0629594e8f49500f2b93126, type: 2}
+  - {fileID: 7400000, guid: 31ff64442d6313545915fc7a954a1b04, type: 2}

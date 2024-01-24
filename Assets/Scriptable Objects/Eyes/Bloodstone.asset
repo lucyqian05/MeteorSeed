@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: Bloodstone
+  m_EditorClassIdentifier: 
+  bodyPartName: Eyes
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: ea8528a1e7023704ba9ee89810c388a4, type: 2}
+  - {fileID: 7400000, guid: bcd7fcfa325272b4b982d82ec211467c, type: 2}
+  - {fileID: 7400000, guid: b5c33fa1c554f0547b7d74cd36401fdc, type: 2}
+  - {fileID: 7400000, guid: 39ad935ab8345ff438e3d5e3bdcad32d, type: 2}
+  - {fileID: 7400000, guid: 6122f5aaeef95de4baf0419b61176155, type: 2}
+  - {fileID: 7400000, guid: 0c0f799ed5810034fbfd305f3ba07434, type: 2}
+  - {fileID: 7400000, guid: d1bcedff3230ecc4ea177f73ccfeeba5, type: 2}
+  - {fileID: 7400000, guid: eaeadee0b980ed546b7a53969a7b3010, type: 2}

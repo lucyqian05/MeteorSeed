@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: Large_Jeans-AcidWash
+  m_EditorClassIdentifier: 
+  bodyPartName: Pants
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 0e458d710ee4f68409643cce38d3b385, type: 2}
+  - {fileID: 7400000, guid: dff945789159a9b498b7fd1a991a8b1d, type: 2}
+  - {fileID: 7400000, guid: bdf1074be9cd453439bb31ca8b3e1137, type: 2}
+  - {fileID: 7400000, guid: 84b309c29578e6a4c8a814d6f8745da8, type: 2}
+  - {fileID: 7400000, guid: 080bc62cd8bbdf9458ae9a574891a90b, type: 2}
+  - {fileID: 7400000, guid: 2d1dbdd29890c3d4cac8480a473c94f4, type: 2}
+  - {fileID: 7400000, guid: f9909596b249ea440bad5d995c94deec, type: 2}
+  - {fileID: 7400000, guid: 51a3376fea5fbcf448ba61c927e85905, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: BobOrange
+  m_EditorClassIdentifier: 
+  bodyPartName: Hair
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 3fff1613017d3574ba58f18930d02570, type: 2}
+  - {fileID: 7400000, guid: 694f63400aedc6944bc2d3da54c95009, type: 2}
+  - {fileID: 7400000, guid: 5017ac9a14930f34697ba631b646d2f0, type: 2}
+  - {fileID: 7400000, guid: af55402cb6facbe479eeb5841ca1b8dd, type: 2}
+  - {fileID: 7400000, guid: 9b886fa76dfec764cadba7c9b545faf5, type: 2}
+  - {fileID: 7400000, guid: e6e0d1c4ea557ab4db15fd4da076e783, type: 2}
+  - {fileID: 7400000, guid: b761dcf6e5ab0fb45a42481e830b8a58, type: 2}
+  - {fileID: 7400000, guid: 347398c0b5cf6c640ba710b76bb47374, type: 2}

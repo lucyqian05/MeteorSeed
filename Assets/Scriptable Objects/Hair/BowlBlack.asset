@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: BowlBlack
+  m_EditorClassIdentifier: 
+  bodyPartName: Hair
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: accea04c00da7bd4f99240ac48093768, type: 2}
+  - {fileID: 7400000, guid: d9d896e792968b64c9912b3ddec4b570, type: 2}
+  - {fileID: 7400000, guid: ddc945622a933284ab0617df58d2ef79, type: 2}
+  - {fileID: 7400000, guid: 73e96e4461864a046a039f14a534b4d4, type: 2}
+  - {fileID: 7400000, guid: c93b9ae80c73c7d42b483af3c8d6836d, type: 2}
+  - {fileID: 7400000, guid: ab6d5cfe9150c6747b8c0fe76df6bb5f, type: 2}
+  - {fileID: 7400000, guid: 20ddbc6b8bd0a5a41a697b529318597d, type: 2}
+  - {fileID: 7400000, guid: 22161458710e3d74889f41b8a925661b, type: 2}

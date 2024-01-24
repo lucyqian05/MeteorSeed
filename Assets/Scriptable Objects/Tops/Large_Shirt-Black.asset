@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: Large_Shirt-Black
+  m_EditorClassIdentifier: 
+  bodyPartName: Shirt
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 9823e7bf6508b024e842c0a8736d5844, type: 2}
+  - {fileID: 7400000, guid: 18fbb9a45e1a43c4d94c63121f977304, type: 2}
+  - {fileID: 7400000, guid: abca3288294119b419aa7e50b1b6003c, type: 2}
+  - {fileID: 7400000, guid: 02211504f296d8a4ea667581c7e9866c, type: 2}
+  - {fileID: 7400000, guid: 26f89b38dbb226e4c8b2a64c214f38d8, type: 2}
+  - {fileID: 7400000, guid: 4e54d10ffea9c4b45b657676c360c9a4, type: 2}
+  - {fileID: 7400000, guid: 4d9cc03b535c42a4487baa969a1c9b5a, type: 2}
+  - {fileID: 7400000, guid: b7dd09506e2b64b48800eeae1e80202c, type: 2}

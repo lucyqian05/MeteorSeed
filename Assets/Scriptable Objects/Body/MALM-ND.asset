@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: MALM-ND
+  m_EditorClassIdentifier: 
+  bodyPartName: Body
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: c9b6dae9c6461364ca3b3c8604f013e9, type: 2}
+  - {fileID: 7400000, guid: f7e33afa5804b794c9a84f8bdd1a1518, type: 2}
+  - {fileID: 7400000, guid: 8c2c8734e23caa146ac5e10a0c6baddc, type: 2}
+  - {fileID: 7400000, guid: f37c890a36609054dae553275a9a4f0a, type: 2}
+  - {fileID: 7400000, guid: 1d29e5b562ee4b542a01b28ab5b072cb, type: 2}
+  - {fileID: 7400000, guid: 7ca45e76c2b61ab41abe8fd674b8e0d5, type: 2}
+  - {fileID: 7400000, guid: 1c3df9c649aeafe4d8f7d5450805b427, type: 2}
+  - {fileID: 7400000, guid: 5b0b91e72c0af46418e94a76dd5b8d40, type: 2}

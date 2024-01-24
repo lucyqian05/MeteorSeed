@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: BowlRed
+  m_EditorClassIdentifier: 
+  bodyPartName: Hair
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 9888bb4dc43369c4d8c986a88ffed849, type: 2}
+  - {fileID: 7400000, guid: 26a9433e95b9d3b4ba6cbbddc3dadca0, type: 2}
+  - {fileID: 7400000, guid: 46b82cadae57c204f8d80a03e23b8605, type: 2}
+  - {fileID: 7400000, guid: 00fe1ad1c8405cf4fa82a2c07c081e37, type: 2}
+  - {fileID: 7400000, guid: dfce5c4db8a3fa74e86568daeb3ed079, type: 2}
+  - {fileID: 7400000, guid: a473089069a0f27478c1850045738006, type: 2}
+  - {fileID: 7400000, guid: 1be9bca13c32be34684c2f4352abcf0f, type: 2}
+  - {fileID: 7400000, guid: 524789613dcddab488ab129e98b3f4fc, type: 2}

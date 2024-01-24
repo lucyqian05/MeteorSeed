@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: Sunset
+  m_EditorClassIdentifier: 
+  bodyPartName: Eyes
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 38fe2ebb341f30e4fa2133cbe25bdce8, type: 2}
+  - {fileID: 7400000, guid: 29c9735eb87accd419f265375b11f626, type: 2}
+  - {fileID: 7400000, guid: e70cf6fab170b444a9da476c418dfe2c, type: 2}
+  - {fileID: 7400000, guid: 662eb45eb9e592743be602c62137a047, type: 2}
+  - {fileID: 7400000, guid: d62df138a7e947547a684a94f6dc6ae9, type: 2}
+  - {fileID: 7400000, guid: cf3c5341c29e4c6429828351cf5980f9, type: 2}
+  - {fileID: 7400000, guid: 21bf5325a51f80d478bd6f77c9d7de46, type: 2}
+  - {fileID: 7400000, guid: edc10cfc30258a24fa7c59490368ca97, type: 2}

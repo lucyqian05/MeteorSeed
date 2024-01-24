@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: Large_Overalls-Denim
+  m_EditorClassIdentifier: 
+  bodyPartName: Pants
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 5448b83eacf48ca408d1386f37491c12, type: 2}
+  - {fileID: 7400000, guid: 7b413295b40c9414e8359f50e1c7abff, type: 2}
+  - {fileID: 7400000, guid: 6121d8dd308a80e488d87fcc9dc45532, type: 2}
+  - {fileID: 7400000, guid: 196d46ad922befb4da43d8dce5a0b709, type: 2}
+  - {fileID: 7400000, guid: 856f0e6ed5789d240875074c43f5fcff, type: 2}
+  - {fileID: 7400000, guid: b12774799ff100a4595336e23775e878, type: 2}
+  - {fileID: 7400000, guid: 016d91d486ce1e84abbc81ca95b30ce7, type: 2}
+  - {fileID: 7400000, guid: 9bd1e51f0eaa45844a66157ce2aa85a7, type: 2}

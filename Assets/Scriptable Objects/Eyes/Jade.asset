@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: Jade
+  m_EditorClassIdentifier: 
+  bodyPartName: Eyes
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 808a5b3e3a91fd742884f90684b96567, type: 2}
+  - {fileID: 7400000, guid: f5bd8f2aba44bcc46ba2f33575b49cac, type: 2}
+  - {fileID: 7400000, guid: 5f068de546237d949b331d8bfebc0ad3, type: 2}
+  - {fileID: 7400000, guid: ed02dcfaab5570649bb7421f76df9153, type: 2}
+  - {fileID: 7400000, guid: 1f153b51450cd7d49a290627dc671cad, type: 2}
+  - {fileID: 7400000, guid: afb85bd16d3fbdc4daf2fd51b190303b, type: 2}
+  - {fileID: 7400000, guid: 51a5697e3a1654344a03d10f9aa00632, type: 2}
+  - {fileID: 7400000, guid: 9f861f03580d51641a5fea15d04e277f, type: 2}

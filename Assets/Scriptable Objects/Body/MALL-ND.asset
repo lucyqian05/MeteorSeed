@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: MALL-ND
+  m_EditorClassIdentifier: 
+  bodyPartName: Body
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 3a0c80ef26f271a4aa8610255e88897e, type: 2}
+  - {fileID: 7400000, guid: 871008e3e2cfea946b59044629577015, type: 2}
+  - {fileID: 7400000, guid: 7e2835656f933934e81687b5666d44ff, type: 2}
+  - {fileID: 7400000, guid: e2453a45e2385264eb5a1e90741755b5, type: 2}
+  - {fileID: 7400000, guid: 72f9d90d20c7a874f9b89f1a61eb88c5, type: 2}
+  - {fileID: 7400000, guid: acfe98c50f7bb444bb1438965051c496, type: 2}
+  - {fileID: 7400000, guid: bff1fc419bf959341ad6900c57b795fa, type: 2}
+  - {fileID: 7400000, guid: 16c7db6ebe93f554c98fe5d1572cd4f5, type: 2}

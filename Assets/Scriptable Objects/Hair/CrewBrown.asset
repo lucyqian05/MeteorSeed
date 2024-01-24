@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: CrewBrown
+  m_EditorClassIdentifier: 
+  bodyPartName: Hair
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 510eb2f549a5fb548ab4157c4745187e, type: 2}
+  - {fileID: 7400000, guid: 328e2afa90a95eb47943e82336d14337, type: 2}
+  - {fileID: 7400000, guid: f9d6237fd62963a47bf91017f2f81e47, type: 2}
+  - {fileID: 7400000, guid: be4b0f52b6c52bb4d88af598fae063d0, type: 2}
+  - {fileID: 7400000, guid: 0d96d2b37b3227942941cc4bdaf3fc02, type: 2}
+  - {fileID: 7400000, guid: 1e640585cf76d12498ce88628109f903, type: 2}
+  - {fileID: 7400000, guid: 72594ee03b9da3449a4b408984ac0ebb, type: 2}
+  - {fileID: 7400000, guid: fc9cf70ccf0ee64479feec755d230753, type: 2}

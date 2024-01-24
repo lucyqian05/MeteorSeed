@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: Athena
+  m_EditorClassIdentifier: 
+  bodyPartName: Athena
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 9a58b0d6038145d4198ccbf1158a419a, type: 2}
+  - {fileID: 7400000, guid: 8904252a34162d140ac9b90013bb2482, type: 2}
+  - {fileID: 7400000, guid: c7e67719d8b8a414fb04082e70e0bb3f, type: 2}
+  - {fileID: 7400000, guid: 30e4e566ec70f67498d94bc6fdf57314, type: 2}
+  - {fileID: 7400000, guid: 4aa766d71f6d510458fa56068e5ae186, type: 2}
+  - {fileID: 7400000, guid: 6ddaa75d6009fe74d9597de7550112a7, type: 2}
+  - {fileID: 7400000, guid: cbe348ffda0dd6e4888e5395c208b2bd, type: 2}
+  - {fileID: 7400000, guid: 48d2abc5edd5a374f92cb7d1fc947d84, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: BobDarkBrown
+  m_EditorClassIdentifier: 
+  bodyPartName: Hair
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: db40d8a53669728499293c1809ff521b, type: 2}
+  - {fileID: 7400000, guid: 6fffa34135671c94c9ff9ca51109af98, type: 2}
+  - {fileID: 7400000, guid: 9d03fbc4568fd70479e07b49be505a9b, type: 2}
+  - {fileID: 7400000, guid: e84ab4c0b885c3040b279e117a926a90, type: 2}
+  - {fileID: 7400000, guid: 6af35b54172f2bc4bb325ca43d3dbffd, type: 2}
+  - {fileID: 7400000, guid: 214e167000f09044685867c61618dcba, type: 2}
+  - {fileID: 7400000, guid: 2ad3ca091bed77a4899da6b7e1f46b76, type: 2}
+  - {fileID: 7400000, guid: d84dcb13a4520d243b96487dd61cb9d8, type: 2}

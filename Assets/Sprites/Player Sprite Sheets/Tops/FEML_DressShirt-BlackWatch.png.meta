@@ -1,0 +1,1148 @@
+fileFormatVersion: 2
+guid: db8de2b20f6d1d64eac2dc3638daa425
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8735647058983010988
+    second: FEML_DressShirt-BlackWatch_0
+  - first:
+      213: -2529878853299030583
+    second: FEML_DressShirt-BlackWatch_1
+  - first:
+      213: -2956229220819825092
+    second: FEML_DressShirt-BlackWatch_2
+  - first:
+      213: 2579310699629495925
+    second: FEML_DressShirt-BlackWatch_3
+  - first:
+      213: -3171504729302653337
+    second: FEML_DressShirt-BlackWatch_4
+  - first:
+      213: -2807101792979376920
+    second: FEML_DressShirt-BlackWatch_5
+  - first:
+      213: 8976905622100426196
+    second: FEML_DressShirt-BlackWatch_6
+  - first:
+      213: 1869278936178495136
+    second: FEML_DressShirt-BlackWatch_7
+  - first:
+      213: 6273706965236251034
+    second: FEML_DressShirt-BlackWatch_8
+  - first:
+      213: 5561861298501520077
+    second: FEML_DressShirt-BlackWatch_9
+  - first:
+      213: -3373327338071734167
+    second: FEML_DressShirt-BlackWatch_10
+  - first:
+      213: 836994406859731297
+    second: FEML_DressShirt-BlackWatch_11
+  - first:
+      213: 6321429887040123810
+    second: FEML_DressShirt-BlackWatch_12
+  - first:
+      213: -1544686217458041168
+    second: FEML_DressShirt-BlackWatch_13
+  - first:
+      213: 5238676621684755521
+    second: FEML_DressShirt-BlackWatch_14
+  - first:
+      213: -8337644777052312011
+    second: FEML_DressShirt-BlackWatch_15
+  - first:
+      213: 6106542447396324221
+    second: FEML_DressShirt-BlackWatch_16
+  - first:
+      213: -5199350861763608315
+    second: FEML_DressShirt-BlackWatch_17
+  - first:
+      213: 5562220275220890590
+    second: FEML_DressShirt-BlackWatch_18
+  - first:
+      213: -7482425383275908576
+    second: FEML_DressShirt-BlackWatch_19
+  - first:
+      213: -8851864539555963245
+    second: FEML_DressShirt-BlackWatch_20
+  - first:
+      213: 8948776213915879120
+    second: FEML_DressShirt-BlackWatch_21
+  - first:
+      213: 7189208685944630550
+    second: FEML_DressShirt-BlackWatch_22
+  - first:
+      213: -4799936762378283774
+    second: FEML_DressShirt-BlackWatch_23
+  - first:
+      213: -4209608447881614532
+    second: FEML_DressShirt-BlackWatch_24
+  - first:
+      213: 2225523332669488630
+    second: FEML_DressShirt-BlackWatch_25
+  - first:
+      213: -6603863421766455957
+    second: FEML_DressShirt-BlackWatch_26
+  - first:
+      213: 3008819295234425389
+    second: FEML_DressShirt-BlackWatch_27
+  - first:
+      213: 1560751766624387998
+    second: FEML_DressShirt-BlackWatch_28
+  - first:
+      213: 7980999152590804019
+    second: FEML_DressShirt-BlackWatch_29
+  - first:
+      213: 5784491234830139753
+    second: FEML_DressShirt-BlackWatch_30
+  - first:
+      213: 235455930377474799
+    second: FEML_DressShirt-BlackWatch_31
+  - first:
+      213: -3765167534983736598
+    second: FEML_DressShirt-BlackWatch_32
+  - first:
+      213: -4567024139801227017
+    second: FEML_DressShirt-BlackWatch_33
+  - first:
+      213: -8006146324706343485
+    second: FEML_DressShirt-BlackWatch_34
+  - first:
+      213: -7178458919782561341
+    second: FEML_DressShirt-BlackWatch_35
+  - first:
+      213: 5549957571480319323
+    second: FEML_DressShirt-BlackWatch_36
+  - first:
+      213: -3791642759453795765
+    second: FEML_DressShirt-BlackWatch_37
+  - first:
+      213: 970682798952048814
+    second: FEML_DressShirt-BlackWatch_38
+  - first:
+      213: -6894100812456465768
+    second: FEML_DressShirt-BlackWatch_39
+  - first:
+      213: -6049033892022151124
+    second: FEML_DressShirt-BlackWatch_0
+  - first:
+      213: 9021126953900381494
+    second: FEML_DressShirt-BlackWatch_1
+  - first:
+      213: 4924118161573814138
+    second: FEML_DressShirt-BlackWatch_2
+  - first:
+      213: 1256972520205264210
+    second: FEML_DressShirt-BlackWatch_3
+  - first:
+      213: 4912592371693439119
+    second: FEML_DressShirt-BlackWatch_4
+  - first:
+      213: -7763958635706885458
+    second: FEML_DressShirt-BlackWatch_5
+  - first:
+      213: 8856327405678371393
+    second: FEML_DressShirt-BlackWatch_6
+  - first:
+      213: 8739478080219192193
+    second: FEML_DressShirt-BlackWatch_7
+  - first:
+      213: 1398788079359013558
+    second: FEML_DressShirt-BlackWatch_8
+  - first:
+      213: -5239748972087992473
+    second: FEML_DressShirt-BlackWatch_9
+  - first:
+      213: 3454464947971682749
+    second: FEML_DressShirt-BlackWatch_10
+  - first:
+      213: -1355599696137300926
+    second: FEML_DressShirt-BlackWatch_11
+  - first:
+      213: -5337433145627001845
+    second: FEML_DressShirt-BlackWatch_12
+  - first:
+      213: -889609237751073510
+    second: FEML_DressShirt-BlackWatch_13
+  - first:
+      213: -4170484459594244402
+    second: FEML_DressShirt-BlackWatch_14
+  - first:
+      213: 1916818151913316704
+    second: FEML_DressShirt-BlackWatch_15
+  - first:
+      213: 872133310973663326
+    second: FEML_DressShirt-BlackWatch_16
+  - first:
+      213: -672192765710852353
+    second: FEML_DressShirt-BlackWatch_17
+  - first:
+      213: -716807818775592536
+    second: FEML_DressShirt-BlackWatch_18
+  - first:
+      213: -710523107220005095
+    second: FEML_DressShirt-BlackWatch_19
+  - first:
+      213: -3111649486147207437
+    second: FEML_DressShirt-BlackWatch_20
+  - first:
+      213: -8286744871669048353
+    second: FEML_DressShirt-BlackWatch_21
+  - first:
+      213: -1644419471139381574
+    second: FEML_DressShirt-BlackWatch_22
+  - first:
+      213: -8184108082223769561
+    second: FEML_DressShirt-BlackWatch_23
+  - first:
+      213: -7987339062909976697
+    second: FEML_DressShirt-BlackWatch_24
+  - first:
+      213: -2073945614527278174
+    second: FEML_DressShirt-BlackWatch_25
+  - first:
+      213: -2245527906988480673
+    second: FEML_DressShirt-BlackWatch_26
+  - first:
+      213: -4769421300590944978
+    second: FEML_DressShirt-BlackWatch_27
+  - first:
+      213: 2058946409345592409
+    second: FEML_DressShirt-BlackWatch_28
+  - first:
+      213: -210637965516942615
+    second: FEML_DressShirt-BlackWatch_29
+  - first:
+      213: 6945056938866440407
+    second: FEML_DressShirt-BlackWatch_30
+  - first:
+      213: -5080555550921495081
+    second: FEML_DressShirt-BlackWatch_31
+  - first:
+      213: -5943236394895919849
+    second: FEML_DressShirt-BlackWatch_32
+  - first:
+      213: -2851829829468193131
+    second: FEML_DressShirt-BlackWatch_33
+  - first:
+      213: -3528157219731789688
+    second: FEML_DressShirt-BlackWatch_34
+  - first:
+      213: 3047274000690762533
+    second: FEML_DressShirt-BlackWatch_35
+  - first:
+      213: 6859176251571365732
+    second: FEML_DressShirt-BlackWatch_36
+  - first:
+      213: -228916767276460934
+    second: FEML_DressShirt-BlackWatch_37
+  - first:
+      213: -6726487857584339383
+    second: FEML_DressShirt-BlackWatch_38
+  - first:
+      213: -8015568727737717348
+    second: FEML_DressShirt-BlackWatch_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2898bf69b38d0ca0800000000000000
+      internalID: -6049033892022151124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6351fe82b2b713d70800000000000000
+      internalID: 9021126953900381494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f18acf06bf55440800000000000000
+      internalID: 4924118161573814138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255234fe8d9a17110800000000000000
+      internalID: 1256972520205264210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88c419ebb80d2440800000000000000
+      internalID: 4912592371693439119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa5ddb81c0e04490800000000000000
+      internalID: -7763958635706885458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14224064adef7ea70800000000000000
+      internalID: 8856327405678371393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b17cd920dd84970800000000000000
+      internalID: 8739478080219192193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2be3ad85e796310800000000000000
+      internalID: 1398788079359013558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f1a7e321ca847b0800000000000000
+      internalID: -5239748972087992473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1f3e05199b0ff20800000000000000
+      internalID: 3454464947971682749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244db163241ff2de0800000000000000
+      internalID: -1355599696137300926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cb18e35d0ade5b0800000000000000
+      internalID: -5337433145627001845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15f0f29c1977a3f0800000000000000
+      internalID: -889609237751073510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece199cea767f16c0800000000000000
+      internalID: -4170484459594244402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06160d314f7e99a10800000000000000
+      internalID: 1916818151913316704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58de5520a07a1c00800000000000000
+      internalID: 872133310973663326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe9733bd34eba6f0800000000000000
+      internalID: -672192765710852353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a188ad26136d06f0800000000000000
+      internalID: -716807818775592536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fd17d9ff6b326f0800000000000000
+      internalID: -710523107220005095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe3ba0574331d4d0800000000000000
+      internalID: -3111649486147207437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb50ebb1719ffc80800000000000000
+      internalID: -8286744871669048353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe50091439dd29e0800000000000000
+      internalID: -1644419471139381574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72816ab7f053c6e80800000000000000
+      internalID: -8184108082223769561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f36a6e075472190800000000000000
+      internalID: -7987339062909976697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a35f9aa37dd733e0800000000000000
+      internalID: -2073945614527278174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57a9b2144846d0e0800000000000000
+      internalID: -2245527906988480673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d581ab89c9fcdb0800000000000000
+      internalID: -4769421300590944978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c2c9cb9d8d29c10800000000000000
+      internalID: 2058946409345592409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2d629e2e9a31df0800000000000000
+      internalID: -210637965516942615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8fef94d7cc16060800000000000000
+      internalID: 6945056938866440407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd6fa5f4ad3e79b0800000000000000
+      internalID: -5080555550921495081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7153e0accf1658da0800000000000000
+      internalID: -5943236394895919849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e7fa631e34c68d0800000000000000
+      internalID: -2851829829468193131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888282e93b7790fc0800000000000000
+      internalID: -3528157219731789688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FEML_DressShirt-BlackWatch_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523d478fe871a4a20800000000000000
+      internalID: 3047274000690762533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

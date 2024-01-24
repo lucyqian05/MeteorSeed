@@ -1,0 +1,5765 @@
+fileFormatVersion: 2
+guid: ba9f9c7aa999d6b4086bb9c5585f0a0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1874658439023466114
+    second: FarmhouseInterior_0
+  - first:
+      213: -8736478836631582977
+    second: FarmhouseInterior_1
+  - first:
+      213: 2258905012122609686
+    second: FarmhouseInterior_2
+  - first:
+      213: 3373623299373879868
+    second: FarmhouseInterior_3
+  - first:
+      213: 2522431907811803544
+    second: FarmhouseInterior_4
+  - first:
+      213: 6035723806573529013
+    second: FarmhouseInterior_5
+  - first:
+      213: 1562881726832400260
+    second: FarmhouseInterior_6
+  - first:
+      213: 7792126319086472171
+    second: FarmhouseInterior_7
+  - first:
+      213: -3289207348227174240
+    second: FarmhouseInterior_8
+  - first:
+      213: 8641879898591557340
+    second: FarmhouseInterior_9
+  - first:
+      213: -47510971595458238
+    second: FarmhouseInterior_10
+  - first:
+      213: 8809292809477760870
+    second: FarmhouseInterior_11
+  - first:
+      213: -5281475649085105669
+    second: FarmhouseInterior_12
+  - first:
+      213: 8471712292926076336
+    second: FarmhouseInterior_13
+  - first:
+      213: 1392585018559669489
+    second: FarmhouseInterior_14
+  - first:
+      213: -6768903827520262865
+    second: FarmhouseInterior_15
+  - first:
+      213: -6407641427161030739
+    second: FarmhouseInterior_16
+  - first:
+      213: 1554843709207546058
+    second: FarmhouseInterior_17
+  - first:
+      213: 8037546058138925282
+    second: FarmhouseInterior_18
+  - first:
+      213: 627798689597120651
+    second: FarmhouseInterior_19
+  - first:
+      213: 5594134198025293728
+    second: FarmhouseInterior_20
+  - first:
+      213: 2706921106390945222
+    second: FarmhouseInterior_21
+  - first:
+      213: 4047742141252122262
+    second: FarmhouseInterior_22
+  - first:
+      213: 7429079447930402398
+    second: FarmhouseInterior_23
+  - first:
+      213: 2990778296321287249
+    second: FarmhouseInterior_24
+  - first:
+      213: -6057121302927663706
+    second: FarmhouseInterior_25
+  - first:
+      213: 8439676852361450148
+    second: FarmhouseInterior_26
+  - first:
+      213: 4935943469172346489
+    second: FarmhouseInterior_27
+  - first:
+      213: 1993000208275403896
+    second: FarmhouseInterior_28
+  - first:
+      213: 5901722249153899389
+    second: FarmhouseInterior_29
+  - first:
+      213: -7419259852604060573
+    second: FarmhouseInterior_30
+  - first:
+      213: 7085052923659494917
+    second: FarmhouseInterior_31
+  - first:
+      213: -5960285735891028614
+    second: FarmhouseInterior_32
+  - first:
+      213: 2766903604706895302
+    second: FarmhouseInterior_33
+  - first:
+      213: 6491111967809855586
+    second: FarmhouseInterior_34
+  - first:
+      213: -3492054973141360494
+    second: FarmhouseInterior_35
+  - first:
+      213: 1183900798286354289
+    second: FarmhouseInterior_36
+  - first:
+      213: 6798929187382015832
+    second: FarmhouseInterior_37
+  - first:
+      213: -8706990738953731343
+    second: FarmhouseInterior_38
+  - first:
+      213: -9194775670555355486
+    second: FarmhouseInterior_39
+  - first:
+      213: 3576419698141966171
+    second: FarmhouseInterior_40
+  - first:
+      213: -738356560686656820
+    second: FarmhouseInterior_41
+  - first:
+      213: -5684140767613768871
+    second: FarmhouseInterior_42
+  - first:
+      213: -7783176277256575528
+    second: FarmhouseInterior_43
+  - first:
+      213: -5242713494054898418
+    second: FarmhouseInterior_44
+  - first:
+      213: -1641296589548704723
+    second: FarmhouseInterior_45
+  - first:
+      213: -4296691988871248102
+    second: FarmhouseInterior_46
+  - first:
+      213: -6141457987038683560
+    second: FarmhouseInterior_47
+  - first:
+      213: -3305426195953830628
+    second: FarmhouseInterior_48
+  - first:
+      213: 6693014209893902532
+    second: FarmhouseInterior_49
+  - first:
+      213: -8291780059557926118
+    second: FarmhouseInterior_50
+  - first:
+      213: 2597952055402058754
+    second: FarmhouseInterior_51
+  - first:
+      213: -5340868348300275129
+    second: FarmhouseInterior_52
+  - first:
+      213: 1244816888074090004
+    second: FarmhouseInterior_53
+  - first:
+      213: -4532503849029592666
+    second: FarmhouseInterior_54
+  - first:
+      213: -7629868014403029092
+    second: FarmhouseInterior_55
+  - first:
+      213: -514915143603463565
+    second: FarmhouseInterior_56
+  - first:
+      213: 5035875790196246051
+    second: FarmhouseInterior_57
+  - first:
+      213: -6572285466169924310
+    second: FarmhouseInterior_58
+  - first:
+      213: -625127368091094660
+    second: FarmhouseInterior_59
+  - first:
+      213: -6605871915963667388
+    second: FarmhouseInterior_60
+  - first:
+      213: -7717945643973530009
+    second: FarmhouseInterior_61
+  - first:
+      213: 4737633509727564589
+    second: FarmhouseInterior_62
+  - first:
+      213: 1419302613404765198
+    second: FarmhouseInterior_63
+  - first:
+      213: 366324947190813443
+    second: FarmhouseInterior_64
+  - first:
+      213: 2989309781362729432
+    second: FarmhouseInterior_65
+  - first:
+      213: 8235219554566333991
+    second: FarmhouseInterior_66
+  - first:
+      213: 64450599595238480
+    second: FarmhouseInterior_67
+  - first:
+      213: -5594927548290872160
+    second: FarmhouseInterior_68
+  - first:
+      213: -4986591965230325581
+    second: FarmhouseInterior_69
+  - first:
+      213: 521537765067087281
+    second: FarmhouseInterior_70
+  - first:
+      213: 6148988894130763792
+    second: FarmhouseInterior_71
+  - first:
+      213: 2647843709355013480
+    second: FarmhouseInterior_72
+  - first:
+      213: 464519842968927938
+    second: FarmhouseInterior_73
+  - first:
+      213: 4561075280095564447
+    second: FarmhouseInterior_74
+  - first:
+      213: 7215431006090311388
+    second: FarmhouseInterior_75
+  - first:
+      213: 2541435059502166379
+    second: FarmhouseInterior_76
+  - first:
+      213: -5439235092262661375
+    second: FarmhouseInterior_77
+  - first:
+      213: -3290900239134770755
+    second: FarmhouseInterior_78
+  - first:
+      213: -993332907894835882
+    second: FarmhouseInterior_79
+  - first:
+      213: -8822801545949286775
+    second: FarmhouseInterior_80
+  - first:
+      213: -2052282551078677015
+    second: FarmhouseInterior_81
+  - first:
+      213: -5205631342125676327
+    second: FarmhouseInterior_82
+  - first:
+      213: 8688247452147290843
+    second: FarmhouseInterior_83
+  - first:
+      213: -9009231160372255493
+    second: FarmhouseInterior_84
+  - first:
+      213: -6103875684392591259
+    second: FarmhouseInterior_85
+  - first:
+      213: -282554227751493854
+    second: FarmhouseInterior_86
+  - first:
+      213: -4807396342805409988
+    second: FarmhouseInterior_87
+  - first:
+      213: -9206537405280420340
+    second: FarmhouseInterior_88
+  - first:
+      213: 8899175871989432345
+    second: FarmhouseInterior_89
+  - first:
+      213: -3180850170429145225
+    second: FarmhouseInterior_90
+  - first:
+      213: 5549898584661572882
+    second: FarmhouseInterior_91
+  - first:
+      213: -1623694535455401271
+    second: FarmhouseInterior_92
+  - first:
+      213: 5237537192102977560
+    second: FarmhouseInterior_93
+  - first:
+      213: 4268745470068234907
+    second: FarmhouseInterior_94
+  - first:
+      213: 2754517069463978959
+    second: FarmhouseInterior_95
+  - first:
+      213: -4456252475832200864
+    second: FarmhouseInterior_96
+  - first:
+      213: -7353338347510604717
+    second: FarmhouseInterior_97
+  - first:
+      213: 5864191226921169372
+    second: FarmhouseInterior_98
+  - first:
+      213: 3142074947122420759
+    second: FarmhouseInterior_99
+  - first:
+      213: 8458775500839276593
+    second: FarmhouseInterior_100
+  - first:
+      213: 7266530089994496899
+    second: FarmhouseInterior_101
+  - first:
+      213: 861944837554439580
+    second: FarmhouseInterior_102
+  - first:
+      213: 7775640152629951862
+    second: FarmhouseInterior_103
+  - first:
+      213: -8974932740120442704
+    second: FarmhouseInterior_104
+  - first:
+      213: 2883294992775758950
+    second: FarmhouseInterior_105
+  - first:
+      213: -7952907458366167470
+    second: FarmhouseInterior_106
+  - first:
+      213: -5670369256305481396
+    second: FarmhouseInterior_107
+  - first:
+      213: -3231852428954975319
+    second: FarmhouseInterior_108
+  - first:
+      213: 1244840616001420563
+    second: FarmhouseInterior_109
+  - first:
+      213: 270457574440782816
+    second: FarmhouseInterior_110
+  - first:
+      213: 224361990940092174
+    second: FarmhouseInterior_111
+  - first:
+      213: -8641022692942759662
+    second: FarmhouseInterior_112
+  - first:
+      213: -773084199159449405
+    second: FarmhouseInterior_113
+  - first:
+      213: -3191190118823164610
+    second: FarmhouseInterior_114
+  - first:
+      213: 8501165247611609715
+    second: FarmhouseInterior_115
+  - first:
+      213: -5172291340548818916
+    second: FarmhouseInterior_116
+  - first:
+      213: 5682368996194596057
+    second: FarmhouseInterior_117
+  - first:
+      213: -1599891252660868090
+    second: FarmhouseInterior_118
+  - first:
+      213: 2737882025551771239
+    second: FarmhouseInterior_119
+  - first:
+      213: 5298376442297449917
+    second: FarmhouseInterior_120
+  - first:
+      213: 4434147885506147971
+    second: FarmhouseInterior_121
+  - first:
+      213: -4599012294212829824
+    second: FarmhouseInterior_122
+  - first:
+      213: 7989301520529102331
+    second: FarmhouseInterior_123
+  - first:
+      213: -7008741752682090963
+    second: FarmhouseInterior_124
+  - first:
+      213: -1815336491691920113
+    second: FarmhouseInterior_125
+  - first:
+      213: 1427734051547474946
+    second: FarmhouseInterior_126
+  - first:
+      213: -1955119271017654718
+    second: FarmhouseInterior_127
+  - first:
+      213: -153941855415065245
+    second: FarmhouseInterior_128
+  - first:
+      213: -1758208866777536879
+    second: FarmhouseInterior_129
+  - first:
+      213: -804770107370466137
+    second: FarmhouseInterior_130
+  - first:
+      213: -6611847290614065152
+    second: FarmhouseInterior_131
+  - first:
+      213: 304246134613317776
+    second: FarmhouseInterior_132
+  - first:
+      213: 5850197815748822571
+    second: FarmhouseInterior_133
+  - first:
+      213: -5077601190412868162
+    second: FarmhouseInterior_134
+  - first:
+      213: 728390017378996276
+    second: FarmhouseInterior_135
+  - first:
+      213: -2132288667705287920
+    second: FarmhouseInterior_136
+  - first:
+      213: 2389116134519104570
+    second: FarmhouseInterior_137
+  - first:
+      213: -1937975778798002122
+    second: FarmhouseInterior_138
+  - first:
+      213: -4019564407652517279
+    second: FarmhouseInterior_139
+  - first:
+      213: -6654269147505954439
+    second: FarmhouseInterior_140
+  - first:
+      213: -4183469365137792096
+    second: FarmhouseInterior_141
+  - first:
+      213: 7494873172291297360
+    second: FarmhouseInterior_142
+  - first:
+      213: 6229860428421190844
+    second: FarmhouseInterior_143
+  - first:
+      213: 4405868920160962638
+    second: FarmhouseInterior_144
+  - first:
+      213: 8527922807259432180
+    second: FarmhouseInterior_145
+  - first:
+      213: -6590874826381705630
+    second: FarmhouseInterior_146
+  - first:
+      213: -2841101275083329370
+    second: FarmhouseInterior_147
+  - first:
+      213: -4489636727529815939
+    second: FarmhouseInterior_148
+  - first:
+      213: -7105449423131975716
+    second: FarmhouseInterior_149
+  - first:
+      213: -2484151336273193536
+    second: FarmhouseInterior_150
+  - first:
+      213: 2556964527683359498
+    second: FarmhouseInterior_151
+  - first:
+      213: 6061817297887917962
+    second: FarmhouseInterior_152
+  - first:
+      213: 7886571156125414827
+    second: FarmhouseInterior_153
+  - first:
+      213: 6863657371994248315
+    second: FarmhouseInterior_154
+  - first:
+      213: 8214622694332753049
+    second: FarmhouseInterior_155
+  - first:
+      213: 7155284542168881824
+    second: FarmhouseInterior_156
+  - first:
+      213: 1471246618416784838
+    second: FarmhouseInterior_157
+  - first:
+      213: 2139710622198237629
+    second: FarmhouseInterior_158
+  - first:
+      213: 2707975166109480688
+    second: FarmhouseInterior_159
+  - first:
+      213: -7940791815031907178
+    second: FarmhouseInterior_160
+  - first:
+      213: 875489293057739178
+    second: FarmhouseInterior_161
+  - first:
+      213: 2003183334307897795
+    second: FarmhouseInterior_162
+  - first:
+      213: 9201136518020920632
+    second: FarmhouseInterior_163
+  - first:
+      213: 2732281447427974548
+    second: FarmhouseInterior_164
+  - first:
+      213: -4496752099270468331
+    second: FarmhouseInterior_165
+  - first:
+      213: -462597429528019899
+    second: FarmhouseInterior_166
+  - first:
+      213: -3302800465441409958
+    second: FarmhouseInterior_167
+  - first:
+      213: 5184412631086756264
+    second: FarmhouseInterior_168
+  - first:
+      213: -6732654149552925695
+    second: FarmhouseInterior_169
+  - first:
+      213: 498283580055081248
+    second: FarmhouseInterior_170
+  - first:
+      213: 2920807111603259713
+    second: FarmhouseInterior_171
+  - first:
+      213: 5087131002306887193
+    second: FarmhouseInterior_172
+  - first:
+      213: -5740424575044055244
+    second: FarmhouseInterior_173
+  - first:
+      213: -1619962629794114536
+    second: FarmhouseInterior_174
+  - first:
+      213: 7176063154228005533
+    second: FarmhouseInterior_175
+  - first:
+      213: -525169242384099034
+    second: FarmhouseInterior_176
+  - first:
+      213: -3807911617123093266
+    second: FarmhouseInterior_177
+  - first:
+      213: 2869561374332562082
+    second: FarmhouseInterior_178
+  - first:
+      213: 6775861823134960214
+    second: FarmhouseInterior_179
+  - first:
+      213: -1838063846789914564
+    second: FarmhouseInterior_180
+  - first:
+      213: 7466217716133415681
+    second: FarmhouseInterior_181
+  - first:
+      213: -5089689176335211966
+    second: FarmhouseInterior_0
+  - first:
+      213: 1969206721275776576
+    second: FarmhouseInterior_1
+  - first:
+      213: 7267757702010379701
+    second: FarmhouseInterior_2
+  - first:
+      213: -6055878445240667778
+    second: FarmhouseInterior_3
+  - first:
+      213: 8311024343321213573
+    second: FarmhouseInterior_4
+  - first:
+      213: 2348277481828849259
+    second: FarmhouseInterior_5
+  - first:
+      213: -7918115432433235150
+    second: FarmhouseInterior_6
+  - first:
+      213: -5390639358547255737
+    second: FarmhouseInterior_7
+  - first:
+      213: -7361173787162782137
+    second: FarmhouseInterior_8
+  - first:
+      213: 4684022878129933512
+    second: FarmhouseInterior_9
+  - first:
+      213: -456474822655731582
+    second: FarmhouseInterior_10
+  - first:
+      213: -2527435466950238856
+    second: FarmhouseInterior_11
+  - first:
+      213: 2328958106264207173
+    second: FarmhouseInterior_12
+  - first:
+      213: 1675478471682892932
+    second: FarmhouseInterior_13
+  - first:
+      213: 4256373858570950606
+    second: FarmhouseInterior_14
+  - first:
+      213: -4048945849363111544
+    second: FarmhouseInterior_15
+  - first:
+      213: -8273346507881863382
+    second: FarmhouseInterior_16
+  - first:
+      213: 6635646889277945865
+    second: FarmhouseInterior_17
+  - first:
+      213: 3123833444220513826
+    second: FarmhouseInterior_18
+  - first:
+      213: -1819936292728839144
+    second: FarmhouseInterior_19
+  - first:
+      213: -8305310104220586591
+    second: FarmhouseInterior_20
+  - first:
+      213: 4368972069860419028
+    second: FarmhouseInterior_21
+  - first:
+      213: -804716389250004340
+    second: FarmhouseInterior_22
+  - first:
+      213: -8691939448058019804
+    second: FarmhouseInterior_23
+  - first:
+      213: -247854163096108941
+    second: FarmhouseInterior_24
+  - first:
+      213: 6692230806575389838
+    second: FarmhouseInterior_25
+  - first:
+      213: -3895087373659059235
+    second: FarmhouseInterior_26
+  - first:
+      213: -6935924645711276841
+    second: FarmhouseInterior_27
+  - first:
+      213: -319434340569445967
+    second: FarmhouseInterior_28
+  - first:
+      213: 5917315336988744740
+    second: FarmhouseInterior_29
+  - first:
+      213: -3219831554586141402
+    second: FarmhouseInterior_30
+  - first:
+      213: -8916773863899557593
+    second: FarmhouseInterior_31
+  - first:
+      213: 2219942542666019240
+    second: FarmhouseInterior_32
+  - first:
+      213: -5049149289227637931
+    second: FarmhouseInterior_33
+  - first:
+      213: -3348766924462597835
+    second: FarmhouseInterior_34
+  - first:
+      213: -3809476844805762069
+    second: FarmhouseInterior_35
+  - first:
+      213: 4640891462880179545
+    second: FarmhouseInterior_36
+  - first:
+      213: -5864639432501401535
+    second: FarmhouseInterior_37
+  - first:
+      213: 6392783255042443907
+    second: FarmhouseInterior_38
+  - first:
+      213: -3147917915652199976
+    second: FarmhouseInterior_39
+  - first:
+      213: -2284343330513850619
+    second: FarmhouseInterior_40
+  - first:
+      213: -6294199780879156548
+    second: FarmhouseInterior_41
+  - first:
+      213: 4839831413367792903
+    second: FarmhouseInterior_42
+  - first:
+      213: -7921971708235179776
+    second: FarmhouseInterior_43
+  - first:
+      213: 4575499065028634337
+    second: FarmhouseInterior_44
+  - first:
+      213: 2971911688168272630
+    second: FarmhouseInterior_45
+  - first:
+      213: 5610873423763949625
+    second: FarmhouseInterior_46
+  - first:
+      213: -2614567835507896549
+    second: FarmhouseInterior_47
+  - first:
+      213: 2570155582962921424
+    second: FarmhouseInterior_48
+  - first:
+      213: -6924317541369888978
+    second: FarmhouseInterior_49
+  - first:
+      213: 1471242607633099477
+    second: FarmhouseInterior_50
+  - first:
+      213: -471658773221281062
+    second: FarmhouseInterior_51
+  - first:
+      213: -7411180244746235027
+    second: FarmhouseInterior_52
+  - first:
+      213: -7925797179517763994
+    second: FarmhouseInterior_53
+  - first:
+      213: 3957424693218698007
+    second: FarmhouseInterior_54
+  - first:
+      213: -578271612898096770
+    second: FarmhouseInterior_55
+  - first:
+      213: 7377791589126699622
+    second: FarmhouseInterior_56
+  - first:
+      213: -1247867421720028409
+    second: FarmhouseInterior_57
+  - first:
+      213: -5279206274143258541
+    second: FarmhouseInterior_58
+  - first:
+      213: 3537004228171326107
+    second: FarmhouseInterior_59
+  - first:
+      213: -3345468957938247709
+    second: FarmhouseInterior_60
+  - first:
+      213: 2978710480431683870
+    second: FarmhouseInterior_61
+  - first:
+      213: 1969268264220992688
+    second: FarmhouseInterior_62
+  - first:
+      213: -1929258705567896735
+    second: FarmhouseInterior_63
+  - first:
+      213: 5913107746281286142
+    second: FarmhouseInterior_64
+  - first:
+      213: 4410725710779194964
+    second: FarmhouseInterior_65
+  - first:
+      213: 6454208855829404819
+    second: FarmhouseInterior_66
+  - first:
+      213: -7910880904080641812
+    second: FarmhouseInterior_67
+  - first:
+      213: -4542471916716584788
+    second: FarmhouseInterior_68
+  - first:
+      213: -7214706077498002936
+    second: FarmhouseInterior_69
+  - first:
+      213: -1686186349476370783
+    second: FarmhouseInterior_70
+  - first:
+      213: 5464065338506309000
+    second: FarmhouseInterior_71
+  - first:
+      213: -5900882631950260103
+    second: FarmhouseInterior_72
+  - first:
+      213: -9081334066558353810
+    second: FarmhouseInterior_73
+  - first:
+      213: -6107789381078837738
+    second: FarmhouseInterior_74
+  - first:
+      213: -191251504998975186
+    second: FarmhouseInterior_75
+  - first:
+      213: 1281400260710030216
+    second: FarmhouseInterior_76
+  - first:
+      213: 6502257673564946476
+    second: FarmhouseInterior_77
+  - first:
+      213: 9002302395492866949
+    second: FarmhouseInterior_78
+  - first:
+      213: 3327355852876012806
+    second: FarmhouseInterior_79
+  - first:
+      213: -3704377047688001035
+    second: FarmhouseInterior_80
+  - first:
+      213: -6583018834985499253
+    second: FarmhouseInterior_81
+  - first:
+      213: 1547703072451209729
+    second: FarmhouseInterior_82
+  - first:
+      213: -5039586967287283167
+    second: FarmhouseInterior_83
+  - first:
+      213: 2165174705441938653
+    second: FarmhouseInterior_84
+  - first:
+      213: 714779446472297754
+    second: FarmhouseInterior_85
+  - first:
+      213: -1610206674419573100
+    second: FarmhouseInterior_86
+  - first:
+      213: 1719319505295628728
+    second: FarmhouseInterior_87
+  - first:
+      213: 711992786246173747
+    second: FarmhouseInterior_88
+  - first:
+      213: 3980198039008512078
+    second: FarmhouseInterior_89
+  - first:
+      213: -3901694634996087879
+    second: FarmhouseInterior_90
+  - first:
+      213: -1575971364916672340
+    second: FarmhouseInterior_91
+  - first:
+      213: -7481184948069828800
+    second: FarmhouseInterior_92
+  - first:
+      213: -1125688762818767574
+    second: FarmhouseInterior_93
+  - first:
+      213: 2215553038819857769
+    second: FarmhouseInterior_94
+  - first:
+      213: 994972597578267528
+    second: FarmhouseInterior_95
+  - first:
+      213: -550768222314070384
+    second: FarmhouseInterior_96
+  - first:
+      213: 6636401489173686249
+    second: FarmhouseInterior_97
+  - first:
+      213: 1599758484559762256
+    second: FarmhouseInterior_98
+  - first:
+      213: 8129217451085877253
+    second: FarmhouseInterior_99
+  - first:
+      213: -1315236753880046281
+    second: FarmhouseInterior_100
+  - first:
+      213: 2802834354484057686
+    second: FarmhouseInterior_101
+  - first:
+      213: 2954429998466031570
+    second: FarmhouseInterior_102
+  - first:
+      213: -4661524924092325296
+    second: FarmhouseInterior_103
+  - first:
+      213: -8575088112133809996
+    second: FarmhouseInterior_104
+  - first:
+      213: -5278542877313547017
+    second: FarmhouseInterior_105
+  - first:
+      213: -189604118394810423
+    second: FarmhouseInterior_106
+  - first:
+      213: -5175141230198313174
+    second: FarmhouseInterior_107
+  - first:
+      213: -9022674873394272740
+    second: FarmhouseInterior_108
+  - first:
+      213: -2552556337632508067
+    second: FarmhouseInterior_109
+  - first:
+      213: -6517100663542863518
+    second: FarmhouseInterior_110
+  - first:
+      213: -4770058592427839623
+    second: FarmhouseInterior_111
+  - first:
+      213: -4537600331018894709
+    second: FarmhouseInterior_112
+  - first:
+      213: 5954064398659364134
+    second: FarmhouseInterior_113
+  - first:
+      213: -6585503588447767970
+    second: FarmhouseInterior_114
+  - first:
+      213: -1498027781493436545
+    second: FarmhouseInterior_115
+  - first:
+      213: 278065502352916332
+    second: FarmhouseInterior_116
+  - first:
+      213: 8823139076972870832
+    second: FarmhouseInterior_117
+  - first:
+      213: 3838041334877575828
+    second: FarmhouseInterior_118
+  - first:
+      213: -7070474915825419537
+    second: FarmhouseInterior_119
+  - first:
+      213: 3737047567036951724
+    second: FarmhouseInterior_120
+  - first:
+      213: -8663986140860983054
+    second: FarmhouseInterior_121
+  - first:
+      213: 8362685890336164927
+    second: FarmhouseInterior_122
+  - first:
+      213: 3531176968938151904
+    second: FarmhouseInterior_123
+  - first:
+      213: -8461671259452160118
+    second: FarmhouseInterior_124
+  - first:
+      213: 9220803434070463714
+    second: FarmhouseInterior_125
+  - first:
+      213: -8772845781478017531
+    second: FarmhouseInterior_126
+  - first:
+      213: 1010853737527924195
+    second: FarmhouseInterior_127
+  - first:
+      213: 1523417561529577713
+    second: FarmhouseInterior_128
+  - first:
+      213: 4255283771364366362
+    second: FarmhouseInterior_129
+  - first:
+      213: 6737849874679531580
+    second: FarmhouseInterior_130
+  - first:
+      213: -5663206644053679211
+    second: FarmhouseInterior_131
+  - first:
+      213: 5529732159064933433
+    second: FarmhouseInterior_132
+  - first:
+      213: 210797062842793457
+    second: FarmhouseInterior_133
+  - first:
+      213: -9053790558584610272
+    second: FarmhouseInterior_134
+  - first:
+      213: -7949085684822372411
+    second: FarmhouseInterior_135
+  - first:
+      213: -2422305119789236306
+    second: FarmhouseInterior_136
+  - first:
+      213: 1795747760533161282
+    second: FarmhouseInterior_137
+  - first:
+      213: -4544835566258868266
+    second: FarmhouseInterior_138
+  - first:
+      213: 4514156036215562754
+    second: FarmhouseInterior_139
+  - first:
+      213: 894623843044711304
+    second: FarmhouseInterior_140
+  - first:
+      213: 3430705898000535840
+    second: FarmhouseInterior_141
+  - first:
+      213: -3701594708850811133
+    second: FarmhouseInterior_142
+  - first:
+      213: -172459122731453065
+    second: FarmhouseInterior_143
+  - first:
+      213: 6233362147471864410
+    second: FarmhouseInterior_144
+  - first:
+      213: 1345379450411409144
+    second: FarmhouseInterior_145
+  - first:
+      213: -5733968696788642836
+    second: FarmhouseInterior_146
+  - first:
+      213: 212490735205781243
+    second: FarmhouseInterior_147
+  - first:
+      213: 4511918625060866039
+    second: FarmhouseInterior_148
+  - first:
+      213: -8352886713601064321
+    second: FarmhouseInterior_149
+  - first:
+      213: -573187949946517729
+    second: FarmhouseInterior_150
+  - first:
+      213: 3551512767620779217
+    second: FarmhouseInterior_151
+  - first:
+      213: -1519273483828981679
+    second: FarmhouseInterior_152
+  - first:
+      213: 9140726252116150812
+    second: FarmhouseInterior_153
+  - first:
+      213: -260044610201757303
+    second: FarmhouseInterior_154
+  - first:
+      213: 6280782634118459285
+    second: FarmhouseInterior_155
+  - first:
+      213: -3841144330612204499
+    second: FarmhouseInterior_156
+  - first:
+      213: -5647155067420439669
+    second: FarmhouseInterior_157
+  - first:
+      213: -5124917321474270237
+    second: FarmhouseInterior_158
+  - first:
+      213: 2977995899630785735
+    second: FarmhouseInterior_159
+  - first:
+      213: -6779985652844589550
+    second: FarmhouseInterior_160
+  - first:
+      213: -6677277660274309301
+    second: FarmhouseInterior_161
+  - first:
+      213: -565941319410651646
+    second: FarmhouseInterior_162
+  - first:
+      213: 824164142037529011
+    second: FarmhouseInterior_163
+  - first:
+      213: 2633355535311695775
+    second: FarmhouseInterior_164
+  - first:
+      213: -7888709008786992727
+    second: FarmhouseInterior_165
+  - first:
+      213: -1975472192382355578
+    second: FarmhouseInterior_166
+  - first:
+      213: -14283470396846751
+    second: FarmhouseInterior_167
+  - first:
+      213: -494179543108402066
+    second: FarmhouseInterior_168
+  - first:
+      213: -2839246752817751560
+    second: FarmhouseInterior_169
+  - first:
+      213: 5197826213875550407
+    second: FarmhouseInterior_170
+  - first:
+      213: 8124713321515808715
+    second: FarmhouseInterior_171
+  - first:
+      213: -9153571429679359328
+    second: FarmhouseInterior_172
+  - first:
+      213: -898796374503626746
+    second: FarmhouseInterior_173
+  - first:
+      213: -472979098891956237
+    second: FarmhouseInterior_174
+  - first:
+      213: 304645992693877511
+    second: FarmhouseInterior_175
+  - first:
+      213: -224583112111399828
+    second: FarmhouseInterior_176
+  - first:
+      213: 5185913434461673637
+    second: FarmhouseInterior_177
+  - first:
+      213: 1689364187551109115
+    second: FarmhouseInterior_178
+  - first:
+      213: -7212051181177657497
+    second: FarmhouseInterior_179
+  - first:
+      213: 9158179606880722002
+    second: FarmhouseInterior_180
+  - first:
+      213: 1664351190919017548
+    second: FarmhouseInterior_181
+  - first:
+      213: 3048037333503128337
+    second: FarmhouseInterior_182
+  - first:
+      213: -6362113390607987294
+    second: FarmhouseInterior_183
+  - first:
+      213: -5287372784150291255
+    second: FarmhouseInterior_184
+  - first:
+      213: 4633377668755913386
+    second: FarmhouseInterior_185
+  - first:
+      213: 876503809254232416
+    second: FarmhouseInterior_186
+  - first:
+      213: 6214363453823212978
+    second: FarmhouseInterior_187
+  - first:
+      213: 735922709408252283
+    second: FarmhouseInterior_188
+  - first:
+      213: -3659248962184115964
+    second: FarmhouseInterior_189
+  - first:
+      213: 3127897980142737250
+    second: FarmhouseInterior_190
+  - first:
+      213: 7122576661974054517
+    second: FarmhouseInterior_191
+  - first:
+      213: -1564372623798219960
+    second: FarmhouseInterior_192
+  - first:
+      213: -8044893211752700964
+    second: FarmhouseInterior_193
+  - first:
+      213: 6152929758409056235
+    second: FarmhouseInterior_194
+  - first:
+      213: -1046517692528701816
+    second: FarmhouseInterior_195
+  - first:
+      213: -8335240566402425462
+    second: FarmhouseInterior_196
+  - first:
+      213: 364093824341363389
+    second: FarmhouseInterior_197
+  - first:
+      213: -3748908031523377665
+    second: FarmhouseInterior_198
+  - first:
+      213: 361530601623284831
+    second: FarmhouseInterior_199
+  - first:
+      213: 3747472380944896186
+    second: FarmhouseInterior_200
+  - first:
+      213: -4931197889642907243
+    second: FarmhouseInterior_201
+  - first:
+      213: 933745339441585039
+    second: FarmhouseInterior_202
+  - first:
+      213: 2263687654403578980
+    second: FarmhouseInterior_203
+  - first:
+      213: 8116698838278010044
+    second: FarmhouseInterior_204
+  - first:
+      213: 3277323353101316106
+    second: FarmhouseInterior_205
+  - first:
+      213: 5129796517135909570
+    second: FarmhouseInterior_206
+  - first:
+      213: -836441676236653293
+    second: FarmhouseInterior_207
+  - first:
+      213: 3651422243701091052
+    second: FarmhouseInterior_208
+  - first:
+      213: -5436096794291862776
+    second: FarmhouseInterior_209
+  - first:
+      213: 6424512166747102863
+    second: FarmhouseInterior_210
+  - first:
+      213: 8743841524689436395
+    second: FarmhouseInterior_211
+  - first:
+      213: 4805482726245423259
+    second: FarmhouseInterior_212
+  - first:
+      213: -4155490343144015900
+    second: FarmhouseInterior_213
+  - first:
+      213: -5203365022266722247
+    second: FarmhouseInterior_214
+  - first:
+      213: 592819243897964577
+    second: FarmhouseInterior_215
+  - first:
+      213: -7413835491147275730
+    second: FarmhouseInterior_216
+  - first:
+      213: -3199846427363172542
+    second: FarmhouseInterior_217
+  - first:
+      213: -5865902444718628280
+    second: FarmhouseInterior_218
+  - first:
+      213: 7121197559313189503
+    second: FarmhouseInterior_219
+  - first:
+      213: -8909480269658384475
+    second: FarmhouseInterior_220
+  - first:
+      213: -107709319691058901
+    second: FarmhouseInterior_221
+  - first:
+      213: 1138660427665714430
+    second: FarmhouseInterior_222
+  - first:
+      213: 616306899021713172
+    second: FarmhouseInterior_223
+  - first:
+      213: -2659349608445121852
+    second: FarmhouseInterior_224
+  - first:
+      213: -4007633254221254098
+    second: FarmhouseInterior_225
+  - first:
+      213: 1047130349192264802
+    second: FarmhouseInterior_226
+  - first:
+      213: 6661504938848113595
+    second: FarmhouseInterior_227
+  - first:
+      213: 3072557045546850311
+    second: FarmhouseInterior_228
+  - first:
+      213: 8859027964500228724
+    second: FarmhouseInterior_229
+  - first:
+      213: -3288189753247077827
+    second: FarmhouseInterior_230
+  - first:
+      213: -3022587624424440505
+    second: FarmhouseInterior_231
+  - first:
+      213: -1594058468094526477
+    second: FarmhouseInterior_232
+  - first:
+      213: 3598460577696309155
+    second: FarmhouseInterior_233
+  - first:
+      213: -3859557888644263949
+    second: FarmhouseInterior_234
+  - first:
+      213: -9192032015682073205
+    second: FarmhouseInterior_235
+  - first:
+      213: -1775802157222849762
+    second: FarmhouseInterior_236
+  - first:
+      213: -3367750520731558794
+    second: FarmhouseInterior_237
+  - first:
+      213: -8007261193292132861
+    second: FarmhouseInterior_238
+  - first:
+      213: -2146625449246376463
+    second: FarmhouseInterior_239
+  - first:
+      213: -356211319347739926
+    second: FarmhouseInterior_240
+  - first:
+      213: -2736728842406520761
+    second: FarmhouseInterior_241
+  - first:
+      213: 6992899747232824303
+    second: FarmhouseInterior_242
+  - first:
+      213: 1370854339500046302
+    second: FarmhouseInterior_243
+  - first:
+      213: 5369071884095333997
+    second: FarmhouseInterior_244
+  - first:
+      213: -8339890483825476343
+    second: FarmhouseInterior_245
+  - first:
+      213: 3693388088734687354
+    second: FarmhouseInterior_246
+  - first:
+      213: -8427444637831239811
+    second: FarmhouseInterior_247
+  - first:
+      213: 6740685761369465787
+    second: FarmhouseInterior_248
+  - first:
+      213: -46383352205132722
+    second: FarmhouseInterior_249
+  - first:
+      213: -7714941289703208454
+    second: FarmhouseInterior_250
+  - first:
+      213: -747687782531920292
+    second: FarmhouseInterior_251
+  - first:
+      213: -2351563881765975366
+    second: FarmhouseInterior_252
+  - first:
+      213: 2369620207667940759
+    second: FarmhouseInterior_253
+  - first:
+      213: -5277610880068002340
+    second: FarmhouseInterior_254
+  - first:
+      213: -63906088268912642
+    second: FarmhouseInterior_255
+  - first:
+      213: -4431062828190129484
+    second: FarmhouseInterior_256
+  - first:
+      213: 1390658803218589445
+    second: FarmhouseInterior_257
+  - first:
+      213: -7963779938846418262
+    second: FarmhouseInterior_258
+  - first:
+      213: 8878550879900149030
+    second: FarmhouseInterior_259
+  - first:
+      213: -1083240189383830966
+    second: FarmhouseInterior_260
+  - first:
+      213: 4405507840924177772
+    second: FarmhouseInterior_261
+  - first:
+      213: 6447923815701074840
+    second: FarmhouseInterior_262
+  - first:
+      213: 6568453220790779929
+    second: FarmhouseInterior_263
+  - first:
+      213: -7832015063761864839
+    second: FarmhouseInterior_264
+  - first:
+      213: 2164699007922292098
+    second: FarmhouseInterior_265
+  - first:
+      213: 71044916108014819
+    second: FarmhouseInterior_266
+  - first:
+      213: -6226852481838939279
+    second: FarmhouseInterior_267
+  - first:
+      213: 143347805729066668
+    second: FarmhouseInterior_268
+  - first:
+      213: -899262781337317031
+    second: FarmhouseInterior_269
+  - first:
+      213: 7722037053909943644
+    second: FarmhouseInterior_270
+  - first:
+      213: 7354628983181404572
+    second: FarmhouseInterior_271
+  - first:
+      213: -7181168384778802118
+    second: FarmhouseInterior_272
+  - first:
+      213: 8447625271121424254
+    second: FarmhouseInterior_273
+  - first:
+      213: -149108938402558980
+    second: FarmhouseInterior_274
+  - first:
+      213: -4754179767921828777
+    second: FarmhouseInterior_275
+  - first:
+      213: 9181416489144271945
+    second: FarmhouseInterior_276
+  - first:
+      213: -787600294207470566
+    second: FarmhouseInterior_277
+  - first:
+      213: -3872209190328247987
+    second: FarmhouseInterior_278
+  - first:
+      213: 8758471653905822159
+    second: FarmhouseInterior_279
+  - first:
+      213: -4697459284078562722
+    second: FarmhouseInterior_280
+  - first:
+      213: -7145696825715931963
+    second: FarmhouseInterior_281
+  - first:
+      213: 4062127641222133431
+    second: FarmhouseInterior_282
+  - first:
+      213: -6965222483878293274
+    second: FarmhouseInterior_283
+  - first:
+      213: 5008189428718995338
+    second: FarmhouseInterior_284
+  - first:
+      213: -1304956473125768867
+    second: FarmhouseInterior_285
+  - first:
+      213: -6621191735626356910
+    second: FarmhouseInterior_286
+  - first:
+      213: 5508546852336911799
+    second: FarmhouseInterior_287
+  - first:
+      213: 3710296114678447478
+    second: FarmhouseInterior_288
+  - first:
+      213: 1646327604857245547
+    second: FarmhouseInterior_289
+  - first:
+      213: 9179988013167725793
+    second: FarmhouseInterior_290
+  - first:
+      213: -1758865971242990059
+    second: FarmhouseInterior_291
+  - first:
+      213: 8619845407963868744
+    second: FarmhouseInterior_292
+  - first:
+      213: -1893744155495875328
+    second: FarmhouseInterior_293
+  - first:
+      213: -688119697369392133
+    second: FarmhouseInterior_294
+  - first:
+      213: 7717069982689745245
+    second: FarmhouseInterior_295
+  - first:
+      213: -4510482700420058341
+    second: FarmhouseInterior_296
+  - first:
+      213: 514571625270948685
+    second: FarmhouseInterior_297
+  - first:
+      213: 2084778471049030941
+    second: FarmhouseInterior_298
+  - first:
+      213: 9068309794359272828
+    second: FarmhouseInterior_299
+  - first:
+      213: 923049876895494878
+    second: FarmhouseInterior_300
+  - first:
+      213: -5777694945207144974
+    second: FarmhouseInterior_301
+  - first:
+      213: 5397457256657230360
+    second: FarmhouseInterior_302
+  - first:
+      213: -5970343320198430451
+    second: FarmhouseInterior_303
+  - first:
+      213: 3588858587349434526
+    second: FarmhouseInterior_304
+  - first:
+      213: -1154465356893134380
+    second: FarmhouseInterior_305
+  - first:
+      213: -5892846753181486915
+    second: FarmhouseInterior_306
+  - first:
+      213: 6112514293809574377
+    second: FarmhouseInterior_307
+  - first:
+      213: -8441976174148480577
+    second: FarmhouseInterior_308
+  - first:
+      213: -7621209830567383720
+    second: FarmhouseInterior_309
+  - first:
+      213: 8403756136054974989
+    second: FarmhouseInterior_310
+  - first:
+      213: 4792258739331632576
+    second: FarmhouseInterior_311
+  - first:
+      213: 6786006813137615132
+    second: FarmhouseInterior_312
+  - first:
+      213: 6633008316052599560
+    second: FarmhouseInterior_313
+  - first:
+      213: -1893036272883603260
+    second: FarmhouseInterior_314
+  - first:
+      213: -7345115889883467723
+    second: FarmhouseInterior_315
+  - first:
+      213: 8550880028135544119
+    second: FarmhouseInterior_316
+  - first:
+      213: 6241750548707508486
+    second: FarmhouseInterior_317
+  - first:
+      213: -1659499324136875382
+    second: FarmhouseInterior_318
+  - first:
+      213: 6113834217104269298
+    second: FarmhouseInterior_319
+  - first:
+      213: 5874255958043035759
+    second: FarmhouseInterior_320
+  - first:
+      213: -2697695283236354784
+    second: FarmhouseInterior_321
+  - first:
+      213: -7297586436309583483
+    second: FarmhouseInterior_322
+  - first:
+      213: 7652194105650225503
+    second: FarmhouseInterior_323
+  - first:
+      213: -237982780487512345
+    second: FarmhouseInterior_324
+  - first:
+      213: 4868756887210198628
+    second: FarmhouseInterior_325
+  - first:
+      213: -1844573535691354551
+    second: FarmhouseInterior_326
+  - first:
+      213: 1308654818787295395
+    second: FarmhouseInterior_327
+  - first:
+      213: -8438710369566286270
+    second: FarmhouseInterior_328
+  - first:
+      213: 5032671230205724144
+    second: FarmhouseInterior_329
+  - first:
+      213: -6306874494169308156
+    second: FarmhouseInterior_330
+  - first:
+      213: 8275228866169860744
+    second: FarmhouseInterior_331
+  - first:
+      213: -6122315295320141060
+    second: FarmhouseInterior_332
+  - first:
+      213: -7204017544971010679
+    second: FarmhouseInterior_333
+  - first:
+      213: -4170466583441329713
+    second: FarmhouseInterior_334
+  - first:
+      213: 6212024798584417920
+    second: FarmhouseInterior_335
+  - first:
+      213: 7391154550085630122
+    second: FarmhouseInterior_336
+  - first:
+      213: 5155127104166668509
+    second: FarmhouseInterior_337
+  - first:
+      213: -5352656779775930099
+    second: FarmhouseInterior_338
+  - first:
+      213: -4519797330803897805
+    second: FarmhouseInterior_339
+  - first:
+      213: 7482230467681006730
+    second: FarmhouseInterior_340
+  - first:
+      213: 8350218862527017992
+    second: FarmhouseInterior_341
+  - first:
+      213: 1784114346952376297
+    second: FarmhouseInterior_342
+  - first:
+      213: 206984593396024368
+    second: FarmhouseInterior_343
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FarmhouseInterior_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242a36319aacd59b0800000000000000
+      internalID: -5089689176335211966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e44f66417045b10800000000000000
+      internalID: 1969206721275776576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd10fdaf134cd460800000000000000
+      internalID: 7267757702010379701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e713c74b3a235fba0800000000000000
+      internalID: -6055878445240667778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58af8474b90b65370800000000000000
+      internalID: 8311024343321213573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6615729de1c69020800000000000000
+      internalID: 2348277481828849259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b474757f33d1290800000000000000
+      internalID: -7918115432433235150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e1d81701a9035b0800000000000000
+      internalID: -5390639358547255737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_8
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 746de36117bd7d990800000000000000
+      internalID: -7361173787162782137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccccba9dfdf00140800000000000000
+      internalID: 4684022878129933512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28812ba31964aa9f0800000000000000
+      internalID: -456474822655731582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_11
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d15bf65debcecd0800000000000000
+      internalID: -2527435466950238856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ff4acee0f125020800000000000000
+      internalID: 2328958106264207173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_13
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484297dface704710800000000000000
+      internalID: 1675478471682892932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 264
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7516f197da11b30800000000000000
+      internalID: 4256373858570950606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 11, y: 12}
+        - {x: 11, y: 9}
+        - {x: 11, y: 6}
+        - {x: 11, y: 3}
+        - {x: 11, y: -3}
+        - {x: 11, y: -8}
+        - {x: 11, y: -10}
+        - {x: 11, y: -11}
+        - {x: 11, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8816be5c3314fc7c0800000000000000
+      internalID: -4048945849363111544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27abf56f2b2f2d80800000000000000
+      internalID: -8273346507881863382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_17
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908765a40bd861c50800000000000000
+      internalID: 6635646889277945865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eaf3c77f51a5b20800000000000000
+      internalID: 3123833444220513826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8146e0e85994eb6e0800000000000000
+      internalID: -1819936292728839144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad2870b67c9dbc80800000000000000
+      internalID: -8305310104220586591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d522a123f4b1ac30800000000000000
+      internalID: 4368972069860419028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_22
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a81d125b215d4f0800000000000000
+      internalID: -804716389250004340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_23
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4200c45bf17006780800000000000000
+      internalID: -8691939448058019804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_24
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3700e8ca3f17f8cf0800000000000000
+      internalID: -247854163096108941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c1adc26749fdc50800000000000000
+      internalID: 6692230806575389838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_26
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 240
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 11}
+        - {x: -11, y: 6}
+        - {x: -11, y: -9}
+        - {x: 2, y: -11}
+        - {x: 12, y: -9}
+        - {x: 12, y: 2}
+        - {x: 11, y: 7}
+        - {x: 9, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb41f3bbaed1f9c0800000000000000
+      internalID: -3895087373659059235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d490876845aebf90800000000000000
+      internalID: -6935924645711276841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: 6, y: 6}
+        - {x: 10, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b90c41e824219bf0800000000000000
+      internalID: -319434340569445967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c5f2d92f68e1250800000000000000
+      internalID: 5917315336988744740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d9c40b24cd053d0800000000000000
+      internalID: -3219831554586141402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_31
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72197c3f961414480800000000000000
+      internalID: -8916773863899557593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1b2651bf1dece10800000000000000
+      internalID: 2219942542666019240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_33
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55baba51971dde9b0800000000000000
+      internalID: -5049149289227637931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_34
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53954d7893ac681d0800000000000000
+      internalID: -3348766924462597835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_35
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3d64d3ef4022bc0800000000000000
+      internalID: -3809476844805762069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_36
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955bd1e6232c76040800000000000000
+      internalID: 4640891462880179545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_37
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1486102228d9c9ea0800000000000000
+      internalID: -5864639432501401535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aced2008ab7b850800000000000000
+      internalID: 6392783255042443907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_39
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9667785595054d0800000000000000
+      internalID: -3147917915652199976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_40
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f60b708d16c40e0800000000000000
+      internalID: -2284343330513850619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba3b5bb5a286a8a0800000000000000
+      internalID: -6294199780879156548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_42
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 12}
+        - {x: 6, y: 7}
+        - {x: 6, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705609627098a2340800000000000000
+      internalID: 4839831413367792903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_43
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00992f924b08f0290800000000000000
+      internalID: -7921971708235179776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_44
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6e92958207f7f30800000000000000
+      internalID: 4575499065028634337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2f91d3fe95e3920800000000000000
+      internalID: 2971911688168272630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_46
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9384127b6a3dddd40800000000000000
+      internalID: 5610873423763949625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1fc36bf76037bbd0800000000000000
+      internalID: -2614567835507896549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_48
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfedfba2e60ba320800000000000000
+      internalID: 2570155582962921424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_49
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f34aaf1e1e7ef90800000000000000
+      internalID: -6924317541369888978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_50
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dae36e4b57ea6410800000000000000
+      internalID: 1471242607633099477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2f2fe38d45479f0800000000000000
+      internalID: -471658773221281062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_52
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63128165d2362990800000000000000
+      internalID: -7411180244746235027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_53
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66efc093579e10290800000000000000
+      internalID: -7925797179517763994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713e8a88ac89be630800000000000000
+      internalID: 3957424693218698007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 12}
+        - {x: 1, y: 9}
+        - {x: 1, y: 6}
+        - {x: 2, y: 4}
+        - {x: 11, y: 4}
+        - {x: 12, y: 5}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e794489280199f7f0800000000000000
+      internalID: -578271612898096770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_56
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66af2c07c5e236660800000000000000
+      internalID: 7377791589126699622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_57
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 12}
+        - {x: -8, y: 8}
+        - {x: -6, y: -7}
+        - {x: -4, y: -10}
+        - {x: -3, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b5891013faeaee0800000000000000
+      internalID: -1247867421720028409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3587da53ddd7cb6b0800000000000000
+      internalID: -5279206274143258541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_59
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92e43d0b96f51130800000000000000
+      internalID: 3537004228171326107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e79ef235b18291d0800000000000000
+      internalID: -3345468957938247709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_61
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e191dda6661865920800000000000000
+      internalID: 2978710480431683870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_62
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4a75c7d0f345b10800000000000000
+      internalID: 1969268264220992688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_63
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16babcecd65e935e0800000000000000
+      internalID: -1929258705567896735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9e4bf8a249f0250800000000000000
+      internalID: 5913107746281286142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_65
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e1da83aab063d30800000000000000
+      internalID: 4410725710779194964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_66
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c54ed22c4f19950800000000000000
+      internalID: 6454208855829404819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_67
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 168
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce03adb3bb7e63290800000000000000
+      internalID: -7910880904080641812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca09be9dbd5e5f0c0800000000000000
+      internalID: -4542471916716584788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_69
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80231e33c0730eb90800000000000000
+      internalID: -7214706077498002936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_70
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6295ee2767998e0800000000000000
+      internalID: -1686186349476370783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_71
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d613bb97244db40800000000000000
+      internalID: 5464065338506309000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978255da28adb1ea0800000000000000
+      internalID: -5900882631950260103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_73
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6eb22c08ce98f180800000000000000
+      internalID: -9081334066558353810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_74
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61694e91be5cc3ba0800000000000000
+      internalID: -6107789381078837738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_75
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29f6cdf4c9885df0800000000000000
+      internalID: -191251504998975186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bd6ba7fb278c110800000000000000
+      internalID: 1281400260710030216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_77
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -3, y: 12}
+        - {x: -3, y: 8}
+        - {x: 2, y: -12}
+        - {x: 9, y: -12}
+        - {x: 8, y: 11}
+        - {x: 12, y: 11}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2085e657e8ac3a50800000000000000
+      internalID: 6502257673564946476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_78
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 11}
+        - {x: 12, y: 11}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b100c155a9eec70800000000000000
+      internalID: 9002302395492866949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_79
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 11}
+        - {x: 12, y: 11}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60dddf3e4842d2e20800000000000000
+      internalID: 3327355852876012806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_80
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 11}
+        - {x: 12, y: 11}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f94276a3b8679cc0800000000000000
+      internalID: -3704377047688001035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_81
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 11}
+        - {x: 12, y: 11}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85cbf67f3b64a4a0800000000000000
+      internalID: -6583018834985499253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_82
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 11}
+        - {x: 12, y: 11}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a2c3b8ebb8a7510800000000000000
+      internalID: 1547703072451209729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_83
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 11}
+        - {x: 12, y: 11}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1224728aa5acf0ab0800000000000000
+      internalID: -5039586967287283167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 11}
+        - {x: 12, y: 11}
+        - {x: 12, y: 12}
+        - {x: -7, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc178a4cee3c0e10800000000000000
+      internalID: 2165174705441938653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_85
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 11}
+        - {x: -7, y: 11}
+        - {x: 12, y: 11}
+        - {x: 12, y: 12}
+        - {x: -12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d4bb79e186be900800000000000000
+      internalID: 714779446472297754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_86
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e12449f8567a9e0800000000000000
+      internalID: -1610206674419573100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_87
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 144
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9db801bff3cd710800000000000000
+      internalID: 1719319505295628728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33408d2baa181e900800000000000000
+      internalID: 711992786246173747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_89
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e480fca47018c3730800000000000000
+      internalID: 3980198039008512078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_90
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c20bc6656ad9c0800000000000000
+      internalID: -3901694634996087879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_91
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca844f9b466012ae0800000000000000
+      internalID: -1575971364916672340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0477c4f3ded7d2890800000000000000
+      internalID: -7481184948069828800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_93
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d98cc800c060f0800000000000000
+      internalID: -1125688762818767574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_94
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96515e310c93fbe10800000000000000
+      internalID: 2215553038819857769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_95
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b76ef4e4adecd00800000000000000
+      internalID: 994972597578267528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e756b48374b58f0800000000000000
+      internalID: -550768222314070384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_97
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -12}
+        - {x: 9, y: 12}
+        - {x: 0, y: 12}
+        - {x: 0, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e722154efb391c50800000000000000
+      internalID: 6636401489173686249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_98
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -2}
+        - {x: -9, y: -5}
+        - {x: -9, y: -10}
+        - {x: -12, y: -12}
+        - {x: 0, y: -12}
+        - {x: 0, y: 8}
+        - {x: -7, y: 8}
+        - {x: -12, y: 2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0531a96addb733610800000000000000
+      internalID: 1599758484559762256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_99
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50051e98338c0d070800000000000000
+      internalID: 8129217451085877253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_100
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: 12}
+        - {x: -3, y: 9}
+        - {x: -3, y: 6}
+        - {x: -1, y: 6}
+        - {x: 2, y: 6}
+        - {x: 6, y: 6}
+        - {x: 12, y: 6}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735217904275fbde0800000000000000
+      internalID: -1315236753880046281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_101
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 12}
+        - {x: -12, y: 12}
+        - {x: -12, y: 6}
+        - {x: -6, y: 6}
+        - {x: -1, y: 6}
+        - {x: 5, y: 6}
+        - {x: 4, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656984fcefaa5e620800000000000000
+      internalID: 2802834354484057686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_102
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 120
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df535c2e6e300920800000000000000
+      internalID: 2954429998466031570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052e8d387cfee4fb0800000000000000
+      internalID: -4661524924092325296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_104
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d6967bca2ff880800000000000000
+      internalID: -8575088112133809996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_105
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4ce025839deb6b0800000000000000
+      internalID: -5278542877313547017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_106
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf40231f046e5df0800000000000000
+      internalID: -189604118394810423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f2d8f58743e28b0800000000000000
+      internalID: -5175141230198313174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_108
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16ed7fb10509c280800000000000000
+      internalID: -9022674873394272740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_109
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d570e32f88f739cd0800000000000000
+      internalID: -2552556337632508067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_110
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269a010c97b9e85a0800000000000000
+      internalID: -6517100663542863518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fe988abf85dcdb0800000000000000
+      internalID: -4770058592427839623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_112
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -12}
+        - {x: 9, y: 12}
+        - {x: 0, y: 12}
+        - {x: 0, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b828ce84a843701c0800000000000000
+      internalID: -4537600331018894709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_113
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 12}
+        - {x: 7, y: 8}
+        - {x: 7, y: 6}
+        - {x: 10, y: 3}
+        - {x: 12, y: 3}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62524eb460611a250800000000000000
+      internalID: 5954064398659364134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_114
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: -12}
+        - {x: 0, y: -12}
+        - {x: 0, y: 12}
+        - {x: -8, y: 12}
+        - {x: -8, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52b287b0679b94a0800000000000000
+      internalID: -6585503588447767970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_115
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fca6c6bafe53be0800000000000000
+      internalID: -1498027781493436545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f3904e913ebd300800000000000000
+      internalID: 278065502352916332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_117
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcf5d65e36127a70800000000000000
+      internalID: 8823139076972870832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_118
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ad4ae5246734530800000000000000
+      internalID: 3838041334877575828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_119
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea7ae86680a0ed90800000000000000
+      internalID: -7070474915825419537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_120
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caca9f566f8acd330800000000000000
+      internalID: 3737047567036951724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_121
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8d217328653c780800000000000000
+      internalID: -8663986140860983054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_122
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c88a5828a3e0470800000000000000
+      internalID: 8362685890336164927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_123
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef59988eb2410130800000000000000
+      internalID: 3531176968938151904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_124
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87c83642da129a80800000000000000
+      internalID: -8461671259452160118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_125
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -12}
+        - {x: 9, y: 12}
+        - {x: 0, y: 12}
+        - {x: 0, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4d87f8edfd6ff70800000000000000
+      internalID: 9220803434070463714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_126
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -12}
+        - {x: 0, y: 12}
+        - {x: -8, y: 12}
+        - {x: -8, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506f7b50e37904680800000000000000
+      internalID: -8772845781478017531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_127
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e55a395e16470e00800000000000000
+      internalID: 1010853737527924195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0ff876334442510800000000000000
+      internalID: 1523417561529577713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_129
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1858aa6b0ecd0b30800000000000000
+      internalID: 4255283771364366362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_130
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c380f2a23c6a18d50800000000000000
+      internalID: 6737849874679531580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_131
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5936c8bef8f3861b0800000000000000
+      internalID: -5663206644053679211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9348e14d91e8dbc40800000000000000
+      internalID: 5529732159064933433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_133
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdb072dfc6ece200800000000000000
+      internalID: 210797062842793457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_134
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02267ccb4797a5280800000000000000
+      internalID: -9053790558584610272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_135
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cf050b8fac2fa190800000000000000
+      internalID: -7949085684822372411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf3a55d35e326ed0800000000000000
+      internalID: -2422305119789236306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_137
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -12}
+        - {x: 9, y: 12}
+        - {x: 0, y: 12}
+        - {x: 0, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24548cce217cbe810800000000000000
+      internalID: 1795747760533161282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_138
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -12}
+        - {x: 0, y: 12}
+        - {x: -8, y: 12}
+        - {x: -8, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df249ec1208de0c0800000000000000
+      internalID: -4544835566258868266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_139
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20260577ff085ae30800000000000000
+      internalID: 4514156036215562754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_140
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b564435a75a6c00800000000000000
+      internalID: 894623843044711304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_141
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 48
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021d82b66d05c9f20800000000000000
+      internalID: 3430705898000535840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f5b74693b41acc0800000000000000
+      internalID: -3701594708850811133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_143
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775f053775d4b9df0800000000000000
+      internalID: -172459122731453065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_144
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a523d6ce8d9518650800000000000000
+      internalID: 6233362147471864410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_145
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fed1e56b7fbba210800000000000000
+      internalID: 1345379450411409144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_146
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce314b2a9d9dc60b0800000000000000
+      internalID: -5733968696788642836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_147
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe8006a23be2f200800000000000000
+      internalID: 212490735205781243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7c836951e8d9e30800000000000000
+      internalID: 4511918625060866039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_149
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f728aba1ac5941c80800000000000000
+      internalID: -8352886713601064321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1747eda890ab08f0800000000000000
+      internalID: -573187949946517729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_151
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -12}
+        - {x: 9, y: 12}
+        - {x: 0, y: 12}
+        - {x: 0, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc0d41ab02894130800000000000000
+      internalID: 3551512767620779217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_152
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -12}
+        - {x: 0, y: 12}
+        - {x: -8, y: 12}
+        - {x: -8, y: -12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15014bfd0d47aeae0800000000000000
+      internalID: -1519273483828981679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_153
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a887eb8126ade70800000000000000
+      internalID: 9140726252116150812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_154
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9895b270ec2246cf0800000000000000
+      internalID: -260044610201757303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_155
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 0}
+        - {x: 3, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 9}
+        - {x: 9, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fa21a5782d92750800000000000000
+      internalID: 6280782634118459285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_156
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: 3}
+        - {x: -12, y: 3}
+      - - {x: -11, y: 12}
+        - {x: -12, y: 11}
+        - {x: -12, y: 5}
+        - {x: -9, y: 6}
+        - {x: -6, y: 11}
+        - {x: -6, y: 12}
+      - - {x: 7, y: 12}
+        - {x: 7, y: 11}
+        - {x: 11, y: 7}
+        - {x: 12, y: 7}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c9ad2259381bac0800000000000000
+      internalID: -3841144330612204499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_157
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 24
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 11}
+        - {x: -12, y: -12}
+        - {x: -4, y: -12}
+        - {x: -4, y: -2}
+        - {x: -6, y: 6}
+        - {x: -10, y: 11}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b8bd6d26641a1b0800000000000000
+      internalID: -5647155067420439669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb974e59d2a0e8b0800000000000000
+      internalID: -5124917321474270237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_159
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4101c1e77f35920800000000000000
+      internalID: 2977995899630785735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_160
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e04fb78f6a8e1a0800000000000000
+      internalID: -6779985652844589550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_161
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47c2b0885b8553a0800000000000000
+      internalID: -6677277660274309301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_162
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20eefc45e5f5528f0800000000000000
+      internalID: -565941319410651646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_163
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1f2caabe4007b00800000000000000
+      internalID: 824164142037529011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_164
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fef8148ee8b8420800000000000000
+      internalID: 2633355535311695775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_165
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1d3d2e3fca58290800000000000000
+      internalID: -7888709008786992727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_166
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687336de186b594e0800000000000000
+      internalID: -1975472192382355578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_167
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 12}
+        - {x: 0, y: -8}
+        - {x: 12, y: -8}
+        - {x: 12, y: -1}
+        - {x: 9, y: -1}
+        - {x: 9, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d06d462414dcff0800000000000000
+      internalID: -14283470396846751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_168
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -10}
+        - {x: 12, y: -10}
+        - {x: 12, y: -1}
+        - {x: -12, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6442c5e2525429f0800000000000000
+      internalID: -494179543108402066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_169
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -10}
+        - {x: 12, y: -10}
+        - {x: 12, y: -1}
+        - {x: -12, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9dd9c0f18f898d0800000000000000
+      internalID: -2839246752817751560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_170
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -8}
+        - {x: 9, y: -11}
+        - {x: 12, y: -11}
+        - {x: 9, y: -1}
+        - {x: -12, y: -1}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8044af663622840800000000000000
+      internalID: 5197826213875550407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_171
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -12}
+        - {x: 12, y: -12}
+        - {x: 12, y: -9}
+        - {x: -12, y: -9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc775d628b7c0c070800000000000000
+      internalID: 8124713321515808715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_172
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -9, y: -2}
+        - {x: -12, y: -11}
+        - {x: -9, y: -11}
+        - {x: 12, y: -8}
+        - {x: 12, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa1ccb484bf7f080800000000000000
+      internalID: -9153571429679359328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_173
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -10}
+        - {x: 12, y: -10}
+        - {x: 12, y: -2}
+        - {x: -12, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6086d4c9575d683f0800000000000000
+      internalID: -898796374503626746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_174
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: -10}
+        - {x: 12, y: -10}
+        - {x: 12, y: -2}
+        - {x: -12, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff4c58f304af69f0800000000000000
+      internalID: -472979098891956237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_175
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 12}
+        - {x: -8, y: -2}
+        - {x: -12, y: -2}
+        - {x: -12, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: 12}
+      - - {x: -2, y: -8}
+        - {x: -2, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bc3c09ae15a3400800000000000000
+      internalID: 304645992693877511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_176
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c5c0479de12ecf0800000000000000
+      internalID: -224583112111399828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_177
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a89301eac018f740800000000000000
+      internalID: 5185913434461673637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_178
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 12}
+        - {x: 3, y: 9}
+        - {x: 12, y: 9}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff004727c3d17710800000000000000
+      internalID: 1689364187551109115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_179
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 12}
+        - {x: -12, y: 9}
+        - {x: 12, y: 9}
+        - {x: 12, y: 12}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76728fb69a5a9eb90800000000000000
+      internalID: -7212051181177657497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FarmhouseInterior_180
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 9}
+        - {x: -4, y: 12}
+        - {x: -12, y: 12}
+        - {x: -12, y: 9}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c1a5194d3681f70800000000000000
+      internalID: 9158179606880722002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

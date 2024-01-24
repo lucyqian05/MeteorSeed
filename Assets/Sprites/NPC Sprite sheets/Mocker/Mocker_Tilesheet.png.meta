@@ -1,0 +1,1328 @@
+fileFormatVersion: 2
+guid: a61a86c83acf4a149bd9ff2d072cf2a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6702005590977551548
+    second: Mocker_Tilesheet_0
+  - first:
+      213: 6697556713202196960
+    second: Mocker_Tilesheet_1
+  - first:
+      213: -2907178392648926567
+    second: Mocker_Tilesheet_2
+  - first:
+      213: 2697424439613295995
+    second: Mocker_Tilesheet_3
+  - first:
+      213: -1099873297936344895
+    second: Mocker_Tilesheet_4
+  - first:
+      213: -4865894143067621522
+    second: Mocker_Tilesheet_5
+  - first:
+      213: -7150529252576406783
+    second: Mocker_Tilesheet_6
+  - first:
+      213: 8411662507523385526
+    second: Mocker_Tilesheet_7
+  - first:
+      213: 3588154817691207030
+    second: Mocker_Tilesheet_8
+  - first:
+      213: -4015682375371495052
+    second: Mocker_Tilesheet_9
+  - first:
+      213: -6374878779218248972
+    second: Mocker_Tilesheet_10
+  - first:
+      213: -7001189111981299446
+    second: Mocker_Tilesheet_11
+  - first:
+      213: 9153298853688697179
+    second: Mocker_Tilesheet_12
+  - first:
+      213: 235578035955001872
+    second: Mocker_Tilesheet_13
+  - first:
+      213: 6334496575933619037
+    second: Mocker_Tilesheet_14
+  - first:
+      213: -8276942822084912180
+    second: Mocker_Tilesheet_15
+  - first:
+      213: -116960980510423142
+    second: Mocker_Tilesheet_16
+  - first:
+      213: 3046843651758679413
+    second: Mocker_Tilesheet_17
+  - first:
+      213: -4065274754499868642
+    second: Mocker_Tilesheet_18
+  - first:
+      213: 8735258171045761232
+    second: Mocker_Tilesheet_19
+  - first:
+      213: 5291536637200456697
+    second: Mocker_Tilesheet_20
+  - first:
+      213: 7309256557229645091
+    second: Mocker_Tilesheet_21
+  - first:
+      213: -977090163662486798
+    second: Mocker_Tilesheet_22
+  - first:
+      213: -4332763504804722008
+    second: Mocker_Tilesheet_23
+  - first:
+      213: -3888783945912992655
+    second: Mocker_Tilesheet_24
+  - first:
+      213: -5011691284387803740
+    second: Mocker_Tilesheet_25
+  - first:
+      213: -9209170960190643121
+    second: Mocker_Tilesheet_26
+  - first:
+      213: -8163085634461781622
+    second: Mocker_Tilesheet_27
+  - first:
+      213: 8308233106027454937
+    second: Mocker_Tilesheet_28
+  - first:
+      213: -3436123759143678087
+    second: Mocker_Tilesheet_29
+  - first:
+      213: 889428211048618221
+    second: Mocker_Tilesheet_30
+  - first:
+      213: 2418407544686816779
+    second: Mocker_Tilesheet_31
+  - first:
+      213: 8192610868828168407
+    second: Mocker_Tilesheet_32
+  - first:
+      213: 626600491412607117
+    second: Mocker_Tilesheet_33
+  - first:
+      213: 5758145946480078285
+    second: Mocker_Tilesheet_34
+  - first:
+      213: -4608228473885447924
+    second: Mocker_Tilesheet_35
+  - first:
+      213: -2921425249401090353
+    second: Mocker_Tilesheet_36
+  - first:
+      213: -4335873130646266157
+    second: Mocker_Tilesheet_37
+  - first:
+      213: 7154909050450599029
+    second: Mocker_Tilesheet_38
+  - first:
+      213: 8836482734892709182
+    second: Mocker_Tilesheet_39
+  - first:
+      213: 2407912173692989574
+    second: Mocker_Tilesheet_40
+  - first:
+      213: -7588624396283841390
+    second: Mocker_Tilesheet_41
+  - first:
+      213: 7658332161248906513
+    second: Mocker_Tilesheet_0
+  - first:
+      213: 6461521576678168629
+    second: Mocker_Tilesheet_1
+  - first:
+      213: -4814831398113378601
+    second: Mocker_Tilesheet_2
+  - first:
+      213: -3289700827227079459
+    second: Mocker_Tilesheet_3
+  - first:
+      213: 3819400055483470024
+    second: Mocker_Tilesheet_4
+  - first:
+      213: 1890697360560713071
+    second: Mocker_Tilesheet_5
+  - first:
+      213: -4395412161398413375
+    second: Mocker_Tilesheet_6
+  - first:
+      213: -2671793712205936051
+    second: Mocker_Tilesheet_7
+  - first:
+      213: -5451459677497145734
+    second: Mocker_Tilesheet_8
+  - first:
+      213: -6634828510180634726
+    second: Mocker_Tilesheet_9
+  - first:
+      213: 6150134369662775142
+    second: Mocker_Tilesheet_10
+  - first:
+      213: 3014756182177708100
+    second: Mocker_Tilesheet_11
+  - first:
+      213: 5136510650323992186
+    second: Mocker_Tilesheet_12
+  - first:
+      213: -27576630172274539
+    second: Mocker_Tilesheet_13
+  - first:
+      213: 7326477428497314569
+    second: Mocker_Tilesheet_14
+  - first:
+      213: 1799625436925808696
+    second: Mocker_Tilesheet_15
+  - first:
+      213: 5387576025076274271
+    second: Mocker_Tilesheet_16
+  - first:
+      213: 4709562146802049778
+    second: Mocker_Tilesheet_17
+  - first:
+      213: 6827779379835669380
+    second: Mocker_Tilesheet_18
+  - first:
+      213: -6965058237995263740
+    second: Mocker_Tilesheet_19
+  - first:
+      213: 1592421512985373387
+    second: Mocker_Tilesheet_20
+  - first:
+      213: -2938405106729764288
+    second: Mocker_Tilesheet_21
+  - first:
+      213: 5083908375666522514
+    second: Mocker_Tilesheet_22
+  - first:
+      213: -429968178901905126
+    second: Mocker_Tilesheet_23
+  - first:
+      213: 2942465800782431642
+    second: Mocker_Tilesheet_24
+  - first:
+      213: -4742011149533106517
+    second: Mocker_Tilesheet_25
+  - first:
+      213: 2579119036710522912
+    second: Mocker_Tilesheet_26
+  - first:
+      213: -7076239498928109775
+    second: Mocker_Tilesheet_27
+  - first:
+      213: 5281545976687898283
+    second: Mocker_Tilesheet_28
+  - first:
+      213: 6054081860134918959
+    second: Mocker_Tilesheet_29
+  - first:
+      213: -2092530419150078098
+    second: Mocker_Tilesheet_30
+  - first:
+      213: 4614608249105060006
+    second: Mocker_Tilesheet_31
+  - first:
+      213: -7038797477509994730
+    second: Mocker_Tilesheet_32
+  - first:
+      213: -1364989900607319750
+    second: Mocker_Tilesheet_33
+  - first:
+      213: -100135512167646532
+    second: Mocker_Tilesheet_34
+  - first:
+      213: -5274131821655602765
+    second: Mocker_Tilesheet_35
+  - first:
+      213: -7322746611559905191
+    second: Mocker_Tilesheet_36
+  - first:
+      213: 3918953732659773635
+    second: Mocker_Tilesheet_37
+  - first:
+      213: 7999711070558067835
+    second: Mocker_Tilesheet_38
+  - first:
+      213: 2395397095668559823
+    second: Mocker_Tilesheet_39
+  - first:
+      213: -7801357192191111116
+    second: Mocker_Tilesheet_40
+  - first:
+      213: -8199360729083171507
+    second: Mocker_Tilesheet_41
+  - first:
+      213: -3326266074229924954
+    second: Mocker_Tilesheet_42
+  - first:
+      213: 2659306088648495238
+    second: Mocker_Tilesheet_42
+  - first:
+      213: 7057831459032562217
+    second: Mocker_Tilesheet_43
+  - first:
+      213: -9167947643215370672
+    second: Mocker_Tilesheet_44
+  - first:
+      213: 4729495500867125021
+    second: Mocker_Tilesheet_45
+  - first:
+      213: -3899577224217397825
+    second: Mocker_Tilesheet_46
+  - first:
+      213: 1815062313156203672
+    second: Mocker_Tilesheet_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dc03b668cd74a60800000000000000
+      internalID: 7658332161248906513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5389c6ea3afeba950800000000000000
+      internalID: 6461521576678168629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7defd0e7a584e2db0800000000000000
+      internalID: -4814831398113378601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc32d7f682a852d0800000000000000
+      internalID: -3289700827227079459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c0133a4d1c310530800000000000000
+      internalID: 3819400055483470024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d6df96b3b1d3a10800000000000000
+      internalID: 1890697360560713071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c76a665deb5003c0800000000000000
+      internalID: -4395412161398413375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ac7d646c1ebead0800000000000000
+      internalID: -2671793712205936051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_8
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76ca6f6e468854b0800000000000000
+      internalID: -5451459677497145734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f8c017f9a5ce3a0800000000000000
+      internalID: -6634828510180634726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66faba8df9aa95550800000000000000
+      internalID: 6150134369662775142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4487d1b56c096d920800000000000000
+      internalID: 3014756182177708100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e7299d83d884740800000000000000
+      internalID: 5136510650323992186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590ba7273370e9ff0800000000000000
+      internalID: -27576630172274539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903ff746760eca560800000000000000
+      internalID: 7326477428497314569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83058b0dccd89f810800000000000000
+      internalID: 1799625436925808696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f541517a9d384ca40800000000000000
+      internalID: 5387576025076274271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f223c7f1d9bb5140800000000000000
+      internalID: 4709562146802049778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b87dbbb2521ce50800000000000000
+      internalID: 6827779379835669380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409526c5f64275f90800000000000000
+      internalID: -6965058237995263740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcaee26ddea691610800000000000000
+      internalID: 1592421512985373387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04abd2faf10b837d0800000000000000
+      internalID: -2938405106729764288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2997c326bbbad8640800000000000000
+      internalID: 5083908375666522514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1194d72832780af0800000000000000
+      internalID: -429968178901905126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a954f535e0db5d820800000000000000
+      internalID: 2942465800782431642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae2327dbfdf03eb0800000000000000
+      internalID: -4742011149533106517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0201490691fdac320800000000000000
+      internalID: 2579119036710522912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1374dc0daa52ccd90800000000000000
+      internalID: -7076239498928109775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae206d3512db4940800000000000000
+      internalID: 5281545976687898283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_29
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b5a7a306b640450800000000000000
+      internalID: 6054081860134918959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_30
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f3cd4aba6d5f2e0800000000000000
+      internalID: -2092530419150078098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a09e79d0c16a0040800000000000000
+      internalID: 4614608249105060006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_32
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617e913ccfa215e90800000000000000
+      internalID: -7038797477509994730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_33
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a311e4cdae49e0de0800000000000000
+      internalID: -1364989900607319750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba78df384f3c9ef0800000000000000
+      internalID: -100135512167646532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b942af3d058ec6b0800000000000000
+      internalID: -5274131821655602765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958c6cd11c0606a90800000000000000
+      internalID: -7322746611559905191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0806608abe26630800000000000000
+      internalID: 3918953732659773635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c9f5a95dea40f60800000000000000
+      internalID: 7999711070558067835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfa35797f82e3120800000000000000
+      internalID: 2395397095668559823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430928197f20cb390800000000000000
+      internalID: -7801357192191111116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_41
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4da5b5ebd4063e80800000000000000
+      internalID: -8199360729083171507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mocker_Tilesheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6805dea4cc0c7e420800000000000000
+      internalID: 2659306088648495238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

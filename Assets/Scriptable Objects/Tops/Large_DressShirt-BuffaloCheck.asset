@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: Large_DressShirt-BuffaloCheck
+  m_EditorClassIdentifier: 
+  bodyPartName: DressShirt
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: ac4fdb1655c13ef4ea871327f5f59d15, type: 2}
+  - {fileID: 7400000, guid: 2a39e675bbf036e4fbc07fcb17bb0949, type: 2}
+  - {fileID: 7400000, guid: 68f9afcfcace9824eb48ae3cc000a6e5, type: 2}
+  - {fileID: 7400000, guid: 9c2e2741b44cc274db9f8e50e4a9f9b0, type: 2}
+  - {fileID: 7400000, guid: cf5aa6db23bd19c4bae6fc22fb208377, type: 2}
+  - {fileID: 7400000, guid: 89859e848a4e47a4097a72b23b7020a5, type: 2}
+  - {fileID: 7400000, guid: d59792270b0c2674fa9e12d789a325ba, type: 2}
+  - {fileID: 7400000, guid: cb8c076ab7d1dfb46ac7438252114df4, type: 2}

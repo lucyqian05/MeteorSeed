@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae953af39fa223c458c05ab6de1f21bf, type: 3}
+  m_Name: FEMS-ND
+  m_EditorClassIdentifier: 
+  bodyPartName: Body
+  allBodyPartAnimations:
+  - {fileID: 7400000, guid: 33a7480d8da95c6498fa87f1529f0062, type: 2}
+  - {fileID: 7400000, guid: b5a3cb1bad1c4de4ca488d70a1fa8178, type: 2}
+  - {fileID: 7400000, guid: a834df66883aaa646a8b130d00231c13, type: 2}
+  - {fileID: 7400000, guid: 5d2447d2c134b54458fbc0c73d1c28ae, type: 2}
+  - {fileID: 7400000, guid: b0028030092221f49b086ae347fb1a4d, type: 2}
+  - {fileID: 7400000, guid: 77f8c8e826ca2194185124d3ac7223e8, type: 2}
+  - {fileID: 7400000, guid: 7789df4add6dfc5478c178cb28df1250, type: 2}
+  - {fileID: 7400000, guid: 8d581a6eff6571b41944b50427f91be5, type: 2}
