@@ -14,11 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bodyPartName: Hair
   allBodyPartAnimations:
+  - {fileID: 7400000, guid: 3be2acdda2be32746938a1918ccc545b, type: 2}
+  - {fileID: 7400000, guid: bcf298fbc420f6548a7db9902122185b, type: 2}
+  - {fileID: 7400000, guid: 2dfa8fca1ffb3944b902e7917a1abe10, type: 2}
+  - {fileID: 7400000, guid: 0fe1fcc2c6cc4a74f9f994cddaf3fdc3, type: 2}
+  - {fileID: 7400000, guid: 96a7e94f46772304f821b553f0e06a34, type: 2}
+  - {fileID: 7400000, guid: e6361638c1bda114a826be674442aa69, type: 2}
+  - {fileID: 7400000, guid: b091a561edcb24e4597b125b92b8c375, type: 2}
+  - {fileID: 7400000, guid: 8b187a5555ed35041bbb050dbc7f5cf4, type: 2}
+  - {fileID: 7400000, guid: 6ba154c6b5038934793b9c32ea9ca778, type: 2}
+  - {fileID: 7400000, guid: 21597384634bfd5468f92285bbf7e8e7, type: 2}
+  - {fileID: 7400000, guid: ad27346ab2cd47f4f96066da1b5975a9, type: 2}
+  - {fileID: 7400000, guid: 66ba888b2f6b149498f791af926408f7, type: 2}
   - {fileID: 7400000, guid: d51dc4eb9a8898943a20aefad5a01563, type: 2}
   - {fileID: 7400000, guid: 388ec46e6ef0efd40aa0779e0637262c, type: 2}
   - {fileID: 7400000, guid: c3094958a88741e49ad85eb4c633b69b, type: 2}
   - {fileID: 7400000, guid: 5fa99cc5568d04b4d899bded02e39953, type: 2}
+  - {fileID: 7400000, guid: 2aaf211077f3e0446a4d3e148984095c, type: 2}
+  - {fileID: 7400000, guid: 0a2af7fc963e0de419c63139bdc2bdc7, type: 2}
+  - {fileID: 7400000, guid: 34922958b2b07f244b4f9a54f5239139, type: 2}
+  - {fileID: 7400000, guid: f6d8de1866cf9bb418a029a26f60c118, type: 2}
   - {fileID: 7400000, guid: cbe3c678d73b4e048a6fb8eb9e0ededf, type: 2}
   - {fileID: 7400000, guid: 3e46d50a193b15946b0c2367fa053624, type: 2}
   - {fileID: 7400000, guid: 5eeb736a22fbafa4d9e28d77c291dd28, type: 2}
   - {fileID: 7400000, guid: c818d03ac12b96b44b8dd046e2b9b03a, type: 2}
+  - {fileID: 7400000, guid: 688b18acc2a5075409b35b4b18a3892c, type: 2}
+  - {fileID: 7400000, guid: d553b2e26694f994dbe950449fdcf0c8, type: 2}
+  - {fileID: 7400000, guid: 5059eedac133e5c4bb4b92dcba45cdc5, type: 2}
+  - {fileID: 7400000, guid: 17780e0f2dffd8541b28d162c0ca607f, type: 2}
