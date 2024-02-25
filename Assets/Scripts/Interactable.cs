@@ -16,13 +16,8 @@ public class Interactable : MonoBehaviour
         controllerInputAction = playerInput.actions["Interact"];
     }
 
-
-
     void Update()
     {
-        
-
-
         if(isInRange)
         {
             if(controllerInputAction.triggered)
@@ -30,10 +25,7 @@ public class Interactable : MonoBehaviour
                 interactAction.Invoke();
             }
         }
-
-
     }
-
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -49,8 +41,5 @@ public class Interactable : MonoBehaviour
         {
             isInRange = false;
         }
-
     }
-
-
 }
