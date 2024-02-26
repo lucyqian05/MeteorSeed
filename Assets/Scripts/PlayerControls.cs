@@ -80,6 +80,15 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": ""Press"",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MousePosition"",
+                    ""type"": ""Value"",
+                    ""id"": ""7567d5a7-2616-4914-8329-493234282204"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
                 }
             ],
             ""bindings"": [
@@ -192,6 +201,17 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                     ""action"": ""Attack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0894ed64-adcc-4bf3-817e-cb52edc07493"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MousePosition"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -223,6 +243,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         m_Player_Magic = m_Player.FindAction("Magic", throwIfNotFound: true);
         m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
         m_Player_ScrollMagic = m_Player.FindAction("ScrollMagic", throwIfNotFound: true);
+        m_Player_MousePosition = m_Player.FindAction("MousePosition", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -288,6 +309,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Magic;
     private readonly InputAction m_Player_Attack;
     private readonly InputAction m_Player_ScrollMagic;
+    private readonly InputAction m_Player_MousePosition;
     public struct PlayerActions
     {
         private @PlayerControls m_Wrapper;
@@ -298,6 +320,7 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         public InputAction @Magic => m_Wrapper.m_Player_Magic;
         public InputAction @Attack => m_Wrapper.m_Player_Attack;
         public InputAction @ScrollMagic => m_Wrapper.m_Player_ScrollMagic;
+        public InputAction @MousePosition => m_Wrapper.m_Player_MousePosition;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -325,6 +348,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @ScrollMagic.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnScrollMagic;
                 @ScrollMagic.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnScrollMagic;
                 @ScrollMagic.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnScrollMagic;
+                @MousePosition.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMousePosition;
+                @MousePosition.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMousePosition;
+                @MousePosition.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMousePosition;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -347,6 +373,9 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
                 @ScrollMagic.started += instance.OnScrollMagic;
                 @ScrollMagic.performed += instance.OnScrollMagic;
                 @ScrollMagic.canceled += instance.OnScrollMagic;
+                @MousePosition.started += instance.OnMousePosition;
+                @MousePosition.performed += instance.OnMousePosition;
+                @MousePosition.canceled += instance.OnMousePosition;
             }
         }
     }
@@ -368,5 +397,6 @@ public partial class @PlayerControls : IInputActionCollection2, IDisposable
         void OnMagic(InputAction.CallbackContext context);
         void OnAttack(InputAction.CallbackContext context);
         void OnScrollMagic(InputAction.CallbackContext context);
+        void OnMousePosition(InputAction.CallbackContext context);
     }
 }

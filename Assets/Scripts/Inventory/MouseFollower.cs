@@ -12,15 +12,17 @@ public class MouseFollower : MonoBehaviour
     [SerializeField]
     private InventoryItemUI item;
 
-    private Vector2 mousePosition;
+    private PlayerInput playerInput;
+    private InputAction controllerInputAction;
 
 #pragma warning restore 0649
 
     public void Awake()
     {
-        canvas = transform.root.GetComponent<Canvas>();
         item = GetComponentInChildren<InventoryItemUI>();
-        mousePosition = Mouse.current.position.ReadValue();
+        playerInput = GetComponent<PlayerInput>();
+        controllerInputAction = playerInput.actions["MousePosition"];
+
     }
 
     public void SetData(Sprite sprite, int quantity)
@@ -30,14 +32,19 @@ public class MouseFollower : MonoBehaviour
 
     void Update()
     {
+        Vector2 readValue = controllerInputAction.ReadValue<Vector2>();
+
         Vector2 position;
         RectTransformUtility.ScreenPointToLocalPointInRectangle(
             (RectTransform)canvas.transform,
-            mousePosition,
+            readValue,
             canvas.worldCamera,
             out position
                 );
         transform.position = canvas.transform.TransformPoint(position);
+
+
+
     }
 
     public void Toggle(bool val)

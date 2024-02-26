@@ -11,6 +11,10 @@ public class InventoryUI : MonoBehaviour
 
     [SerializeField]
     private RectTransform contentPanel;
+
+    [SerializeField]
+    private MouseFollower mouseFollower;
+
 #pragma warning restore 0649
 
     List<InventoryItemUI> listOfUIItems = new List<InventoryItemUI>();
@@ -22,6 +26,11 @@ public class InventoryUI : MonoBehaviour
     private void Start()
     {
         testInventory();
+    }
+
+    private void Awake()
+    {
+        mouseFollower.Toggle(false);
     }
 
     private void testInventory()
@@ -53,7 +62,8 @@ public class InventoryUI : MonoBehaviour
 
     private void HandleBeginDrag(InventoryItemUI obj)
     {
-        
+        mouseFollower.Toggle(true);
+        mouseFollower.SetData(sprite, quantity);
     }
 
     private void HandleSwap(InventoryItemUI obj)
@@ -63,21 +73,11 @@ public class InventoryUI : MonoBehaviour
 
     private void HandleEndDrag(InventoryItemUI obj)
     {
-        
+        mouseFollower.Toggle(false);
     }
 
     private void HandleShowItemActions(InventoryItemUI obj)
     {
         
-    }
-
-    public void Show()
-    {
-        gameObject.SetActive(true);
-    }
-
-    public void Hide()
-    {
-        gameObject.SetActive(false);
     }
 }
