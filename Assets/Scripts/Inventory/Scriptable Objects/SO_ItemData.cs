@@ -16,11 +16,20 @@ public class SO_ItemData : ScriptableObject
     [SerializeField] ItemType itemType;
 #pragma warning restore 0649
 
+    public int ID => GetInstanceID();
 
-    public string itemName;
-    public Sprite itemImage;
-    [TextArea]
-    public string itemDescription;
+    [field: SerializeField]
+    public int MaxStackSize { get; set; } = 1;
+
+    [field: SerializeField]
+    public string Name { get; set; }
+
+    [field: SerializeField]
+    public Sprite Image { get; set; }
+
+    [field: SerializeField]
+    [field: TextArea]
+    public string Description { get; set; }
 
 
     int itemPrice;

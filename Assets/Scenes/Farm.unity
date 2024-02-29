@@ -61024,7 +61024,7 @@ PrefabInstance:
     - target: {fileID: 7652959679988641080, guid: 1aa0305d4536f4d4cbc7337b7f69cec2,
         type: 3}
       propertyPath: quantity
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7652959679988641080, guid: 1aa0305d4536f4d4cbc7337b7f69cec2,
         type: 3}
@@ -61036,6 +61036,12 @@ PrefabInstance:
       propertyPath: mouseFollower
       value: 
       objectReference: {fileID: 1843665678}
+    - target: {fileID: 7652959679988641080, guid: 1aa0305d4536f4d4cbc7337b7f69cec2,
+        type: 3}
+      propertyPath: sprite2
+      value: 
+      objectReference: {fileID: 2256588142271334345, guid: ca0a6df3c2ef8134a87c633516c4f007,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1aa0305d4536f4d4cbc7337b7f69cec2, type: 3}
 --- !u!1 &1814018300

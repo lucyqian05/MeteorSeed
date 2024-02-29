@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c9aeb8a6e69c4f4db143170b542fd96, type: 3}
-  m_Name: Carrot
+  m_Name: New Item
   m_EditorClassIdentifier: 
   itemType: 1
-  itemName: Carrot
-  itemImage: {fileID: -2748856898905938425, guid: ca0a6df3c2ef8134a87c633516c4f007,
-    type: 3}
-  itemDescription: Juicy little carrot!
+  <MaxStackSize>k__BackingField: 75
+  <Name>k__BackingField: 
+  <Image>k__BackingField: {fileID: 0}
+  <Description>k__BackingField: 

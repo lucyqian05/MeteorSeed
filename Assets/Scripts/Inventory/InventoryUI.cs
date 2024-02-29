@@ -19,24 +19,20 @@ public class InventoryUI : MonoBehaviour
 
     List<InventoryItemUI> listOfUIItems = new List<InventoryItemUI>();
 
-    public Sprite sprite;
-    public int quantity;
-    public string title;
+    private int currentlyDraggedItemIndex = -1;
 
-    private void Start()
-    {
-        testInventory();
-    }
+    public event Action<int> OnDescriptionRequested,
+        OnItemActionRequested,
+        OnStartDragging;
+
+    public event Action<int, int> OnSwapItems;
+
 
     private void Awake()
     {
         mouseFollower.Toggle(false);
     }
 
-    private void testInventory()
-    {
-        listOfUIItems[0].SetData(sprite, quantity);
-    }
     public void InitializeInventoryUI(int inventorysize)
     {
         for (int i = 0; i < inventorysize; i++)
@@ -55,29 +51,75 @@ public class InventoryUI : MonoBehaviour
         }
     }
 
-    private void HandleItemSelection(InventoryItemUI obj)
+    public void UpdateData(int itemIndex, 
+        Sprite itemSprite, int itemQuantity)
     {
-        Debug.Log(obj.name);
+        if (listOfUIItems.Count > itemIndex)
+        {
+            listOfUIItems[itemIndex].SetData(itemSprite, itemQuantity);
+        }
     }
 
-    private void HandleBeginDrag(InventoryItemUI obj)
+    private void HandleItemSelection(InventoryItemUI inventoryItemUI)
+    {
+        int index = listOfUIItems.IndexOf(inventoryItemUI);
+        if (index == -1)
+            return;
+        OnDescriptionRequested?.Invoke(index);
+    }
+
+    private void HandleBeginDrag(InventoryItemUI inventoryItemUI)
+    {
+        int index = listOfUIItems.IndexOf(inventoryItemUI);
+        if (index == -1)
+            return;
+        currentlyDraggedItemIndex = index;
+        HandleItemSelection(inventoryItemUI);
+        OnStartDragging?.Invoke(index);
+    }
+
+    public void CreateDraggedItem(Sprite sprite, int quantity)
     {
         mouseFollower.Toggle(true);
         mouseFollower.SetData(sprite, quantity);
     }
 
-    private void HandleSwap(InventoryItemUI obj)
+    private void HandleSwap(InventoryItemUI inventoryItemUI)
+    {
+        int index = listOfUIItems.IndexOf(inventoryItemUI);
+        if (index == -1)
+        {
+            return;
+        }
+        OnSwapItems?.Invoke(currentlyDraggedItemIndex, index);
+    }
+
+    private void HandleEndDrag(InventoryItemUI inventoryItemUI)
+    {
+        ResetDraggedItem();
+    }
+
+    private void HandleShowItemActions(InventoryItemUI inventoryItemUI)
     {
         
     }
 
-    private void HandleEndDrag(InventoryItemUI obj)
+    private void ResetDraggedItem()
     {
         mouseFollower.Toggle(false);
+        currentlyDraggedItemIndex = -1;
     }
 
-    private void HandleShowItemActions(InventoryItemUI obj)
+    private void ResetSelection()
     {
-        
+        DeselctAllItems();
+    }
+
+    private void DeselctAllItems()
+    {
+        foreach (InventoryItemUI item in listOfUIItems)
+        {
+            item.Deselect();
+        }
     }
 }
