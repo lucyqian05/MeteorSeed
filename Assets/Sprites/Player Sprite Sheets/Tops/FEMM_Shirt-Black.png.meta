@@ -111,7 +111,7 @@ TextureImporter:
       213: 3976259320709361808
     second: FEMM_Shirt-Black_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      FEMM_Shirt-Black_0: 4272392754536348198
+      FEMM_Shirt-Black_1: 8419542895329135123
+      FEMM_Shirt-Black_10: -6869093091921558564
+      FEMM_Shirt-Black_11: -5707632548021792125
+      FEMM_Shirt-Black_12: -6428128586897466516
+      FEMM_Shirt-Black_13: -4263737141462911830
+      FEMM_Shirt-Black_14: 2039281102811484433
+      FEMM_Shirt-Black_15: -4869630607300632509
+      FEMM_Shirt-Black_16: -573568350102727714
+      FEMM_Shirt-Black_17: 3976322567260265771
+      FEMM_Shirt-Black_18: 6607683274973965514
+      FEMM_Shirt-Black_19: -7391582521461628882
+      FEMM_Shirt-Black_2: -7907863349154210719
+      FEMM_Shirt-Black_20: 7860706539595203704
+      FEMM_Shirt-Black_21: -1642150187588123829
+      FEMM_Shirt-Black_22: -3601622241884022
+      FEMM_Shirt-Black_23: -5040510667509620046
+      FEMM_Shirt-Black_24: 7239112755581095853
+      FEMM_Shirt-Black_25: -85317729969862267
+      FEMM_Shirt-Black_26: 2514454559614757766
+      FEMM_Shirt-Black_27: 1508837003899395474
+      FEMM_Shirt-Black_28: -2634290754666927978
+      FEMM_Shirt-Black_29: 3480033784999274592
+      FEMM_Shirt-Black_3: -373497922254955255
+      FEMM_Shirt-Black_30: 8529507485401467875
+      FEMM_Shirt-Black_31: 5840433112456229452
+      FEMM_Shirt-Black_32: -2648047285193363475
+      FEMM_Shirt-Black_33: 6053021779797251047
+      FEMM_Shirt-Black_34: -7427452742742611167
+      FEMM_Shirt-Black_35: 3976259320709361808
+      FEMM_Shirt-Black_4: -5882916348991302701
+      FEMM_Shirt-Black_5: -7393866696918567293
+      FEMM_Shirt-Black_6: -3048209392167222235
+      FEMM_Shirt-Black_7: 8483935235172416512
+      FEMM_Shirt-Black_8: -3239605510306224065
+      FEMM_Shirt-Black_9: -421167110091098441
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

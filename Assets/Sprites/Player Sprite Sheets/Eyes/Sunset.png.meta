@@ -108,7 +108,7 @@ TextureImporter:
       213: 4434146429297334450
     second: Sunset_34
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -125,9 +125,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -137,8 +140,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -159,10 +162,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -174,6 +182,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -186,6 +195,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -198,6 +208,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -210,6 +221,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -222,6 +234,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -234,6 +247,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -984,9 +998,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Sunset_0: 5385648129830978985
+      Sunset_1: -9054642795619703059
+      Sunset_10: -5071768706245310663
+      Sunset_11: -865633139049666710
+      Sunset_12: 4631558052885488868
+      Sunset_13: 7397531067459575983
+      Sunset_14: 1301127779290185586
+      Sunset_15: 220780751774510307
+      Sunset_16: 8921711686359895308
+      Sunset_17: 263582235343972300
+      Sunset_18: 5673949536131657402
+      Sunset_19: -7714379480613899245
+      Sunset_2: 8648996595731360641
+      Sunset_20: 9110296276186741051
+      Sunset_21: 659378975510323124
+      Sunset_22: 6803196157751071504
+      Sunset_23: -7629685597212677325
+      Sunset_24: 4461945483240190381
+      Sunset_25: -3944350888347684709
+      Sunset_26: -191438110291624007
+      Sunset_27: 2423028678529438117
+      Sunset_28: 4412020979882725904
+      Sunset_29: 2091752991814404686
+      Sunset_3: -6442146381430623371
+      Sunset_30: -378110755381516851
+      Sunset_31: 3241820082185827141
+      Sunset_32: -2208705595566029772
+      Sunset_33: -408510087984869209
+      Sunset_34: 4434146429297334450
+      Sunset_4: -4007602964621394754
+      Sunset_5: 849562301466795005
+      Sunset_6: 7072550232601005606
+      Sunset_7: 7707078344515121878
+      Sunset_8: -412505789521831980
+      Sunset_9: 4376672442835418246
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -19,10 +19,10 @@ public class SO_ItemData : ScriptableObject
     public int ID => GetInstanceID();
 
     [field: SerializeField]
-    public int MaxStackSize { get; set; } = 1;
+    public string Name { get; set; }
 
     [field: SerializeField]
-    public string Name { get; set; }
+    public int MaxStackSize { get; set; } = 1;
 
     [field: SerializeField]
     public Sprite Image { get; set; }

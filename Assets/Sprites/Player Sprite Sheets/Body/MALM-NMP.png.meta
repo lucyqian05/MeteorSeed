@@ -111,7 +111,7 @@ TextureImporter:
       213: 4844621606782153782
     second: MALM-NMP_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      MALM-NMP_0: 2059554827269002856
+      MALM-NMP_1: 4106941760590157207
+      MALM-NMP_10: 6068916989807893508
+      MALM-NMP_11: -8251835889201517626
+      MALM-NMP_12: 6217238716535843881
+      MALM-NMP_13: -8033530596403717209
+      MALM-NMP_14: -2511873841661354043
+      MALM-NMP_15: 8011091604468770820
+      MALM-NMP_16: -3615596391311695882
+      MALM-NMP_17: -2791333250312677018
+      MALM-NMP_18: -9130364374637837602
+      MALM-NMP_19: -3983947649918114116
+      MALM-NMP_2: 3218112185543836471
+      MALM-NMP_20: -3990245453510463284
+      MALM-NMP_21: -7013383505337491580
+      MALM-NMP_22: -2038222192507516086
+      MALM-NMP_23: -2556082175752954186
+      MALM-NMP_24: -2410011287211415072
+      MALM-NMP_25: 7729166141311508155
+      MALM-NMP_26: -3144076839616599087
+      MALM-NMP_27: -2925464785649910310
+      MALM-NMP_28: 5276329097574392211
+      MALM-NMP_29: 299685732537777563
+      MALM-NMP_3: 8849984533807059865
+      MALM-NMP_30: 9182051196900115444
+      MALM-NMP_31: 6772250474527927786
+      MALM-NMP_32: -4013150699304528205
+      MALM-NMP_33: -5401106857847189750
+      MALM-NMP_34: -2358506142114397068
+      MALM-NMP_35: 4844621606782153782
+      MALM-NMP_4: 5890275037763927152
+      MALM-NMP_5: 8667089895953517375
+      MALM-NMP_6: 2949369068101642971
+      MALM-NMP_7: -7443442602268133334
+      MALM-NMP_8: -163884711048545567
+      MALM-NMP_9: -6784507780845199496
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

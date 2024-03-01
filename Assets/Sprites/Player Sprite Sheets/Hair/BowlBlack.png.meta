@@ -219,7 +219,7 @@ TextureImporter:
       213: -4470593969170559523
     second: BowlBlack_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -236,9 +236,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -248,8 +251,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -270,10 +273,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -285,6 +293,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -297,6 +306,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -309,6 +319,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -321,6 +332,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -333,6 +345,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -345,6 +358,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1116,9 +1130,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      BowlBlack_0: 3516714265609325458
+      BowlBlack_1: 6241133173180628804
+      BowlBlack_10: -1929177863360643050
+      BowlBlack_11: 5331555726178131210
+      BowlBlack_12: -5588017703821443238
+      BowlBlack_13: 1530472957971811858
+      BowlBlack_14: 1514313947042957938
+      BowlBlack_15: 2264199678096914508
+      BowlBlack_16: -4066447604943927527
+      BowlBlack_17: -4810350879059050997
+      BowlBlack_18: 8416604368665675810
+      BowlBlack_19: 2776632529417118987
+      BowlBlack_2: -832031072376560720
+      BowlBlack_20: 525249809106514115
+      BowlBlack_21: -4241139868264219035
+      BowlBlack_22: 86472883493123064
+      BowlBlack_23: -2713161836964920313
+      BowlBlack_24: -4943804884421350320
+      BowlBlack_25: -7110803214564035188
+      BowlBlack_26: -1700336886290773114
+      BowlBlack_27: -7290893444077561102
+      BowlBlack_28: 3567141930388971807
+      BowlBlack_29: 1122905615949281556
+      BowlBlack_3: -2315002857663285584
+      BowlBlack_30: 5924781433735366838
+      BowlBlack_31: 2022857777349505307
+      BowlBlack_32: -8560888683627187584
+      BowlBlack_33: -4115199032529756919
+      BowlBlack_34: 8151337981350439960
+      BowlBlack_35: -4470593969170559523
+      BowlBlack_4: -965350845634103527
+      BowlBlack_5: 1138152216100210617
+      BowlBlack_6: -5224004923093382702
+      BowlBlack_7: 404855401953457585
+      BowlBlack_8: -5049401251949796492
+      BowlBlack_9: 4872364647589472127
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

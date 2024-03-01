@@ -111,7 +111,7 @@ TextureImporter:
       213: 3126559416293501366
     second: FEMM_DressShirt-BuffaloPlaid_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      FEMM_DressShirt-BuffaloPlaid_0: -7579172124393494164
+      FEMM_DressShirt-BuffaloPlaid_1: 6798539131077364098
+      FEMM_DressShirt-BuffaloPlaid_10: 4671541226867636256
+      FEMM_DressShirt-BuffaloPlaid_11: 7311809017674969993
+      FEMM_DressShirt-BuffaloPlaid_12: 1694117394386155468
+      FEMM_DressShirt-BuffaloPlaid_13: -5783555845189992780
+      FEMM_DressShirt-BuffaloPlaid_14: 6130236819804114226
+      FEMM_DressShirt-BuffaloPlaid_15: 266670948933379541
+      FEMM_DressShirt-BuffaloPlaid_16: 5533749810490074313
+      FEMM_DressShirt-BuffaloPlaid_17: 7862756491227339713
+      FEMM_DressShirt-BuffaloPlaid_18: 4245356203997316694
+      FEMM_DressShirt-BuffaloPlaid_19: 2127165413703767203
+      FEMM_DressShirt-BuffaloPlaid_2: 1042412469606198211
+      FEMM_DressShirt-BuffaloPlaid_20: -7848399374748750942
+      FEMM_DressShirt-BuffaloPlaid_21: 7556434670845616088
+      FEMM_DressShirt-BuffaloPlaid_22: -7280117528714576276
+      FEMM_DressShirt-BuffaloPlaid_23: 4567216117260806329
+      FEMM_DressShirt-BuffaloPlaid_24: -6513003000477839973
+      FEMM_DressShirt-BuffaloPlaid_25: -2628740921346312883
+      FEMM_DressShirt-BuffaloPlaid_26: -7956587775570834455
+      FEMM_DressShirt-BuffaloPlaid_27: -7577269729247657499
+      FEMM_DressShirt-BuffaloPlaid_28: -481610293031446169
+      FEMM_DressShirt-BuffaloPlaid_29: 1636118696389010053
+      FEMM_DressShirt-BuffaloPlaid_3: 5617876587503376516
+      FEMM_DressShirt-BuffaloPlaid_30: -7150233183342547373
+      FEMM_DressShirt-BuffaloPlaid_31: 8860740450757493224
+      FEMM_DressShirt-BuffaloPlaid_32: -7207674454095912519
+      FEMM_DressShirt-BuffaloPlaid_33: -1952105167471138345
+      FEMM_DressShirt-BuffaloPlaid_34: 8499640191686947105
+      FEMM_DressShirt-BuffaloPlaid_35: 3126559416293501366
+      FEMM_DressShirt-BuffaloPlaid_4: 6942442803680888932
+      FEMM_DressShirt-BuffaloPlaid_5: 9202088312480471657
+      FEMM_DressShirt-BuffaloPlaid_6: 3881681783454566821
+      FEMM_DressShirt-BuffaloPlaid_7: -1253054654915339335
+      FEMM_DressShirt-BuffaloPlaid_8: -1564843254315190669
+      FEMM_DressShirt-BuffaloPlaid_9: -5054055338635685554
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

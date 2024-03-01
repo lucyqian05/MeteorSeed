@@ -111,7 +111,7 @@ TextureImporter:
       213: -6199273759078902148
     second: BobLightBrown_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      BobLightBrown_0: -6392511323417525363
+      BobLightBrown_1: 5038947363649969119
+      BobLightBrown_10: -4006717028062148313
+      BobLightBrown_11: -3286128495594172875
+      BobLightBrown_12: 5900099294775710181
+      BobLightBrown_13: -8856567047739054806
+      BobLightBrown_14: 9068000565839734367
+      BobLightBrown_15: -7679878675651342255
+      BobLightBrown_16: -6545009780360049938
+      BobLightBrown_17: 6374751423434905605
+      BobLightBrown_18: 1645846126683154062
+      BobLightBrown_19: 2253440507339428486
+      BobLightBrown_2: 6222914028247668310
+      BobLightBrown_20: -1011542347542202619
+      BobLightBrown_21: -7692301304545667511
+      BobLightBrown_22: -3688995894509826888
+      BobLightBrown_23: -4946081180912839863
+      BobLightBrown_24: -10885278462513884
+      BobLightBrown_25: 7239578445561510589
+      BobLightBrown_26: -1388545298788441840
+      BobLightBrown_27: -7365708039416552153
+      BobLightBrown_28: -8247785962517805616
+      BobLightBrown_29: 487269353737843505
+      BobLightBrown_3: -6025248104980854915
+      BobLightBrown_30: -6189556882006870966
+      BobLightBrown_31: -8238730303366484705
+      BobLightBrown_32: -9025661672474988937
+      BobLightBrown_33: 2092442119753598691
+      BobLightBrown_34: -4713014013312532364
+      BobLightBrown_35: -6199273759078902148
+      BobLightBrown_4: -385524604070257315
+      BobLightBrown_5: -6139313172125493085
+      BobLightBrown_6: 2685095858009111221
+      BobLightBrown_7: 4503358878938208975
+      BobLightBrown_8: -7763544320349518833
+      BobLightBrown_9: -9155143956834176165
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

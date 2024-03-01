@@ -111,7 +111,7 @@ TextureImporter:
       213: 453958362674504132
     second: BrownBuzz_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      BrownBuzz_0: -7240578346059785420
+      BrownBuzz_1: 4209753493389624033
+      BrownBuzz_10: -2495594004353675450
+      BrownBuzz_11: 548991552388131585
+      BrownBuzz_12: 2848126930792873402
+      BrownBuzz_13: 8623065409885743513
+      BrownBuzz_14: 628973617712248167
+      BrownBuzz_15: 6803326925980150417
+      BrownBuzz_16: -3903070678425966186
+      BrownBuzz_17: 5490636962983078517
+      BrownBuzz_18: -7413506186048662917
+      BrownBuzz_19: 4117456317751076537
+      BrownBuzz_2: 3027328306801168012
+      BrownBuzz_20: 1806521813346992152
+      BrownBuzz_21: 3400328545835983807
+      BrownBuzz_22: 5294452024930899587
+      BrownBuzz_23: -2475671158677397059
+      BrownBuzz_24: 7167113559742499927
+      BrownBuzz_25: -1178324127480222716
+      BrownBuzz_26: -346828221936692317
+      BrownBuzz_27: 6330839134711898811
+      BrownBuzz_28: 6896994352402053002
+      BrownBuzz_29: 7474134239800998548
+      BrownBuzz_3: 6260697465447477468
+      BrownBuzz_30: -7142855051440931990
+      BrownBuzz_31: -6652822154298349992
+      BrownBuzz_32: -2318918438271426805
+      BrownBuzz_33: 6701743826588452571
+      BrownBuzz_34: 4121916783109116248
+      BrownBuzz_35: 453958362674504132
+      BrownBuzz_4: -8363846947027047416
+      BrownBuzz_5: 5586991995762556758
+      BrownBuzz_6: -7456777642510005364
+      BrownBuzz_7: 429462670761493171
+      BrownBuzz_8: -6690532560130659401
+      BrownBuzz_9: -7336116592461561259
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

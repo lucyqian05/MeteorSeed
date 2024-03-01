@@ -111,7 +111,7 @@ TextureImporter:
       213: 7128335180745690678
     second: CrewBlack_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      CrewBlack_0: -7603925648042793270
+      CrewBlack_1: -8870047406717747979
+      CrewBlack_10: -2846077061239204040
+      CrewBlack_11: -2228664627200299275
+      CrewBlack_12: 2529383645331497656
+      CrewBlack_13: 4797086953824776893
+      CrewBlack_14: -635121269564512940
+      CrewBlack_15: -7960427840873536712
+      CrewBlack_16: -3655059283011879697
+      CrewBlack_17: 1432251980977966748
+      CrewBlack_18: -5478328164394796445
+      CrewBlack_19: -6075855523768345828
+      CrewBlack_2: -3727439917490897312
+      CrewBlack_20: -6055098555833553405
+      CrewBlack_21: -5442873943589851465
+      CrewBlack_22: 3570798645928664208
+      CrewBlack_23: -3741826766468875158
+      CrewBlack_24: 4100768059795470385
+      CrewBlack_25: -1729232925815734766
+      CrewBlack_26: 4045898017070219966
+      CrewBlack_27: -1217650596616777822
+      CrewBlack_28: 6217534453028897452
+      CrewBlack_29: -2833120132856702214
+      CrewBlack_3: 2940667064765071145
+      CrewBlack_30: 674329792232678863
+      CrewBlack_31: 2431120383268969264
+      CrewBlack_32: -6080743323997910506
+      CrewBlack_33: 7479721921047576493
+      CrewBlack_34: 4233689006133891077
+      CrewBlack_35: 7128335180745690678
+      CrewBlack_4: -9144069879760004067
+      CrewBlack_5: -5718968307437247927
+      CrewBlack_6: -3518213478695311565
+      CrewBlack_7: 6804783184571572828
+      CrewBlack_8: -362118126874228117
+      CrewBlack_9: -4194421816490324348
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -111,7 +111,7 @@ TextureImporter:
       213: -4120414995598410763
     second: Ametrine_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Ametrine_0: 8592650449274087877
+      Ametrine_1: 2492083451384019427
+      Ametrine_10: -8216964261550103067
+      Ametrine_11: -7559089108096912383
+      Ametrine_12: 3224154267846414473
+      Ametrine_13: -3781734349368639446
+      Ametrine_14: 5039302259185380757
+      Ametrine_15: 2717238271630874277
+      Ametrine_16: -540667643799676829
+      Ametrine_17: 8857570596167862928
+      Ametrine_18: -1893006579354245757
+      Ametrine_19: -6783499474214297214
+      Ametrine_2: -1204501728012955937
+      Ametrine_20: -2986672691060175922
+      Ametrine_21: 148730561919774290
+      Ametrine_22: -3302673769535032670
+      Ametrine_23: 2527129091451447762
+      Ametrine_24: -6832800713280451753
+      Ametrine_25: 1779041417658756724
+      Ametrine_26: -4754757135346392660
+      Ametrine_27: 2274788408442103657
+      Ametrine_28: 2856261731396603464
+      Ametrine_29: -3650542882876212072
+      Ametrine_3: 8848028853768137891
+      Ametrine_30: -6055254122998084724
+      Ametrine_31: -1201452802542939529
+      Ametrine_32: -309689548713277243
+      Ametrine_33: -8486950841491666607
+      Ametrine_34: -2469402435065708456
+      Ametrine_35: -4120414995598410763
+      Ametrine_4: -1105427788929014148
+      Ametrine_5: 1486005734269679917
+      Ametrine_6: -3755975752681204908
+      Ametrine_7: 1308333449312197614
+      Ametrine_8: 456484474413495406
+      Ametrine_9: 3313406426551231611
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -108,7 +108,7 @@ TextureImporter:
       213: 6097240216616835566
     second: Galaxy_34
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -125,9 +125,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -137,8 +140,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -159,10 +162,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -174,6 +182,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -186,6 +195,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -198,6 +208,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -210,6 +221,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -222,6 +234,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -234,6 +247,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -984,9 +998,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Galaxy_0: -6479558217058493216
+      Galaxy_1: 8306707933007563873
+      Galaxy_10: 563692556513071580
+      Galaxy_11: -3522959749767628445
+      Galaxy_12: 9204666316672023391
+      Galaxy_13: -513525309292031090
+      Galaxy_14: -6434695797764348483
+      Galaxy_15: 2364860350806736244
+      Galaxy_16: 2784926920747046088
+      Galaxy_17: 1685168508030811161
+      Galaxy_18: 6806432343594927395
+      Galaxy_19: -4114094465195013269
+      Galaxy_2: -223012594602554572
+      Galaxy_20: -2343478274985635661
+      Galaxy_21: 4174320417789653883
+      Galaxy_22: 4961021463629640130
+      Galaxy_23: 954085536963304268
+      Galaxy_24: -5507832435071555096
+      Galaxy_25: -4067293184698361062
+      Galaxy_26: 9112198713574033748
+      Galaxy_27: -1796504998208748171
+      Galaxy_28: -6437128580355496968
+      Galaxy_29: 7087346749448159262
+      Galaxy_3: 4224560127341853013
+      Galaxy_30: -3505641558882951225
+      Galaxy_31: 3198034228986844890
+      Galaxy_32: 2691404629646317016
+      Galaxy_33: 2153281317406262579
+      Galaxy_34: 6097240216616835566
+      Galaxy_4: -2858443743386202875
+      Galaxy_5: -5050861801982604894
+      Galaxy_6: -5326123963990788325
+      Galaxy_7: -6043155652746328915
+      Galaxy_8: 8891971773367977489
+      Galaxy_9: -5792513896673697425
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

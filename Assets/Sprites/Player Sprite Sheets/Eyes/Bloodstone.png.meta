@@ -108,7 +108,7 @@ TextureImporter:
       213: -9093894379763659988
     second: Bloodstone_34
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -125,9 +125,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -137,8 +140,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -159,10 +162,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -174,6 +182,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -186,6 +195,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -198,6 +208,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -210,6 +221,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -222,6 +234,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -234,6 +247,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -984,9 +998,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Bloodstone_0: 806278141623103175
+      Bloodstone_1: 2553278091057106522
+      Bloodstone_10: 612813280283501709
+      Bloodstone_11: -6418356641337122654
+      Bloodstone_12: 5680101934106822688
+      Bloodstone_13: -856223666800913533
+      Bloodstone_14: -1380803751219226896
+      Bloodstone_15: -4737708796857206938
+      Bloodstone_16: 716407675484890582
+      Bloodstone_17: -8481871032399905771
+      Bloodstone_18: 7217056063339898194
+      Bloodstone_19: 6713697491564164952
+      Bloodstone_2: -199087660107699951
+      Bloodstone_20: 3372279330322210663
+      Bloodstone_21: -9195428810753740029
+      Bloodstone_22: -3257849344768824094
+      Bloodstone_23: -347511653030759679
+      Bloodstone_24: -2859390097636277763
+      Bloodstone_25: 4374158569955677852
+      Bloodstone_26: -7879932298617150753
+      Bloodstone_27: 7408865263083232749
+      Bloodstone_28: 2278853040419843481
+      Bloodstone_29: 1209467259105309177
+      Bloodstone_3: -7658798004339364562
+      Bloodstone_30: -5874685812825751968
+      Bloodstone_31: -4133250698026857863
+      Bloodstone_32: 3886211030229711461
+      Bloodstone_33: -8048050688234180771
+      Bloodstone_34: -9093894379763659988
+      Bloodstone_4: 4724448920797888074
+      Bloodstone_5: -1257154010776314247
+      Bloodstone_6: 8497461236991336862
+      Bloodstone_7: -6554288292276479472
+      Bloodstone_8: 5712694216332347915
+      Bloodstone_9: 4046800287394687454
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

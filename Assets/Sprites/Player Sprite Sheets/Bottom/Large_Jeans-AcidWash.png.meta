@@ -111,7 +111,7 @@ TextureImporter:
       213: 5000658184155596319
     second: Large_Jeans-AcidWash_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Large_Jeans-AcidWash_0: 674098929641804789
+      Large_Jeans-AcidWash_1: -5154670246771897473
+      Large_Jeans-AcidWash_10: 2186296802260295267
+      Large_Jeans-AcidWash_11: 5351968892253338856
+      Large_Jeans-AcidWash_12: 6107211706768989032
+      Large_Jeans-AcidWash_13: -9013169491387272852
+      Large_Jeans-AcidWash_14: 4209148124339963896
+      Large_Jeans-AcidWash_15: -7643395859344995446
+      Large_Jeans-AcidWash_16: 6545224192167256203
+      Large_Jeans-AcidWash_17: 829119334435162618
+      Large_Jeans-AcidWash_18: 8659119841564465616
+      Large_Jeans-AcidWash_19: -8578439406476445832
+      Large_Jeans-AcidWash_2: -4519189474241474355
+      Large_Jeans-AcidWash_20: -235707604230319045
+      Large_Jeans-AcidWash_21: -8718579653566985578
+      Large_Jeans-AcidWash_22: 3253237125472366339
+      Large_Jeans-AcidWash_23: -3558142839523041375
+      Large_Jeans-AcidWash_24: 5652006141811580856
+      Large_Jeans-AcidWash_25: 6426471458527150898
+      Large_Jeans-AcidWash_26: -343502753627400211
+      Large_Jeans-AcidWash_27: 8013220271041276386
+      Large_Jeans-AcidWash_28: 4860039468311548737
+      Large_Jeans-AcidWash_29: 4759347358605010106
+      Large_Jeans-AcidWash_3: 6685733071198988902
+      Large_Jeans-AcidWash_30: 8947187537734852366
+      Large_Jeans-AcidWash_31: -2200068908259659547
+      Large_Jeans-AcidWash_32: -936966399374487842
+      Large_Jeans-AcidWash_33: 1974308410715727935
+      Large_Jeans-AcidWash_34: -6916082195932881461
+      Large_Jeans-AcidWash_35: 5000658184155596319
+      Large_Jeans-AcidWash_4: 5193202316303988931
+      Large_Jeans-AcidWash_5: 6396439269985169144
+      Large_Jeans-AcidWash_6: -2243546524270907606
+      Large_Jeans-AcidWash_7: 588951491832865041
+      Large_Jeans-AcidWash_8: 4536843461584747859
+      Large_Jeans-AcidWash_9: 4277719770333087627
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -111,7 +111,7 @@ TextureImporter:
       213: -1118552544616453238
     second: Large_Overalls-AcidWash_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Large_Overalls-AcidWash_0: -1898990853647473172
+      Large_Overalls-AcidWash_1: -7827543350607754841
+      Large_Overalls-AcidWash_10: 2715336725001115390
+      Large_Overalls-AcidWash_11: 8574657475889206652
+      Large_Overalls-AcidWash_12: 6866249827660632748
+      Large_Overalls-AcidWash_13: 388091454480030544
+      Large_Overalls-AcidWash_14: -6155039267231730558
+      Large_Overalls-AcidWash_15: -4484186636502334360
+      Large_Overalls-AcidWash_16: 8028876123754797626
+      Large_Overalls-AcidWash_17: 3326417264703930047
+      Large_Overalls-AcidWash_18: -2734949531702992456
+      Large_Overalls-AcidWash_19: 7928203506420871020
+      Large_Overalls-AcidWash_2: -8093210670960793039
+      Large_Overalls-AcidWash_20: 7184130539497798643
+      Large_Overalls-AcidWash_21: 7716398465349064409
+      Large_Overalls-AcidWash_22: -1040949358391882215
+      Large_Overalls-AcidWash_23: -8445830944656743675
+      Large_Overalls-AcidWash_24: -4061925585906871542
+      Large_Overalls-AcidWash_25: 117833941677185281
+      Large_Overalls-AcidWash_26: 6010472709750007624
+      Large_Overalls-AcidWash_27: 6550366595427241560
+      Large_Overalls-AcidWash_28: -1602031267200261464
+      Large_Overalls-AcidWash_29: -6525940720185723780
+      Large_Overalls-AcidWash_3: 6015807235785719910
+      Large_Overalls-AcidWash_30: 7969000223172863391
+      Large_Overalls-AcidWash_31: -4119953898244190102
+      Large_Overalls-AcidWash_32: 5519498048895098904
+      Large_Overalls-AcidWash_33: 4591666423454372421
+      Large_Overalls-AcidWash_34: 4553918106530783697
+      Large_Overalls-AcidWash_35: -1118552544616453238
+      Large_Overalls-AcidWash_4: 8001774405182459473
+      Large_Overalls-AcidWash_5: -4770918706081999172
+      Large_Overalls-AcidWash_6: 3538631919500248936
+      Large_Overalls-AcidWash_7: -5364691071479714268
+      Large_Overalls-AcidWash_8: -6031181187337850539
+      Large_Overalls-AcidWash_9: -7337955099032489772
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

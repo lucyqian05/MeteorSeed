@@ -111,7 +111,7 @@ TextureImporter:
       213: -4653064046438004717
     second: Large_Jeans-Denim_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Large_Jeans-Denim_0: -6046677383724119664
+      Large_Jeans-Denim_1: 6255896387136084267
+      Large_Jeans-Denim_10: 3570740043729042975
+      Large_Jeans-Denim_11: 8045527845217514296
+      Large_Jeans-Denim_12: -489007795091941340
+      Large_Jeans-Denim_13: -7584024889735364668
+      Large_Jeans-Denim_14: 6593969275321731251
+      Large_Jeans-Denim_15: 1708178542818664143
+      Large_Jeans-Denim_16: -7237025473729049126
+      Large_Jeans-Denim_17: 5524687497492319900
+      Large_Jeans-Denim_18: 7894572051377776740
+      Large_Jeans-Denim_19: 5070083979332868465
+      Large_Jeans-Denim_2: 8802875466499280094
+      Large_Jeans-Denim_20: -3600683749951420687
+      Large_Jeans-Denim_21: 1955390752374890916
+      Large_Jeans-Denim_22: 7444407416865370274
+      Large_Jeans-Denim_23: 1649624012191186083
+      Large_Jeans-Denim_24: 2207428284344324045
+      Large_Jeans-Denim_25: 6217089806855158147
+      Large_Jeans-Denim_26: -908789267825639758
+      Large_Jeans-Denim_27: -7296395787311712649
+      Large_Jeans-Denim_28: 7595595994154653764
+      Large_Jeans-Denim_29: -8705273992391891042
+      Large_Jeans-Denim_3: -1630115791696899310
+      Large_Jeans-Denim_30: 2490823091250916473
+      Large_Jeans-Denim_31: 6671188952107762081
+      Large_Jeans-Denim_32: -5834308934561894511
+      Large_Jeans-Denim_33: 8051293258813967813
+      Large_Jeans-Denim_34: 3238984973158108539
+      Large_Jeans-Denim_35: -4653064046438004717
+      Large_Jeans-Denim_4: 3895654944774905397
+      Large_Jeans-Denim_5: 7667528660410606846
+      Large_Jeans-Denim_6: 3005065971822076314
+      Large_Jeans-Denim_7: 1503189265793551886
+      Large_Jeans-Denim_8: 3114142047201807081
+      Large_Jeans-Denim_9: 5044400612563728820
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

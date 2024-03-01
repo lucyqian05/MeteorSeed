@@ -111,7 +111,7 @@ TextureImporter:
       213: 4441838639843541719
     second: BowlRed_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      BowlRed_0: -6785520543658187894
+      BowlRed_1: 360147310271030201
+      BowlRed_10: 8118362180550014287
+      BowlRed_11: -1970234027424758227
+      BowlRed_12: 6073492115323666846
+      BowlRed_13: 4445518232202294934
+      BowlRed_14: 66682304406962564
+      BowlRed_15: -3787050502517066997
+      BowlRed_16: -6934020397102338789
+      BowlRed_17: 7097878320222486769
+      BowlRed_18: -6090124404734183342
+      BowlRed_19: 8185489320414188600
+      BowlRed_2: 1046243156678225897
+      BowlRed_20: -5540529600397844164
+      BowlRed_21: -8013007375626617702
+      BowlRed_22: -5409681174805811612
+      BowlRed_23: 9102742053522807861
+      BowlRed_24: -4510573545388608155
+      BowlRed_25: 3214557625296778283
+      BowlRed_26: -6886486299800223742
+      BowlRed_27: -1574818908190830017
+      BowlRed_28: -540045497795690994
+      BowlRed_29: 2095070515320709578
+      BowlRed_3: -6573688129929976020
+      BowlRed_30: 5758081524013185820
+      BowlRed_31: 830564849074718353
+      BowlRed_32: -4918889949943454403
+      BowlRed_33: -558244483992008394
+      BowlRed_34: -8169756629542877055
+      BowlRed_35: 4441838639843541719
+      BowlRed_4: 7621171280290859384
+      BowlRed_5: 697795266675803545
+      BowlRed_6: 4855963357427928544
+      BowlRed_7: 1008846443191784084
+      BowlRed_8: 4040108964559119529
+      BowlRed_9: 8650682060528985189
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

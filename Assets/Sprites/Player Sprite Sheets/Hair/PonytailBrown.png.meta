@@ -111,7 +111,7 @@ TextureImporter:
       213: -7278151778227756024
     second: PonytailBrown_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      PonytailBrown_0: -8559652267118139618
+      PonytailBrown_1: -6940670120353649578
+      PonytailBrown_10: -262054517636747872
+      PonytailBrown_11: 6224097538595163845
+      PonytailBrown_12: -2017558230008094126
+      PonytailBrown_13: -8500911781380473030
+      PonytailBrown_14: -5402717029784190055
+      PonytailBrown_15: -6377572013969381183
+      PonytailBrown_16: -9087436928507946511
+      PonytailBrown_17: 3153552935235392906
+      PonytailBrown_18: -8553005958961715687
+      PonytailBrown_19: 4520723082599906213
+      PonytailBrown_2: 8618984348180375743
+      PonytailBrown_20: -6927630592224024561
+      PonytailBrown_21: 7491998313966288183
+      PonytailBrown_22: -5754451413273484166
+      PonytailBrown_23: -928363319610597495
+      PonytailBrown_24: 1286475738056412617
+      PonytailBrown_25: 1499356238543890520
+      PonytailBrown_26: -8332607901482258643
+      PonytailBrown_27: -832893423874362706
+      PonytailBrown_28: -3871392819441632945
+      PonytailBrown_29: 6923127950045071789
+      PonytailBrown_3: -5789575256360480966
+      PonytailBrown_30: 1559497182766632314
+      PonytailBrown_31: 2961243805287354173
+      PonytailBrown_32: -446764669041621002
+      PonytailBrown_33: 9067143674902757367
+      PonytailBrown_34: -5765255030006373704
+      PonytailBrown_35: -7278151778227756024
+      PonytailBrown_4: -6153280596117582864
+      PonytailBrown_5: 478078749005367047
+      PonytailBrown_6: -2489904104212644492
+      PonytailBrown_7: 462446464351996316
+      PonytailBrown_8: 4117361103374355843
+      PonytailBrown_9: 7293617863421820386
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

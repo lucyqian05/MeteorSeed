@@ -111,7 +111,7 @@ TextureImporter:
       213: 2329070686213934667
     second: Medium_Jeans-Black_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Medium_Jeans-Black_0: -442531097921785615
+      Medium_Jeans-Black_1: 3109842708898961208
+      Medium_Jeans-Black_10: -1298783069219950754
+      Medium_Jeans-Black_11: -3387878975448953905
+      Medium_Jeans-Black_12: 6253206418980895423
+      Medium_Jeans-Black_13: 3057450598852052150
+      Medium_Jeans-Black_14: 5788842665277238004
+      Medium_Jeans-Black_15: 1679023678222870561
+      Medium_Jeans-Black_16: -8655477433507846281
+      Medium_Jeans-Black_17: 4129504727129506168
+      Medium_Jeans-Black_18: -2573168323644510825
+      Medium_Jeans-Black_19: 8688953949139783335
+      Medium_Jeans-Black_2: -6370909887068659144
+      Medium_Jeans-Black_20: -1879989624332610302
+      Medium_Jeans-Black_21: -1197601661670089497
+      Medium_Jeans-Black_22: 3089336780200753168
+      Medium_Jeans-Black_23: 6514905933193382764
+      Medium_Jeans-Black_24: 1585885612409073620
+      Medium_Jeans-Black_25: -888260228519379974
+      Medium_Jeans-Black_26: 1759633353069891143
+      Medium_Jeans-Black_27: -3053780278722027718
+      Medium_Jeans-Black_28: 8716187591151631228
+      Medium_Jeans-Black_29: -430644503657553024
+      Medium_Jeans-Black_3: -2438340769528386528
+      Medium_Jeans-Black_30: 962401002955698881
+      Medium_Jeans-Black_31: -3642450615232588309
+      Medium_Jeans-Black_32: -5957572569888762880
+      Medium_Jeans-Black_33: 4387092737213802955
+      Medium_Jeans-Black_34: -7859192834827849222
+      Medium_Jeans-Black_35: 2329070686213934667
+      Medium_Jeans-Black_4: 5531675192603986737
+      Medium_Jeans-Black_5: -4419864103234693890
+      Medium_Jeans-Black_6: -4671272181855867963
+      Medium_Jeans-Black_7: -1998085448402831577
+      Medium_Jeans-Black_8: 8193171521305132429
+      Medium_Jeans-Black_9: 2587213635313905066
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

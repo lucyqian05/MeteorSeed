@@ -21,7 +21,7 @@ public class InventoryUI : MonoBehaviour
 
     private int currentlyDraggedItemIndex = -1;
 
-    public event Action<int> OnDescriptionRequested,
+    public event Action<int> //OnDescriptionRequested,
         OnItemActionRequested,
         OnStartDragging;
 
@@ -65,7 +65,8 @@ public class InventoryUI : MonoBehaviour
         int index = listOfUIItems.IndexOf(inventoryItemUI);
         if (index == -1)
             return;
-        OnDescriptionRequested?.Invoke(index);
+        DeselectAllItems();
+        listOfUIItems[index].Selection();
     }
 
     private void HandleBeginDrag(InventoryItemUI inventoryItemUI)
@@ -112,10 +113,10 @@ public class InventoryUI : MonoBehaviour
 
     private void ResetSelection()
     {
-        DeselctAllItems();
+        DeselectAllItems();
     }
 
-    private void DeselctAllItems()
+    private void DeselectAllItems()
     {
         foreach (InventoryItemUI item in listOfUIItems)
         {

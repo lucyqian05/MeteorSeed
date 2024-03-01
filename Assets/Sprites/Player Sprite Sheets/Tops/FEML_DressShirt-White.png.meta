@@ -111,7 +111,7 @@ TextureImporter:
       213: -2153047625287814321
     second: FEML_DressShirt-White_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      FEML_DressShirt-White_0: 802448423632756052
+      FEML_DressShirt-White_1: 1479715340464311474
+      FEML_DressShirt-White_10: 4132750338234298917
+      FEML_DressShirt-White_11: -2944428695194440050
+      FEML_DressShirt-White_12: -3568179180192998950
+      FEML_DressShirt-White_13: -7949794298968929153
+      FEML_DressShirt-White_14: -9087921048148514195
+      FEML_DressShirt-White_15: 3694838453007267460
+      FEML_DressShirt-White_16: -285817999407408526
+      FEML_DressShirt-White_17: 1424813056662138962
+      FEML_DressShirt-White_18: -4655967471424217434
+      FEML_DressShirt-White_19: 5491374521930560047
+      FEML_DressShirt-White_2: -5459353527600176224
+      FEML_DressShirt-White_20: 7107511758596661712
+      FEML_DressShirt-White_21: 2986158219864603280
+      FEML_DressShirt-White_22: -7575040027423183268
+      FEML_DressShirt-White_23: -4383203453522372193
+      FEML_DressShirt-White_24: 7781094452946425189
+      FEML_DressShirt-White_25: 1830372449217986796
+      FEML_DressShirt-White_26: 9201093311145203412
+      FEML_DressShirt-White_27: -6583121598225918814
+      FEML_DressShirt-White_28: -9051371716307852999
+      FEML_DressShirt-White_29: -3440878112027012445
+      FEML_DressShirt-White_3: -2111285241982757949
+      FEML_DressShirt-White_30: 4169225493922021565
+      FEML_DressShirt-White_31: 8327816719602953945
+      FEML_DressShirt-White_32: -8935862957470792368
+      FEML_DressShirt-White_33: 4093765757020544817
+      FEML_DressShirt-White_34: -8936411016883358273
+      FEML_DressShirt-White_35: -2153047625287814321
+      FEML_DressShirt-White_4: -3389443727293166920
+      FEML_DressShirt-White_5: -4420231488120506689
+      FEML_DressShirt-White_6: 8954388567203072143
+      FEML_DressShirt-White_7: 5444620976793920295
+      FEML_DressShirt-White_8: -7069535883611733710
+      FEML_DressShirt-White_9: 1382650411833815294
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

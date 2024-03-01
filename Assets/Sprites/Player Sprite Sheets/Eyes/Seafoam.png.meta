@@ -108,7 +108,7 @@ TextureImporter:
       213: 602252602602901112
     second: Seafoam_34
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -125,9 +125,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -137,8 +140,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -159,10 +162,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -174,6 +182,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -186,6 +195,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -198,6 +208,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -210,6 +221,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -222,6 +234,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -234,6 +247,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -984,9 +998,44 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Seafoam_0: -5593769037848305243
+      Seafoam_1: 1295741121021312933
+      Seafoam_10: 7380276450327862425
+      Seafoam_11: -2388914479518892465
+      Seafoam_12: 891379163248026189
+      Seafoam_13: -82559417734061831
+      Seafoam_14: 1641284891179777169
+      Seafoam_15: -9032838955138532881
+      Seafoam_16: 2493768666136295376
+      Seafoam_17: 8669428242781994344
+      Seafoam_18: -3716110786204053440
+      Seafoam_19: 3396146187308903457
+      Seafoam_2: 3336940208962081048
+      Seafoam_20: 3699710101744932140
+      Seafoam_21: -502614149728788293
+      Seafoam_22: 7599712523619396357
+      Seafoam_23: 4427499392850966808
+      Seafoam_24: -1662040166856497041
+      Seafoam_25: -5772259950969697055
+      Seafoam_26: -5969051092458751219
+      Seafoam_27: -936697413261971099
+      Seafoam_28: -7118273173557610580
+      Seafoam_29: -3903562560235555258
+      Seafoam_3: -4294661343103413024
+      Seafoam_30: -2245988889419008193
+      Seafoam_31: 2574700995333576794
+      Seafoam_32: 982131418937442299
+      Seafoam_33: 597608765784705489
+      Seafoam_34: 602252602602901112
+      Seafoam_4: -5574142265439920628
+      Seafoam_5: -6125962959187320730
+      Seafoam_6: 578914714877856966
+      Seafoam_7: -4493945008888506571
+      Seafoam_8: 7021559273807868493
+      Seafoam_9: -8901452908208852435
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

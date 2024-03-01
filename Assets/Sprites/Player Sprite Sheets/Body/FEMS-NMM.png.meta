@@ -111,7 +111,7 @@ TextureImporter:
       213: -7344861819070254543
     second: FEMS-NMM_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      FEMS-NMM_0: 8647173736750195398
+      FEMS-NMM_1: 8473561135757525227
+      FEMS-NMM_10: 2045272407119272340
+      FEMS-NMM_11: -7161682497238798219
+      FEMS-NMM_12: 8492529560858092242
+      FEMS-NMM_13: 8391391984305170103
+      FEMS-NMM_14: -1544924862164023735
+      FEMS-NMM_15: -2002332315561827133
+      FEMS-NMM_16: 1214787812958975202
+      FEMS-NMM_17: 4055900874040022206
+      FEMS-NMM_18: -3890009284146990451
+      FEMS-NMM_19: 1636435303329501278
+      FEMS-NMM_2: 1883615116718256606
+      FEMS-NMM_20: 2548120954057429875
+      FEMS-NMM_21: -257247922202620323
+      FEMS-NMM_22: -436743701310202214
+      FEMS-NMM_23: -6479967522673810781
+      FEMS-NMM_24: 1057443259067650598
+      FEMS-NMM_25: -1900548173409159461
+      FEMS-NMM_26: -7623100433041557741
+      FEMS-NMM_27: 3982308590133992214
+      FEMS-NMM_28: 2407046288347924657
+      FEMS-NMM_29: -3317004721686741480
+      FEMS-NMM_3: 7503622545288969863
+      FEMS-NMM_30: -6813634410106386806
+      FEMS-NMM_31: 671141995958044017
+      FEMS-NMM_32: -4157012414505523820
+      FEMS-NMM_33: -2854797139026450531
+      FEMS-NMM_34: -8171292728725793210
+      FEMS-NMM_35: -7344861819070254543
+      FEMS-NMM_4: 625497577477703454
+      FEMS-NMM_5: -8544898099423362247
+      FEMS-NMM_6: 3186795612020138800
+      FEMS-NMM_7: -6906548516397915202
+      FEMS-NMM_8: 7081187669903261777
+      FEMS-NMM_9: -352897551384881454
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

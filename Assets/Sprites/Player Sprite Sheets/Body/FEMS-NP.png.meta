@@ -111,7 +111,7 @@ TextureImporter:
       213: 5460387411000187216
     second: FEMS-NP_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      FEMS-NP_0: 124663120959204871
+      FEMS-NP_1: -5455426626632582423
+      FEMS-NP_10: 704183761902626369
+      FEMS-NP_11: 235896720583229546
+      FEMS-NP_12: 6494874819033222800
+      FEMS-NP_13: 6484956968281032593
+      FEMS-NP_14: -1502711764246900432
+      FEMS-NP_15: 6910387404151720332
+      FEMS-NP_16: -6600082540136777035
+      FEMS-NP_17: 4760003429838988218
+      FEMS-NP_18: -6445538254392526649
+      FEMS-NP_19: -368018869478573324
+      FEMS-NP_2: -3620738104237827273
+      FEMS-NP_20: 5522239766268928988
+      FEMS-NP_21: 16984155507005668
+      FEMS-NP_22: -1867455619892038469
+      FEMS-NP_23: -5870947019508732253
+      FEMS-NP_24: -8885413929256491258
+      FEMS-NP_25: -4651294127805833687
+      FEMS-NP_26: 5592916517394037212
+      FEMS-NP_27: -2148208352736735868
+      FEMS-NP_28: -6834635486987082147
+      FEMS-NP_29: -7283388199268783090
+      FEMS-NP_3: 3217604189551306663
+      FEMS-NP_30: 5043280932743730117
+      FEMS-NP_31: 7728778497611872329
+      FEMS-NP_32: 690747148876407388
+      FEMS-NP_33: -6240673683273776894
+      FEMS-NP_34: -835252443789173723
+      FEMS-NP_35: 5460387411000187216
+      FEMS-NP_4: 4957832464359095109
+      FEMS-NP_5: 5964629396922829666
+      FEMS-NP_6: -7269585320249491974
+      FEMS-NP_7: -5880606372138086231
+      FEMS-NP_8: 8855005883246211299
+      FEMS-NP_9: -6961588905961356577
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -135,7 +135,7 @@ TextureImporter:
       213: -2118398254369616620
     second: MS_SeasonalCrops_TileSheet_43
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -152,9 +152,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -164,8 +167,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -186,10 +189,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -201,6 +209,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +222,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +235,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +248,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -249,6 +261,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -261,6 +274,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1200,9 +1214,53 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      MS_SeasonalCrops_TileSheet_0: 2715898844557341338
+      MS_SeasonalCrops_TileSheet_1: 8428493707995767794
+      MS_SeasonalCrops_TileSheet_10: -2748856898905938425
+      MS_SeasonalCrops_TileSheet_11: -3559642172489160018
+      MS_SeasonalCrops_TileSheet_12: 1653636751500457230
+      MS_SeasonalCrops_TileSheet_13: 2083002875281420749
+      MS_SeasonalCrops_TileSheet_14: -1421005924597956279
+      MS_SeasonalCrops_TileSheet_15: -1338855327834830479
+      MS_SeasonalCrops_TileSheet_16: -8078015553115546981
+      MS_SeasonalCrops_TileSheet_17: 6635420970864062270
+      MS_SeasonalCrops_TileSheet_18: 2904426291121241391
+      MS_SeasonalCrops_TileSheet_19: -3220916196052600568
+      MS_SeasonalCrops_TileSheet_2: -6961634215081234303
+      MS_SeasonalCrops_TileSheet_20: 1663489353707276617
+      MS_SeasonalCrops_TileSheet_21: -8449357259707245382
+      MS_SeasonalCrops_TileSheet_22: 8109611079035653238
+      MS_SeasonalCrops_TileSheet_23: -8096917510463411108
+      MS_SeasonalCrops_TileSheet_24: 6770173916087534481
+      MS_SeasonalCrops_TileSheet_25: 3159970361247512293
+      MS_SeasonalCrops_TileSheet_26: -4323067513334977305
+      MS_SeasonalCrops_TileSheet_27: -550354064501852244
+      MS_SeasonalCrops_TileSheet_28: -941570291552567078
+      MS_SeasonalCrops_TileSheet_29: -9133172294053860432
+      MS_SeasonalCrops_TileSheet_3: 263832062687388113
+      MS_SeasonalCrops_TileSheet_30: -3894793645846807339
+      MS_SeasonalCrops_TileSheet_31: 4036227964114789800
+      MS_SeasonalCrops_TileSheet_32: -4645003801526567803
+      MS_SeasonalCrops_TileSheet_33: 5143196926784028372
+      MS_SeasonalCrops_TileSheet_34: 3811530863081090733
+      MS_SeasonalCrops_TileSheet_35: -682993646260003483
+      MS_SeasonalCrops_TileSheet_36: 2254658984909884574
+      MS_SeasonalCrops_TileSheet_37: 6286878570355819618
+      MS_SeasonalCrops_TileSheet_38: -720902069423347901
+      MS_SeasonalCrops_TileSheet_39: -7660593057937276763
+      MS_SeasonalCrops_TileSheet_4: 2256588142271334345
+      MS_SeasonalCrops_TileSheet_40: -6746950864682954696
+      MS_SeasonalCrops_TileSheet_41: 2418100177915439946
+      MS_SeasonalCrops_TileSheet_42: -5653242402245517068
+      MS_SeasonalCrops_TileSheet_43: -2118398254369616620
+      MS_SeasonalCrops_TileSheet_5: 2816555108326864377
+      MS_SeasonalCrops_TileSheet_6: 6108389987864243323
+      MS_SeasonalCrops_TileSheet_7: -279631877747444721
+      MS_SeasonalCrops_TileSheet_8: -8250146567165467282
+      MS_SeasonalCrops_TileSheet_9: -5621970487442243027
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -111,7 +111,7 @@ TextureImporter:
       213: 629667634922040241
     second: Medium_Overalls-Denim_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Medium_Overalls-Denim_0: 3023907777551478836
+      Medium_Overalls-Denim_1: 3264850614908822100
+      Medium_Overalls-Denim_10: 5041941043066976473
+      Medium_Overalls-Denim_11: -7825060634015418013
+      Medium_Overalls-Denim_12: 215457826331532341
+      Medium_Overalls-Denim_13: -2477406026060546902
+      Medium_Overalls-Denim_14: -8433547985238462638
+      Medium_Overalls-Denim_15: 3583732570078836763
+      Medium_Overalls-Denim_16: 8911321554751671584
+      Medium_Overalls-Denim_17: -7004397465610258859
+      Medium_Overalls-Denim_18: 1354590798725535608
+      Medium_Overalls-Denim_19: -2817249053235880576
+      Medium_Overalls-Denim_2: 7193684886848295362
+      Medium_Overalls-Denim_20: -8923859423827441477
+      Medium_Overalls-Denim_21: 5750344560188013984
+      Medium_Overalls-Denim_22: -4823632749614255699
+      Medium_Overalls-Denim_23: -4421408245126352846
+      Medium_Overalls-Denim_24: -2285237813597368842
+      Medium_Overalls-Denim_25: 6143097427896275255
+      Medium_Overalls-Denim_26: -2347612940762529419
+      Medium_Overalls-Denim_27: -659036375672456598
+      Medium_Overalls-Denim_28: -9089103640444543390
+      Medium_Overalls-Denim_29: 4501464705801511020
+      Medium_Overalls-Denim_3: -435007442510930529
+      Medium_Overalls-Denim_30: 3420725477525458679
+      Medium_Overalls-Denim_31: 3897240716276201289
+      Medium_Overalls-Denim_32: -4694268749795951520
+      Medium_Overalls-Denim_33: 4067173372810305369
+      Medium_Overalls-Denim_34: -3778186637008309547
+      Medium_Overalls-Denim_35: 629667634922040241
+      Medium_Overalls-Denim_4: 4990666542129721454
+      Medium_Overalls-Denim_5: 2832035588155562419
+      Medium_Overalls-Denim_6: -822568938213234797
+      Medium_Overalls-Denim_7: -5571794147209871901
+      Medium_Overalls-Denim_8: -4267075918824640777
+      Medium_Overalls-Denim_9: 7927685019016830389
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

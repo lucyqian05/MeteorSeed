@@ -111,7 +111,7 @@ TextureImporter:
       213: 1555283752037258329
     second: Large_Jeans-Black_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Large_Jeans-Black_0: -6074398029297687715
+      Large_Jeans-Black_1: -2646861896533512286
+      Large_Jeans-Black_10: -6285749535641063941
+      Large_Jeans-Black_11: 5631130953154554494
+      Large_Jeans-Black_12: 362237072077843037
+      Large_Jeans-Black_13: -7462096571695879643
+      Large_Jeans-Black_14: 7821212126239549027
+      Large_Jeans-Black_15: -6478250531521020834
+      Large_Jeans-Black_16: -2654011361319143615
+      Large_Jeans-Black_17: 7074953281067144965
+      Large_Jeans-Black_18: 5272422692285824356
+      Large_Jeans-Black_19: -1401319116964436136
+      Large_Jeans-Black_2: 9163572272769463135
+      Large_Jeans-Black_20: 8359169003440973037
+      Large_Jeans-Black_21: -1666532624040660172
+      Large_Jeans-Black_22: 3120487636251918350
+      Large_Jeans-Black_23: -4030873074041420775
+      Large_Jeans-Black_24: -5479921751615379112
+      Large_Jeans-Black_25: -4578045524493259563
+      Large_Jeans-Black_26: -8651307484319157234
+      Large_Jeans-Black_27: 6743068868542582199
+      Large_Jeans-Black_28: 2248213095574702588
+      Large_Jeans-Black_29: -7867065548301948802
+      Large_Jeans-Black_3: 726965095531304695
+      Large_Jeans-Black_30: 5664359322429252235
+      Large_Jeans-Black_31: 6952979793650953965
+      Large_Jeans-Black_32: -3641961284803844891
+      Large_Jeans-Black_33: -2640606943778842566
+      Large_Jeans-Black_34: 3171908865511519143
+      Large_Jeans-Black_35: 1555283752037258329
+      Large_Jeans-Black_4: -1289121256135901387
+      Large_Jeans-Black_5: -3083913823568144222
+      Large_Jeans-Black_6: -1962118786930680433
+      Large_Jeans-Black_7: -8720629727951510530
+      Large_Jeans-Black_8: -3867325703211150402
+      Large_Jeans-Black_9: -8816452425994268667
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

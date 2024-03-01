@@ -111,7 +111,7 @@ TextureImporter:
       213: -7296270881225575235
     second: FEMM_Shirt-White_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      FEMM_Shirt-White_0: 8726207686380139558
+      FEMM_Shirt-White_1: -1270867894748047771
+      FEMM_Shirt-White_10: 3251976070112080233
+      FEMM_Shirt-White_11: 7707754129070148696
+      FEMM_Shirt-White_12: -6676600181883559792
+      FEMM_Shirt-White_13: -4260419509446010970
+      FEMM_Shirt-White_14: 2525640254294947990
+      FEMM_Shirt-White_15: -3465946954641276862
+      FEMM_Shirt-White_16: -4051689518343902089
+      FEMM_Shirt-White_17: -6353500500316368577
+      FEMM_Shirt-White_18: -2810390733336319941
+      FEMM_Shirt-White_19: -5532635450673739384
+      FEMM_Shirt-White_2: 5122485793132976798
+      FEMM_Shirt-White_20: 6490995014557211604
+      FEMM_Shirt-White_21: -5659833458477076466
+      FEMM_Shirt-White_22: 1017636721437938366
+      FEMM_Shirt-White_23: -2286634246229234619
+      FEMM_Shirt-White_24: 4782342794673274367
+      FEMM_Shirt-White_25: -6219718882772994938
+      FEMM_Shirt-White_26: -8259207644820116992
+      FEMM_Shirt-White_27: 8702108642735782890
+      FEMM_Shirt-White_28: -2507422822392176285
+      FEMM_Shirt-White_29: -2969530138014428063
+      FEMM_Shirt-White_3: 4671854986054275163
+      FEMM_Shirt-White_30: -2867195099517808991
+      FEMM_Shirt-White_31: 280205629694994323
+      FEMM_Shirt-White_32: -7928054616081045028
+      FEMM_Shirt-White_33: -5641770329123235826
+      FEMM_Shirt-White_34: 887408261850917953
+      FEMM_Shirt-White_35: -7296270881225575235
+      FEMM_Shirt-White_4: -3206349777867132335
+      FEMM_Shirt-White_5: 5187917143608583989
+      FEMM_Shirt-White_6: -8585112668789737484
+      FEMM_Shirt-White_7: -5946791358110476595
+      FEMM_Shirt-White_8: 5398146472500483770
+      FEMM_Shirt-White_9: 1139280902856496254
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

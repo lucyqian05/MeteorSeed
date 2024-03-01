@@ -29,6 +29,12 @@ public class InventoryItemUI : MonoBehaviour
         OnRightMouseBtnClick;
 
     private bool empty = true;
+    private bool itemDeselected = true;
+
+    public void Awake()
+    {
+        ResetData();
+    }
 
     public void SetData(Sprite sprite, int quantity)
     {
@@ -46,15 +52,31 @@ public class InventoryItemUI : MonoBehaviour
         
         empty = false; 
     }
-    
-    public void Select()
-    {
 
+    public void Selection()
+    {
+        if (itemDeselected)
+        {
+            border.enabled = true;
+            itemDeselected = false;
+        }
+        else
+        {
+            border.enabled = false;
+            itemDeselected = true;
+        }
     }
 
     public void Deselect()
     {
+        border.enabled = false;
+    }
 
+    public void ResetData()
+    {
+        this.itemImage.gameObject.SetActive(false);
+        empty = true;
+        itemDeselected = true; 
     }
 
     public void OnBeginDrag()
@@ -76,6 +98,8 @@ public class InventoryItemUI : MonoBehaviour
 
     public void OnPointerClick(BaseEventData data)
     {
+        if (empty)
+            return;
         PointerEventData pointerData = (PointerEventData)data;
         if(pointerData.button == PointerEventData.InputButton.Right)
         {

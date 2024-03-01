@@ -111,7 +111,7 @@ TextureImporter:
       213: -5999916948369680699
     second: MALL-ND_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,8 +143,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +224,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +237,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -237,6 +250,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1008,9 +1022,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      MALL-ND_0: -30012351592329419
+      MALL-ND_1: 6026882631379380801
+      MALL-ND_10: -4762808115023705129
+      MALL-ND_11: -9049703718844993909
+      MALL-ND_12: 8663279668464328363
+      MALL-ND_13: -1105039825060602381
+      MALL-ND_14: -3277097264067998864
+      MALL-ND_15: 4546562865466593988
+      MALL-ND_16: 3547554719408884059
+      MALL-ND_17: -4459899406172538290
+      MALL-ND_18: -8595514532345210517
+      MALL-ND_19: 3445707544571363903
+      MALL-ND_2: -970015256992720716
+      MALL-ND_20: 8654890327012302431
+      MALL-ND_21: 2388133064269597055
+      MALL-ND_22: 7944308997612117375
+      MALL-ND_23: -8153049202799540579
+      MALL-ND_24: 2818607136440358390
+      MALL-ND_25: 280708108508833542
+      MALL-ND_26: 9170305844621561307
+      MALL-ND_27: 5799361548387063572
+      MALL-ND_28: -7304767662692353521
+      MALL-ND_29: 5871106301164684798
+      MALL-ND_3: -5253792374515075056
+      MALL-ND_30: 1584671970584751528
+      MALL-ND_31: 2237867184456471407
+      MALL-ND_32: 3517468665686263087
+      MALL-ND_33: -7821475616896666323
+      MALL-ND_34: -4498563047113645059
+      MALL-ND_35: -5999916948369680699
+      MALL-ND_4: 5795732112598029961
+      MALL-ND_5: -625652274744786045
+      MALL-ND_6: -3907848012835249971
+      MALL-ND_7: -1777341986868129820
+      MALL-ND_8: 9019579160615287488
+      MALL-ND_9: -5521094949854723973
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
