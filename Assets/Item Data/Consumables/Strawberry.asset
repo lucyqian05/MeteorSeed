@@ -9,12 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c9aeb8a6e69c4f4db143170b542fd96, type: 3}
+  m_Script: {fileID: 11500000, guid: 63d1c8de0f8c76d4bab9400682c93848, type: 3}
   m_Name: Strawberry
   m_EditorClassIdentifier: 
-  itemType: 1
   <Name>k__BackingField: Strawberry
+  <IsStackable>k__BackingField: 1
   <MaxStackSize>k__BackingField: 99
   <Image>k__BackingField: {fileID: 2715898844557341338, guid: ca0a6df3c2ef8134a87c633516c4f007,
     type: 3}
-  <Description>k__BackingField: Sweet little strawberry
+  <Description>k__BackingField: Silly strawberry
+  modifiersData:
+  - statModifier: {fileID: 11400000, guid: dae437bc8ff71864aaa055d694e4ac31, type: 2}
+    value: 2
