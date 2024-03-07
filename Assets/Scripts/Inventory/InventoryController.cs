@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Inventory
 {
-    public class InventoryControllerUI : MonoBehaviour
+    public class InventoryController : MonoBehaviour
     {
 #pragma warning disable 0649
         [SerializeField]
@@ -22,6 +22,15 @@ namespace Inventory
         {
             PrepareUI();
             PrepareInventoryData();
+        }
+        private void Update()
+        {
+            foreach (var item in inventoryData.GetCurrentInventoryState())
+            {
+                inventoryUI.UpdateData(item.Key,
+                    item.Value.item.Image,
+                    item.Value.quantity);
+            }
         }
 
         private void PrepareInventoryData()
@@ -45,23 +54,13 @@ namespace Inventory
             }
         }
 
-        private void Update()
-        {
-            foreach (var item in inventoryData.GetCurrentInventoryState())
-            {
-                inventoryUI.UpdateData(item.Key,
-                    item.Value.item.Image,
-                    item.Value.quantity);
-            }
-        }
-
         private void PrepareUI()
         {
             inventoryUI.InitializeInventoryUI(inventoryData.PocketSize);
             //this.inventoryUI.OnItemSelected += HandleItemSelected;
             inventoryUI.OnSwapItems += HandleSwapItems;
             inventoryUI.OnStartDragging += HandleDragging;
-            //inventoryUI.OnItemActionRequested += HandleItemActionRequest;
+            inventoryUI.OnItemActionRequested += HandleItemActionRequest;
         }
 
         //private void HandleItemSelected(int itemIndex)
@@ -89,7 +88,14 @@ namespace Inventory
 
         private void HandleItemActionRequest(int itemIndex)
         {
-
+            InventoryItem inventoryItem = inventoryData.GetItemAt(itemIndex);
+            if (inventoryItem.IsEmpty)
+                return;
+            IItemAction itemAction = inventoryItem.item as IItemAction; 
+            if(itemAction != null)
+            {
+                itemAction.PerformAction(gameObject);
+            }
         }
     }
 }

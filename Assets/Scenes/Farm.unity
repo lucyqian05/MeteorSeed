@@ -1029,8 +1029,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -157.50415, y: 84.08796}
-  m_SizeDelta: {x: -90.593, y: -7.604}
+  m_AnchoredPosition: {x: -157.50415, y: 90.36}
+  m_SizeDelta: {x: -90.59, y: -20.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &249427408
 MonoBehaviour:
@@ -1666,7 +1666,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc855e3a2145bd544b96be8f96d466d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 249427408}
+  HPSlider: {fileID: 249427408}
+  StatusTextUI: {fileID: 0}
 --- !u!1 &391207843
 GameObject:
   m_ObjectHideFlags: 0
@@ -58875,6 +58876,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 7567d5a7-2616-4914-8329-493234282204
     m_ActionName: Player/MousePosition[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6d58eadd-6673-4aff-8b17-bc185ede5afa
+    m_ActionName: Player/Eat[/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -59216,7 +59221,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryUI: {fileID: 540909349}
   inventoryData: {fileID: 11400000, guid: 90dca5cef356f9d45a97b2ea199d93d2, type: 2}
-  initialItems: []
+  initialItems:
+  - quantity: 2
+    item: {fileID: 11400000, guid: e50bb2a08f6fc8f43a0b1bbb903d6445, type: 2}
 --- !u!114 &1137230915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59242,8 +59249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 659f08f9a09a8f94fb89fc4367c666ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statUI: {fileID: 0}
-  soSTat: {fileID: 0}
+  statUI: {fileID: 371141282}
+  statData: {fileID: 11400000, guid: d7c44b4c29a148643a04eea59c949732, type: 2}
 --- !u!1 &1140425649
 GameObject:
   m_ObjectHideFlags: 0

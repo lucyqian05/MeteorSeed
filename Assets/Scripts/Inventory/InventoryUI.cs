@@ -24,7 +24,7 @@ namespace Inventory.UI
         private int currentlyDraggedItemIndex = -1;
 
         public event Action<int> //OnDescriptionRequested,
-            //OnItemActionRequested,
+            OnItemActionRequested,
             OnStartDragging;
 
         public event Action<int, int> OnSwapItems;
@@ -49,7 +49,7 @@ namespace Inventory.UI
                 uiItem.OnItemBeginDrag += HandleBeginDrag;
                 uiItem.OnItemDroppedOn += HandleSwap;
                 uiItem.OnItemEndDrag += HandleEndDrag;
-                uiItem.OnRightMouseBtnClick += HandleShowItemActions;
+                uiItem.OnConsume += HandleShowItemActions;
             }
         }
 
@@ -113,7 +113,12 @@ namespace Inventory.UI
 
         private void HandleShowItemActions(InventoryItemUI inventoryItemUI)
         {
-
+            int index = listOfUIItems.IndexOf(inventoryItemUI); 
+            if(index == -1)
+            {
+                return;
+            }
+            OnItemActionRequested?.Invoke(index);
         }
 
         private void ResetDraggedItem()
