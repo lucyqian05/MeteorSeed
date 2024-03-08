@@ -7,7 +7,6 @@ namespace Inventory.UI
 {
     public class InventoryUI : MonoBehaviour
     {
-#pragma warning disable 0649
         [SerializeField]
         private InventoryItemUI itemPrefab;
 
@@ -17,14 +16,11 @@ namespace Inventory.UI
         [SerializeField]
         private MouseFollower mouseFollower;
 
-#pragma warning restore 0649
-
         List<InventoryItemUI> listOfUIItems = new List<InventoryItemUI>();
 
         private int currentlyDraggedItemIndex = -1;
 
-        public event Action<int> //OnDescriptionRequested,
-            OnItemActionRequested,
+        public event Action<int> OnItemActionRequested,
             OnStartDragging;
 
         public event Action<int, int> OnSwapItems;
@@ -49,7 +45,7 @@ namespace Inventory.UI
                 uiItem.OnItemBeginDrag += HandleBeginDrag;
                 uiItem.OnItemDroppedOn += HandleSwap;
                 uiItem.OnItemEndDrag += HandleEndDrag;
-                uiItem.OnConsume += HandleShowItemActions;
+                uiItem.OnItemActionRequested += HandleShowItemActions;
             }
         }
 

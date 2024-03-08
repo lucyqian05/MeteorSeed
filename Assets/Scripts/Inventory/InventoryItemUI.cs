@@ -28,7 +28,7 @@ namespace Inventory.UI
 
         public event Action<InventoryItemUI> OnItemClicked,
             OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag,
-            OnConsume;
+            OnItemActionRequested;
 
         private bool empty = true;
         private bool itemDeselected = true;
@@ -38,6 +38,14 @@ namespace Inventory.UI
             ResetData();
             playerInput = GetComponent<PlayerInput>();
             controllerInputAction = playerInput.actions["Eat"];
+        }
+
+        public void Update()
+        {
+            if(itemDeselected == false && controllerInputAction.triggered)
+            {
+                OnItemActionRequested?.Invoke(this);
+            }
         }
 
         public void SetData(Sprite sprite, int quantity)
@@ -100,21 +108,12 @@ namespace Inventory.UI
             OnItemEndDrag?.Invoke(this);
         }
 
-        public void OnActionEat(BaseEventData data)
+        public void OnActionSelect(BaseEventData data)
         {
             if (empty)
                 return;
-            //if (itemDeselected == false && controllerInputAction.triggered)
-            //{
-            //    OnConsume?.Invoke(this);
-            //}
-
             PointerEventData pointerData = (PointerEventData)data;
-            if (pointerData.button == PointerEventData.InputButton.Right)
-            {
-                OnConsume?.Invoke(this);
-            }
-            else
+            if (pointerData.button == PointerEventData.InputButton.Left)
             {
                 OnItemClicked?.Invoke(this);
             }

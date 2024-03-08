@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82ae0a9b0b356dc48b647f61208b7392, type: 3}
   m_Name: StatData
   m_EditorClassIdentifier: 
-  currentHP: 0
-  maxHP: 0
+  currentHP: 7
+  maxHP: 10

@@ -96,6 +96,11 @@ namespace Inventory
             {
                 itemAction.PerformAction(gameObject);
             }
+            IDestroyableItem destroyableItem = inventoryItem.item as IDestroyableItem;
+            if(destroyableItem != null)
+            {
+                inventoryData.RemoveItem(itemIndex, 1);
+            }
         }
     }
 }

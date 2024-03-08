@@ -16,7 +16,8 @@ public class SO_Stat : ScriptableObject
 
     public void ResetHealth()
     {
-        currentHP = maxHP;
+        currentHP = 5;
+        maxHP = 10;
         InformAboutChange();
     }
     private float GetHPPercent()
@@ -29,7 +30,7 @@ public class SO_Stat : ScriptableObject
     }
     public void ModifyHP(int hpModifier)
     {
-        hpModifier += currentHP;
+        currentHP += hpModifier;
         InformAboutChange();
     }
 
