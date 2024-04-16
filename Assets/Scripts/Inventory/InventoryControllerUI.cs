@@ -1,36 +1,25 @@
 ﻿using Inventory.Model;
 using Inventory.UI;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace Inventory
 {
-    public class InventoryController : MonoBehaviour
+    public class InventoryControllerUI : MonoBehaviour
     {
-#pragma warning disable 0649
         [SerializeField]
         private InventoryUI inventoryUI;
 
         [SerializeField]
         private SO_PlayerInventory inventoryData;
-#pragma warning restore 0649
 
         public List<InventoryItem> initialItems = new List<InventoryItem>();
+
         private void Start()
         {
             PrepareUI();
             PrepareInventoryData();
-        }
-        private void Update()
-        {
-            foreach (var item in inventoryData.GetCurrentInventoryState())
-            {
-                inventoryUI.UpdateData(item.Key,
-                    item.Value.item.Image,
-                    item.Value.quantity);
-            }
         }
 
         private void PrepareInventoryData()
@@ -54,24 +43,30 @@ namespace Inventory
             }
         }
 
+        private void Update()
+        {
+            foreach (var item in inventoryData.GetCurrentInventoryState())
+            {
+                inventoryUI.UpdateData(item.Key,
+                    item.Value.item.Image,
+                    item.Value.quantity);
+            }
+        }
+
         private void PrepareUI()
         {
             inventoryUI.InitializeInventoryUI(inventoryData.PocketSize);
-            //this.inventoryUI.OnItemSelected += HandleItemSelected;
             inventoryUI.OnSwapItems += HandleSwapItems;
             inventoryUI.OnStartDragging += HandleDragging;
             inventoryUI.OnItemActionRequested += HandleItemActionRequest;
+            inventoryUI.OnDropItems += HandleDropItems;
+            //inventoryUI.OnItemActionRequested += HandleItemActionRequest;
         }
 
-        //private void HandleItemSelected(int itemIndex)
-        //{
-        //    InventoryItem inventoryItem = inventoryData.GetItemAt(itemIndex);
-        //    if (inventoryItem.IsEmpty)
-        //        return;
-        //    SO_ItemData item = inventoryItem.item;
-
-
-        //}
+        private void HandleDropItems(int itemIndex)
+        {
+            inventoryData.DropItem(itemIndex);
+        }
 
         private void HandleSwapItems(int itemIndex_1, int itemIndex_2)
         {
@@ -95,11 +90,6 @@ namespace Inventory
             if(itemAction != null)
             {
                 itemAction.PerformAction(gameObject);
-            }
-            IDestroyableItem destroyableItem = inventoryItem.item as IDestroyableItem;
-            if(destroyableItem != null)
-            {
-                inventoryData.RemoveItem(itemIndex, 1);
             }
         }
     }

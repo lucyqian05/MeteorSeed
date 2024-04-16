@@ -15,6 +15,9 @@ namespace Inventory.Model
         [field: SerializeField]
         public int PocketSize { get; private set; } = 10;
 
+        [field: SerializeField]
+        public Item item;
+
         public event Action<Dictionary<int, InventoryItem>> OnInventoryUpdated;
 
         public void Initialize()
@@ -30,7 +33,9 @@ namespace Inventory.Model
         {
             if(item.IsStackable == false)
             {
+#pragma warning disable CS0162 // Unreachable code detected
                 for (int i = 0; i < inventoryItems.Count; i++)
+#pragma warning restore CS0162 // Unreachable code detected
                 {
                     while(quantity > 0  && IsInventoryFull() == false)
                     {
@@ -102,7 +107,8 @@ namespace Inventory.Model
             return quantity;
         }
 
-        internal void RemoveItem(int itemIndex, int amount)
+<<<<<<< HEAD
+        public void RemoveItem(int itemIndex, int amount)
         {
             if(inventoryItems.Count > itemIndex)
             {
@@ -118,6 +124,28 @@ namespace Inventory.Model
             }
         }
 
+        public void DropItem(int itemIndex)
+        {
+            if (inventoryItems.Count > itemIndex)
+            {
+                if (inventoryItems[itemIndex].IsEmpty)
+                    return;
+                GameObject player;
+                player = GameObject.FindGameObjectWithTag("Player");
+                Vector3 transform;
+                transform = player.transform.position;
+                Item itemDrop = Instantiate(item, transform, Quaternion.identity);
+                Item itemInfo = itemDrop.GetComponent<Item>();
+                itemInfo.name = inventoryItems[itemIndex].item.name;
+                itemInfo.InventoryItem = inventoryItems[itemIndex].item;
+                itemInfo.Quantity = inventoryItems[itemIndex].quantity;
+                inventoryItems[itemIndex] = InventoryItem.GetEmptyItem();
+                InformAboutChange();
+            }
+        }
+
+=======
+>>>>>>> 66ad28c8f441243dc44dd1b9fceec1b229e8c0f8
         public void AddItem(InventoryItem item)
         {
             AddItem(item.item, item.quantity);

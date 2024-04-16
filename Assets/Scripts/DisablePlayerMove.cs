@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class DisablePlayerMove : MonoBehaviour
 {
     public GameObject player; 
-    private PlayerInput playerInput;
+    private UnityEngine.InputSystem.PlayerInput playerInput;
 
     void Start()
     {

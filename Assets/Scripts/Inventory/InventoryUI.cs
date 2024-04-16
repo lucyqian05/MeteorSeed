@@ -7,6 +7,7 @@ namespace Inventory.UI
 {
     public class InventoryUI : MonoBehaviour
     {
+#pragma warning disable 0649
         [SerializeField]
         private InventoryItemUI itemPrefab;
 
@@ -16,11 +17,23 @@ namespace Inventory.UI
         [SerializeField]
         private MouseFollower mouseFollower;
 
+#pragma warning restore 0649
+
         List<InventoryItemUI> listOfUIItems = new List<InventoryItemUI>();
 
         private int currentlyDraggedItemIndex = -1;
+        private bool swapItem = false; 
 
-        public event Action<int> OnItemActionRequested,
+<<<<<<< HEAD
+        public event Action<int> OnItemActionRequested, OnDropItems,
+=======
+        public event Action<int> //OnDescriptionRequested,
+<<<<<<< HEAD
+            //OnItemActionRequested,
+=======
+            OnItemActionRequested,
+>>>>>>> parent of b6291be (Inventory Update)
+>>>>>>> 66ad28c8f441243dc44dd1b9fceec1b229e8c0f8
             OnStartDragging;
 
         public event Action<int, int> OnSwapItems;
@@ -45,11 +58,15 @@ namespace Inventory.UI
                 uiItem.OnItemBeginDrag += HandleBeginDrag;
                 uiItem.OnItemDroppedOn += HandleSwap;
                 uiItem.OnItemEndDrag += HandleEndDrag;
-                uiItem.OnItemActionRequested += HandleShowItemActions;
+<<<<<<< HEAD
+                uiItem.OnRightMouseBtnClick += HandleShowItemActions;
+=======
+                uiItem.OnConsume += HandleShowItemActions;
+>>>>>>> parent of b6291be (Inventory Update)
             }
         }
 
-        internal void ResetAllItems()
+        public void ResetAllItems()
         {
             foreach (var item in listOfUIItems)
             {
@@ -100,21 +117,22 @@ namespace Inventory.UI
                 return;
             }
             OnSwapItems?.Invoke(currentlyDraggedItemIndex, index);
+            swapItem = true;
         }
 
         private void HandleEndDrag(InventoryItemUI inventoryItemUI)
         {
+            if (swapItem == false)
+            {
+                OnDropItems?.Invoke(currentlyDraggedItemIndex);
+            }
+            swapItem = false;
             ResetDraggedItem();
         }
 
         private void HandleShowItemActions(InventoryItemUI inventoryItemUI)
         {
-            int index = listOfUIItems.IndexOf(inventoryItemUI); 
-            if(index == -1)
-            {
-                return;
-            }
-            OnItemActionRequested?.Invoke(index);
+
         }
 
         private void ResetDraggedItem()

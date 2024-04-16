@@ -17,8 +17,8 @@ MonoBehaviour:
     item: {fileID: 0}
   - quantity: 0
     item: {fileID: 0}
-  - quantity: 5
-    item: {fileID: 11400000, guid: e50bb2a08f6fc8f43a0b1bbb903d6445, type: 2}
+  - quantity: 0
+    item: {fileID: 0}
   - quantity: 0
     item: {fileID: 0}
   - quantity: 0
@@ -34,3 +34,4 @@ MonoBehaviour:
   - quantity: 0
     item: {fileID: 0}
   <PocketSize>k__BackingField: 10
+  item: {fileID: 4549778913679854920, guid: a218216bc967ed04a8f769eaa8622283, type: 3}

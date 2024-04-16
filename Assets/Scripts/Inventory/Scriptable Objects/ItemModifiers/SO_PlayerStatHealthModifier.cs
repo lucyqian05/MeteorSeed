@@ -7,9 +7,11 @@ public class SO_PlayerStatHealthModifier : SO_PlayerStatModifier
 {
     public override void AffectPlayer(GameObject player, float val)
     {
-        StatController health = player.GetComponent<StatController>();
+        throw new System.NotImplementedException();
+        //Need to implement health and magic systems
 
-        if (health != null)
-            health.ModifyHealth((int)val);
+        //Health health = player.GetComponent<Health>();
+        //if (health != null)
+        //    health.AddHealth((int)val);
     }
 }

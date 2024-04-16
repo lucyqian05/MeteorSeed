@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace Inventory.UI
 {
     public class InventoryItemUI : MonoBehaviour
     {
+#pragma warning disable 0649
+
         [SerializeField]
         private Image border;
 
@@ -23,12 +22,23 @@ namespace Inventory.UI
         [SerializeField]
         private TMP_Text quantityTxt;
 
-        private PlayerInput playerInput;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        private UnityEngine.InputSystem.PlayerInput playerInput;
         private InputAction controllerInputAction;
+=======
+#pragma warning restore 0649
+>>>>>>> parent of 3e0cbbe (Inventory)
 
+>>>>>>> 66ad28c8f441243dc44dd1b9fceec1b229e8c0f8
         public event Action<InventoryItemUI> OnItemClicked,
             OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag,
-            OnItemActionRequested;
+<<<<<<< HEAD
+            OnRightMouseBtnClick;
+=======
+            OnConsume;
+>>>>>>> parent of b6291be (Inventory Update)
 
         private bool empty = true;
         private bool itemDeselected = true;
@@ -36,17 +46,24 @@ namespace Inventory.UI
         public void Awake()
         {
             ResetData();
-            playerInput = GetComponent<PlayerInput>();
-            controllerInputAction = playerInput.actions["Eat"];
+<<<<<<< HEAD
+            PlayerController playerController = GetComponent<PlayerController>();
+            playerController.OnEat += OnItemEat;
         }
 
-        public void Update()
+        private void OnItemEat(InputAction.CallbackContext obj)
         {
-            if(itemDeselected == false && controllerInputAction.triggered)
-            {
+            if (itemDeselected == false)
                 OnItemActionRequested?.Invoke(this);
-            }
+=======
+<<<<<<< HEAD
+=======
+            playerInput = GetComponent<PlayerInput>();
+            controllerInputAction = playerInput.actions["Eat"];
+>>>>>>> parent of b6291be (Inventory Update)
+>>>>>>> 66ad28c8f441243dc44dd1b9fceec1b229e8c0f8
         }
+
 
         public void SetData(Sprite sprite, int quantity)
         {
@@ -108,12 +125,29 @@ namespace Inventory.UI
             OnItemEndDrag?.Invoke(this);
         }
 
-        public void OnActionSelect(BaseEventData data)
+<<<<<<< HEAD
+        public void OnPointerClick(BaseEventData data)
+=======
+        public void OnActionEat(BaseEventData data)
+>>>>>>> parent of b6291be (Inventory Update)
         {
             if (empty)
                 return;
+            //if (itemDeselected == false && controllerInputAction.triggered)
+            //{
+            //    OnConsume?.Invoke(this);
+            //}
+
             PointerEventData pointerData = (PointerEventData)data;
-            if (pointerData.button == PointerEventData.InputButton.Left)
+            if (pointerData.button == PointerEventData.InputButton.Right)
+            {
+<<<<<<< HEAD
+                OnRightMouseBtnClick?.Invoke(this);
+=======
+                OnConsume?.Invoke(this);
+>>>>>>> parent of b6291be (Inventory Update)
+            }
+            else
             {
                 OnItemClicked?.Invoke(this);
             }

@@ -6,7 +6,7 @@ public class Interactable : MonoBehaviour
 {
     public bool isInRange;
     public UnityEvent interactAction;
-    private PlayerInput playerInput;
+    private UnityEngine.InputSystem.PlayerInput playerInput;
     private InputAction controllerInputAction; 
     
 

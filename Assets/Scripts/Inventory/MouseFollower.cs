@@ -13,7 +13,7 @@ public class MouseFollower : MonoBehaviour
     [SerializeField]
     private InventoryItemUI item;
 
-    private PlayerInput playerInput;
+    private UnityEngine.InputSystem.PlayerInput playerInput;
     private InputAction controllerInputAction;
 
 #pragma warning restore 0649
