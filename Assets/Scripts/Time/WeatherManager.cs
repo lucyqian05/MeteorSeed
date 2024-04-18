@@ -35,7 +35,7 @@ public class WeatherManager : MonoBehaviour
 
     private void GenerateGlowlushWeather()
     {
-
+        weather = Weather.Sunny;
     }
 
     private void GenerateSparktipWeather()
