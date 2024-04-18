@@ -1819,7 +1819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc855e3a2145bd544b96be8f96d466d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 249427408}
+  HPSlider: {fileID: 249427408}
 --- !u!1 &391207843
 GameObject:
   m_ObjectHideFlags: 0
@@ -59740,7 +59740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   statUI: {fileID: 371141282}
-  soSTat: {fileID: 11400000, guid: d7c44b4c29a148643a04eea59c949732, type: 2}
+  statData: {fileID: 11400000, guid: d7c44b4c29a148643a04eea59c949732, type: 2}
 --- !u!114 &1137230917
 MonoBehaviour:
   m_ObjectHideFlags: 0

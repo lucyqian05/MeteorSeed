@@ -13,7 +13,7 @@ public class SO_Stat : ScriptableObject
 
     public event Action<float> OnHpUpdated;
 
-    public void ModifyHealth(int hpChange)
+    public void ResetHealth()
     {
         currentHP = maxHP;
         InformAboutChange();
@@ -28,7 +28,7 @@ public class SO_Stat : ScriptableObject
     }
     public void ModifyHP(int hpModifier)
     {
-        hpModifier += currentHP;
+        currentHP += hpModifier;
         InformAboutChange();
     }
 

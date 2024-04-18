@@ -6,9 +6,11 @@ using UnityEngine.UI;
 
 public class StatUI : MonoBehaviour
 {
-
     [SerializeField]
-    private Slider slider;
+    private Slider HPSlider;
 
-
+    public void UpdateHealth(float percentHP)
+    {
+        HPSlider.value = percentHP;
+    }
 }
