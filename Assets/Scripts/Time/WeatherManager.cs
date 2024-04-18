@@ -30,7 +30,7 @@ public class WeatherManager : MonoBehaviour
 
     private void GenerateBloomWeather()
     {
-
+        weather = Weather.Cloudy;
     }
 
     private void GenerateGlowlushWeather()
