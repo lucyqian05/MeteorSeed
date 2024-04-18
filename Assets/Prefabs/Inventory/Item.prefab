@@ -138,7 +138,7 @@ MonoBehaviour:
   <InventoryItem>k__BackingField: {fileID: 0}
   <Quantity>k__BackingField: 0
   audioSource: {fileID: 6952281825531225889}
-  duration: 0.3
+  duration: 0.5
 --- !u!82 &6952281825531225889
 AudioSource:
   m_ObjectHideFlags: 0
@@ -151,7 +151,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: bc1fa983868f20c4ab8a0602b80ae880, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.345
+  m_Volume: 0.23
   m_Pitch: 1
   Loop: 0
   Mute: 0

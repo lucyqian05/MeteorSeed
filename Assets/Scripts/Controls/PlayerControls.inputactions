@@ -71,7 +71,7 @@
                 {
                     "name": "Eat",
                     "type": "Button",
-                    "id": "6d58eadd-6673-4aff-8b17-bc185ede5afa",
+                    "id": "540f6c6e-830a-47fd-ae89-0f1ad12b88b8",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "Press",
@@ -197,6 +197,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5321431-3d11-4895-a257-2bd036ce97c0",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eat",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

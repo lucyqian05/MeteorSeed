@@ -60,7 +60,6 @@ namespace Inventory
             inventoryUI.OnStartDragging += HandleDragging;
             inventoryUI.OnItemActionRequested += HandleItemActionRequest;
             inventoryUI.OnDropItems += HandleDropItems;
-            //inventoryUI.OnItemActionRequested += HandleItemActionRequest;
         }
 
         private void HandleDropItems(int itemIndex)
@@ -90,6 +89,11 @@ namespace Inventory
             if(itemAction != null)
             {
                 itemAction.PerformAction(gameObject);
+            }
+            IDestroyableItem destroyableItem = inventoryItem.item as IDestroyableItem;
+            if (destroyableItem != null)
+            {
+                inventoryData.RemoveItem(itemIndex, 1);
             }
         }
     }

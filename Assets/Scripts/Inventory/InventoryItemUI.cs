@@ -42,7 +42,6 @@ namespace Inventory.UI
         {
             if (itemDeselected == false)
                 OnItemActionRequested?.Invoke(this);
-
         }
 
 
