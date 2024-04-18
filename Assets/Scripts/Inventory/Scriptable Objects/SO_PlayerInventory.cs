@@ -107,7 +107,6 @@ namespace Inventory.Model
             return quantity;
         }
 
-<<<<<<< HEAD
         public void RemoveItem(int itemIndex, int amount)
         {
             if(inventoryItems.Count > itemIndex)
@@ -144,8 +143,6 @@ namespace Inventory.Model
             }
         }
 
-=======
->>>>>>> 66ad28c8f441243dc44dd1b9fceec1b229e8c0f8
         public void AddItem(InventoryItem item)
         {
             AddItem(item.item, item.quantity);

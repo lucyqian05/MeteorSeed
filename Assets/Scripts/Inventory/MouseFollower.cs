@@ -1,6 +1,4 @@
 ﻿using Inventory.UI;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,7 +11,7 @@ public class MouseFollower : MonoBehaviour
     [SerializeField]
     private InventoryItemUI item;
 
-    private UnityEngine.InputSystem.PlayerInput playerInput;
+    private PlayerInput playerInput;
     private InputAction controllerInputAction;
 
 #pragma warning restore 0649
@@ -43,14 +41,11 @@ public class MouseFollower : MonoBehaviour
             out position
                 );
         transform.position = canvas.transform.TransformPoint(position);
-
-
-
     }
 
     public void Toggle(bool val)
     {
-        Debug.Log($"item toggled {val}");
+        //Debug.Log($"item toggled {val}");
         gameObject.SetActive(val);
 
     }

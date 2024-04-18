@@ -67,7 +67,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-<<<<<<< HEAD
                 },
                 {
                     "name": "Eat",
@@ -77,8 +76,6 @@
                     "processors": "",
                     "interactions": "Press",
                     "initialStateCheck": false
-=======
->>>>>>> parent of 3e0cbbe (Inventory)
                 }
             ],
             "bindings": [

@@ -3,22 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SO_Stat : MonoBehaviour
+public class SO_Stat : ScriptableObject
 {
     [field: SerializeField]
-    public int CurrentHealth { get; private set; } = 10;
+    private int currentHP;
 
     [field: SerializeField]
-    public int TotalHealth { get; private set; } = 10;
+    private int maxHP;
 
-    public event Action<int> OnHealthModified;
+    public event Action<float> OnHpUpdated;
 
     public void ModifyHealth(int hpChange)
     {
-<<<<<<< HEAD
-        CurrentHealth += hpChange;
-        OnHealthModified?.Invoke(hpChange);
-=======
         currentHP = maxHP;
         InformAboutChange();
     }
@@ -39,6 +35,5 @@ public class SO_Stat : MonoBehaviour
     private void InformAboutChange()
     {
         OnHpUpdated?.Invoke(GetHPPercent());
->>>>>>> parent of b6291be (Inventory Update)
     }
 }

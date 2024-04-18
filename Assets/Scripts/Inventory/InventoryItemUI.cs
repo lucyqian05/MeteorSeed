@@ -2,6 +2,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace Inventory.UI
@@ -22,23 +23,10 @@ namespace Inventory.UI
         [SerializeField]
         private TMP_Text quantityTxt;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        private UnityEngine.InputSystem.PlayerInput playerInput;
-        private InputAction controllerInputAction;
-=======
-#pragma warning restore 0649
->>>>>>> parent of 3e0cbbe (Inventory)
 
->>>>>>> 66ad28c8f441243dc44dd1b9fceec1b229e8c0f8
         public event Action<InventoryItemUI> OnItemClicked,
             OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag,
-<<<<<<< HEAD
-            OnRightMouseBtnClick;
-=======
-            OnConsume;
->>>>>>> parent of b6291be (Inventory Update)
+            OnItemActionRequested, OnRightMouseBtnClick;
 
         private bool empty = true;
         private bool itemDeselected = true;
@@ -46,7 +34,6 @@ namespace Inventory.UI
         public void Awake()
         {
             ResetData();
-<<<<<<< HEAD
             PlayerController playerController = GetComponent<PlayerController>();
             playerController.OnEat += OnItemEat;
         }
@@ -55,13 +42,7 @@ namespace Inventory.UI
         {
             if (itemDeselected == false)
                 OnItemActionRequested?.Invoke(this);
-=======
-<<<<<<< HEAD
-=======
-            playerInput = GetComponent<PlayerInput>();
-            controllerInputAction = playerInput.actions["Eat"];
->>>>>>> parent of b6291be (Inventory Update)
->>>>>>> 66ad28c8f441243dc44dd1b9fceec1b229e8c0f8
+
         }
 
 
@@ -125,27 +106,15 @@ namespace Inventory.UI
             OnItemEndDrag?.Invoke(this);
         }
 
-<<<<<<< HEAD
         public void OnPointerClick(BaseEventData data)
-=======
-        public void OnActionEat(BaseEventData data)
->>>>>>> parent of b6291be (Inventory Update)
         {
             if (empty)
                 return;
-            //if (itemDeselected == false && controllerInputAction.triggered)
-            //{
-            //    OnConsume?.Invoke(this);
-            //}
 
             PointerEventData pointerData = (PointerEventData)data;
             if (pointerData.button == PointerEventData.InputButton.Right)
             {
-<<<<<<< HEAD
                 OnRightMouseBtnClick?.Invoke(this);
-=======
-                OnConsume?.Invoke(this);
->>>>>>> parent of b6291be (Inventory Update)
             }
             else
             {
