@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,8 @@ public class Magic : MonoBehaviour
 
     private Animator animator;
     private PlayerController playerController;
+
+    public event Action OnAgni, OnErde, OnBiyo, OnAria;
 
     private void Start()
     {
@@ -35,41 +38,24 @@ public class Magic : MonoBehaviour
         switch (currentMagic)
         {
             case 0:
-                Fire();
+                animator.SetTrigger("Agni");
+                OnAgni?.Invoke();
                 break;
 
             case 1:
-                Water();
+                animator.SetTrigger("Erde");
+                OnErde?.Invoke();
                 break;
 
             case 2:
-                Earth();
+                animator.SetTrigger("Biyo");
+                OnBiyo?.Invoke();
                 break;
 
             case 3:
-                Air();
+                animator.SetTrigger("Aria");
+                OnAria?.Invoke();
                 break;
         }
     }
-    private void Fire()
-    {
-        animator.SetTrigger("Fire");
-        Debug.Log("Fire!");
-    }
-    private void Earth()
-    {
-        animator.SetTrigger("Earth");
-        Debug.Log("Earth!");
-    }
-    private void Water()
-    {
-        animator.SetTrigger("Water");
-        Debug.Log("Water!");
-    }
-    private void Air()
-    {
-        animator.SetTrigger("Air");
-        Debug.Log("Air!");
-    }
-
 }
