@@ -2403,7 +2403,7 @@ GameObject:
   - component: {fileID: 7151739238909859949}
   - component: {fileID: 5931744074552413886}
   m_Layer: 0
-  m_Name: Farmable Land
+  m_Name: Farm Land
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
