@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FarmLand Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - f9fb9085ab590124d91f59da1e75ecd3: 1424457943
+    - f9fb9085ab590124d91f59da1e75ecd3: 1672568793
+    - f9fb9085ab590124d91f59da1e75ecd3: -2104467955
+    - f9fb9085ab590124d91f59da1e75ecd3: -59377001
+    - f9fb9085ab590124d91f59da1e75ecd3: -506855592
+    - f9fb9085ab590124d91f59da1e75ecd3: -1604380333
+    - f9fb9085ab590124d91f59da1e75ecd3: 972751372
+    - f9fb9085ab590124d91f59da1e75ecd3: -1969549830
+    - f9fb9085ab590124d91f59da1e75ecd3: 1427537208
+    - f9fb9085ab590124d91f59da1e75ecd3: -860114662
+    - f9fb9085ab590124d91f59da1e75ecd3: 1055281718
+    - f9fb9085ab590124d91f59da1e75ecd3: 1563147967
+    - f9fb9085ab590124d91f59da1e75ecd3: -1850212370
+    - f9fb9085ab590124d91f59da1e75ecd3: 2035304867
+    - f9fb9085ab590124d91f59da1e75ecd3: 70055159
+    - f9fb9085ab590124d91f59da1e75ecd3: 755021957
+    - f9fb9085ab590124d91f59da1e75ecd3: 2089887450
+    - f9fb9085ab590124d91f59da1e75ecd3: 1953291569
+    - f9fb9085ab590124d91f59da1e75ecd3: 702082155
+    - f9fb9085ab590124d91f59da1e75ecd3: 1032401134
+    - f9fb9085ab590124d91f59da1e75ecd3: 988403949
+    - f9fb9085ab590124d91f59da1e75ecd3: 2026915433
+    - f9fb9085ab590124d91f59da1e75ecd3: 1248486183
+    - f9fb9085ab590124d91f59da1e75ecd3: -1491086590
+    - f9fb9085ab590124d91f59da1e75ecd3: -1426135456
+    - f9fb9085ab590124d91f59da1e75ecd3: 1284925098
+    - f9fb9085ab590124d91f59da1e75ecd3: 758107627
+    - f9fb9085ab590124d91f59da1e75ecd3: -1779645627
+    - f9fb9085ab590124d91f59da1e75ecd3: 372289446
+    - f9fb9085ab590124d91f59da1e75ecd3: -544813521
+    - f9fb9085ab590124d91f59da1e75ecd3: -146507245
+    - f9fb9085ab590124d91f59da1e75ecd3: 1473181380
+    - f9fb9085ab590124d91f59da1e75ecd3: -1151470158
+    - f9fb9085ab590124d91f59da1e75ecd3: -1942297101
+    - f9fb9085ab590124d91f59da1e75ecd3: 579509884
+    - f9fb9085ab590124d91f59da1e75ecd3: -943182773
+    - f9fb9085ab590124d91f59da1e75ecd3: -1274506541
+    - f9fb9085ab590124d91f59da1e75ecd3: 1192076084
+    - f9fb9085ab590124d91f59da1e75ecd3: -1276673778
+    - f9fb9085ab590124d91f59da1e75ecd3: -1894671003
+    - f9fb9085ab590124d91f59da1e75ecd3: 870503580
+    - f9fb9085ab590124d91f59da1e75ecd3: 1065058601
+    - f9fb9085ab590124d91f59da1e75ecd3: -1284008786
+    - f9fb9085ab590124d91f59da1e75ecd3: -2110651815
+    - f9fb9085ab590124d91f59da1e75ecd3: -2052980976
+    - f9fb9085ab590124d91f59da1e75ecd3: 1499030200
+    - f9fb9085ab590124d91f59da1e75ecd3: -1793598497
+    - f9fb9085ab590124d91f59da1e75ecd3: -370700650
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1424457943, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1672568793, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -2104467955, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -59377001, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -506855592, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1604380333, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 972751372, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1969549830, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1427537208, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -860114662, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1055281718, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1563147967, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1850212370, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 2035304867, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 70055159, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 755021957, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 2089887450, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1953291569, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 702082155, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1032401134, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 988403949, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 2026915433, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1248486183, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1491086590, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1426135456, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1284925098, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 758107627, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1779645627, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 372289446, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -544813521, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -146507245, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1473181380, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1151470158, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1942297101, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 579509884, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -943182773, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1274506541, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1192076084, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1276673778, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1894671003, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 870503580, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1065058601, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1284008786, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -2110651815, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -2052980976, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: 1499030200, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -1793598497, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  - {fileID: -370700650, guid: f9fb9085ab590124d91f59da1e75ecd3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Farm Land Tileset_30
+  - Farm Land Tileset_31
+  - Farm Land Tileset_32
+  - Farm Land Tileset_33
+  - Farm Land Tileset_23
+  - Farm Land Tileset_34
+  - Farm Land Tileset_22
+  - Farm Land Tileset_35
+  - Farm Land Tileset_21
+  - Farm Land Tileset_45
+  - Farm Land Tileset_36
+  - Farm Land Tileset_20
+  - Farm Land Tileset_16
+  - Farm Land Tileset_44
+  - Farm Land Tileset_37
+  - Farm Land Tileset_27
+  - Farm Land Tileset_17
+  - Farm Land Tileset_47
+  - Farm Land Tileset_38
+  - Farm Land Tileset_26
+  - Farm Land Tileset_14
+  - Farm Land Tileset_46
+  - Farm Land Tileset_39
+  - Farm Land Tileset_25
+  - Farm Land Tileset_15
+  - Farm Land Tileset_41
+  - Farm Land Tileset_24
+  - Farm Land Tileset_12
+  - Farm Land Tileset_40
+  - Farm Land Tileset_13
+  - Farm Land Tileset_43
+  - Farm Land Tileset_10
+  - Farm Land Tileset_42
+  - Farm Land Tileset_29
+  - Farm Land Tileset_11
+  - Farm Land Tileset_28
+  - Farm Land Tileset_18
+  - Farm Land Tileset_19
+  - Farm Land Tileset_3
+  - Farm Land Tileset_2
+  - Farm Land Tileset_1
+  - Farm Land Tileset_0
+  - Farm Land Tileset_7
+  - Farm Land Tileset_6
+  - Farm Land Tileset_5
+  - Farm Land Tileset_4
+  - Farm Land Tileset_9
+  - Farm Land Tileset_8
+  m_RenderDataMap: {}
+  m_Tag: FarmLand Sprite Atlas
+  m_IsVariant: 0
