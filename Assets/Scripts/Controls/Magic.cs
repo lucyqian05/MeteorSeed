@@ -9,6 +9,9 @@ public class Magic : MonoBehaviour
 
     private Animator animator;
     private PlayerController playerController;
+    private Movement movement;
+    public float targetTime = 0.0f;
+
 
     public event Action OnAgni, OnErde, OnBiyo, OnAria;
 
@@ -16,9 +19,20 @@ public class Magic : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         playerController = GetComponent<PlayerController>();
+        movement = GetComponent<Movement>();
 
         playerController.OnMagic += Magics;
         playerController.OnScrollMagic += ScrollMagic;
+    }
+    private void Update()
+    {
+        Debug.Log(targetTime);
+        targetTime -= Time.deltaTime;
+
+        if (targetTime <= 0.0f)
+        {
+            movement.stopPlayerMovement = false;
+        }
     }
 
     private void ScrollMagic(InputAction.CallbackContext context)
@@ -35,6 +49,8 @@ public class Magic : MonoBehaviour
 
     private void Magics(InputAction.CallbackContext context)
     {
+        movement.stopPlayerMovement = true;
+        SetTimer();
         switch (currentMagic)
         {
             case 0:
@@ -57,5 +73,10 @@ public class Magic : MonoBehaviour
                 OnAria?.Invoke();
                 break;
         }
+    }
+
+    private void SetTimer()
+    {
+        targetTime = 1.075f;
     }
 }
