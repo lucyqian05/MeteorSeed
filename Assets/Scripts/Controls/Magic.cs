@@ -56,7 +56,7 @@ public class Magic : MonoBehaviour
             switch (currentMagic)
             {
                 case 0:
-                    animator.SetTrigger("Erde");
+                    animator.SetTrigger("Agni");
                     OnAgni?.Invoke();
 
                     break;
