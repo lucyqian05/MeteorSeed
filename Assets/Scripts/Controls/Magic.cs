@@ -26,7 +26,6 @@ public class Magic : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log(targetTime);
         targetTime -= Time.deltaTime;
 
         if (targetTime <= 0.0f)
@@ -50,33 +49,37 @@ public class Magic : MonoBehaviour
     private void Magics(InputAction.CallbackContext context)
     {
         movement.stopPlayerMovement = true;
-        SetTimer();
-        switch (currentMagic)
+        if (targetTime <= 0)
         {
-            case 0:
-                animator.SetTrigger("Agni");
-                OnAgni?.Invoke();
-                break;
+            SetTimer();
 
-            case 1:
-                animator.SetTrigger("Erde");
-                OnErde?.Invoke();
-                break;
+            switch (currentMagic)
+            {
+                case 0:
+                    animator.SetTrigger("Erde");
+                    OnAgni?.Invoke();
 
-            case 2:
-                animator.SetTrigger("Biyo");
-                OnBiyo?.Invoke();
-                break;
+                    break;
+                case 1:
+                    animator.SetTrigger("Erde");
+                    OnErde?.Invoke();
+                    break;
 
-            case 3:
-                animator.SetTrigger("Aria");
-                OnAria?.Invoke();
-                break;
-        }
+                case 2:
+                    animator.SetTrigger("Biyo");
+                    OnBiyo?.Invoke();
+                    break;
+
+                case 3:
+                    animator.SetTrigger("Aria");
+                    OnAria?.Invoke();
+                    break;
+            }
+        }     
     }
 
     private void SetTimer()
     {
-        targetTime = 1.075f;
+        targetTime = 1.0f;
     }
 }

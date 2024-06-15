@@ -40,10 +40,12 @@ public class Movement : MonoBehaviour
         if (!stopPlayerMovement)
         {
             EnablePlayerMovement();
+            //Debug.Log("Enabled");
         }
         else
         {
             DisablePlayerMovement();
+            //Debug.Log("Disabled");
         }
         
     }
