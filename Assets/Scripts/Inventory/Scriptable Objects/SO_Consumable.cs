@@ -9,9 +9,9 @@ namespace Inventory.Model
     {
         [SerializeField]
         private List<ModifierData> modifiersData = new List<ModifierData>();
-        public string ActionName => "Consume";
 
         public AudioClip actionSFX { get; private set; }
+        public string ActionName => "Consume";
 
         public bool PerformAction(GameObject player)
         {
