@@ -7700,7 +7700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -47.42, y: 90.39}
+  m_AnchoredPosition: {x: 0.000011444, y: -4.4}
   m_SizeDelta: {x: 78.14, y: 27.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &721059812
@@ -9018,6 +9018,7 @@ MonoBehaviour:
   year: 1
   hour: 5
   minutes: 0
+  timeEnabled: 1
   TickSecondsIncreased: 10
   TimeBetweenTicks: 10
 --- !u!114 &850592793
@@ -9215,7 +9216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.39, y: -94.74}
+  m_AnchoredPosition: {x: 8.3, y: -149.1}
   m_SizeDelta: {x: 47.97, y: 22.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &896956268
@@ -60873,6 +60874,54 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1137230920}
+        m_TargetAssemblyTypeName: ActionMapController, Assembly-CSharp
+        m_MethodName: EnablePlayerController
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1630458260}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 371141278}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 850592792}
+        m_TargetAssemblyTypeName: DateAndTime.TimeManager, Assembly-CSharp
+        m_MethodName: EnableTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1015145493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62234,6 +62283,7 @@ GameObject:
   - component: {fileID: 1137230917}
   - component: {fileID: 1137230918}
   - component: {fileID: 1137230919}
+  - component: {fileID: 1137230920}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -62524,8 +62574,16 @@ MonoBehaviour:
     m_ActionName: Player/MousePosition[/Mouse/position]
   - m_PersistentCalls:
       m_Calls: []
-    m_ActionId: 6d58eadd-6673-4aff-8b17-bc185ede5afa
-    m_ActionName: Player/Eat
+    m_ActionId: 540f6c6e-830a-47fd-ae89-0f1ad12b88b8
+    m_ActionName: Player/Eat[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 42e3cab1-0216-4ca6-bfd3-0e575f8bc0fc
+    m_ActionName: Seed Mode/UINavigation[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 156d6fc4-a9c3-40d5-b882-4df37ab6acff
+    m_ActionName: Seed Mode/MousePosition[/Mouse/position]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -62924,6 +62982,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventoryData: {fileID: 11400000, guid: 90dca5cef356f9d45a97b2ea199d93d2, type: 2}
+--- !u!114 &1137230920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1137230898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe704e8966826ea4e889f230fbc12616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1140425649
 GameObject:
   m_ObjectHideFlags: 0
@@ -63906,8 +63976,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -75.593, y: 143.89}
+  m_SizeDelta: {x: 119.81, y: 48.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1266972919
 GameObject:
@@ -88687,6 +88757,54 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1137230920}
+        m_TargetAssemblyTypeName: ActionMapController, Assembly-CSharp
+        m_MethodName: EnableSeedModeController
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1630458260}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 371141278}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 850592792}
+        m_TargetAssemblyTypeName: DateAndTime.TimeManager, Assembly-CSharp
+        m_MethodName: DisableTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1505864550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93477,7 +93595,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1685644712
 RectTransform:
   m_ObjectHideFlags: 0
@@ -93497,8 +93615,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -241, y: 76}
-  m_SizeDelta: {x: 235, y: 215}
+  m_AnchoredPosition: {x: -202, y: 112}
+  m_SizeDelta: {x: 367.1875, y: 335.9375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1685644713
 MonoBehaviour:

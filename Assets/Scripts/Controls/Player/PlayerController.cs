@@ -5,7 +5,6 @@ using System;
 public class PlayerController : MonoBehaviour
 {
 
-    private UnityEngine.InputSystem.PlayerInput playerInput;
     private PlayerControls playerControls; 
 
     public event Action<InputAction.CallbackContext> OnEat, OnInteract, 
@@ -16,7 +15,7 @@ public class PlayerController : MonoBehaviour
         playerControls = new PlayerControls();
     }
 
-    private void OnEnable()
+    public void OnEnable()
     {
         playerControls.Enable();
         playerControls.Player.Run.performed += Run;
@@ -26,7 +25,7 @@ public class PlayerController : MonoBehaviour
         playerControls.Player.Eat.performed += Eat;
     }
 
-    private void OnDisable()
+    public void OnDisable()
     {
         playerControls.Disable();
         playerControls.Player.Run.performed -= Run;

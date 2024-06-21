@@ -19,6 +19,8 @@ namespace DateAndTime
 
         private DateTime dateTime;
 
+        public bool timeEnabled = true;
+
         [Header("Tick Settings")]
         public int TickSecondsIncreased = 10;
         public float TimeBetweenTicks = 1;
@@ -37,6 +39,24 @@ namespace DateAndTime
         }
 
         private void Update()
+        {
+            if(timeEnabled)
+            {
+                TimeIsTicking();
+            }
+        }
+
+        public void EnableTime()
+        {
+            timeEnabled = true;
+        }
+
+        public void DisableTime()
+        {
+            timeEnabled = false;
+        }
+
+        private void TimeIsTicking()
         {
             currentTimeBetweenTicks += Time.deltaTime;
 

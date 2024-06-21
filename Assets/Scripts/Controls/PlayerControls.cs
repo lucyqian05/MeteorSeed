@@ -234,6 +234,98 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Seed Mode"",
+            ""id"": ""312f00b5-14bb-4a00-8327-f806a7767fcf"",
+            ""actions"": [
+                {
+                    ""name"": ""UINavigation"",
+                    ""type"": ""Value"",
+                    ""id"": ""42e3cab1-0216-4ca6-bfd3-0e575f8bc0fc"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": ""Press"",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""MousePosition"",
+                    ""type"": ""Value"",
+                    ""id"": ""156d6fc4-a9c3-40d5-b882-4df37ab6acff"",
+                    ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""0c781041-cbfa-4249-915c-d9ccfd6b7262"",
+                    ""path"": ""<Mouse>/position"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MousePosition"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""8e1ac97c-cfab-4897-b584-227b652ddd2d"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UINavigation"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""9650ef50-8645-4734-9352-57cd8b6f7232"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UINavigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""cbf61d48-d1c9-4394-8973-cb3b802ffcae"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UINavigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""45b6f330-6bc2-4994-89d9-529eb51d36fe"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UINavigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""53dec549-a610-4691-a7f7-6499822c9ada"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UINavigation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -265,6 +357,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_Player_ScrollMagic = m_Player.FindAction("ScrollMagic", throwIfNotFound: true);
         m_Player_MousePosition = m_Player.FindAction("MousePosition", throwIfNotFound: true);
         m_Player_Eat = m_Player.FindAction("Eat", throwIfNotFound: true);
+        // Seed Mode
+        m_SeedMode = asset.FindActionMap("Seed Mode", throwIfNotFound: true);
+        m_SeedMode_UINavigation = m_SeedMode.FindAction("UINavigation", throwIfNotFound: true);
+        m_SeedMode_MousePosition = m_SeedMode.FindAction("MousePosition", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -424,6 +520,60 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         }
     }
     public PlayerActions @Player => new PlayerActions(this);
+
+    // Seed Mode
+    private readonly InputActionMap m_SeedMode;
+    private List<ISeedModeActions> m_SeedModeActionsCallbackInterfaces = new List<ISeedModeActions>();
+    private readonly InputAction m_SeedMode_UINavigation;
+    private readonly InputAction m_SeedMode_MousePosition;
+    public struct SeedModeActions
+    {
+        private @PlayerControls m_Wrapper;
+        public SeedModeActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @UINavigation => m_Wrapper.m_SeedMode_UINavigation;
+        public InputAction @MousePosition => m_Wrapper.m_SeedMode_MousePosition;
+        public InputActionMap Get() { return m_Wrapper.m_SeedMode; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(SeedModeActions set) { return set.Get(); }
+        public void AddCallbacks(ISeedModeActions instance)
+        {
+            if (instance == null || m_Wrapper.m_SeedModeActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_SeedModeActionsCallbackInterfaces.Add(instance);
+            @UINavigation.started += instance.OnUINavigation;
+            @UINavigation.performed += instance.OnUINavigation;
+            @UINavigation.canceled += instance.OnUINavigation;
+            @MousePosition.started += instance.OnMousePosition;
+            @MousePosition.performed += instance.OnMousePosition;
+            @MousePosition.canceled += instance.OnMousePosition;
+        }
+
+        private void UnregisterCallbacks(ISeedModeActions instance)
+        {
+            @UINavigation.started -= instance.OnUINavigation;
+            @UINavigation.performed -= instance.OnUINavigation;
+            @UINavigation.canceled -= instance.OnUINavigation;
+            @MousePosition.started -= instance.OnMousePosition;
+            @MousePosition.performed -= instance.OnMousePosition;
+            @MousePosition.canceled -= instance.OnMousePosition;
+        }
+
+        public void RemoveCallbacks(ISeedModeActions instance)
+        {
+            if (m_Wrapper.m_SeedModeActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(ISeedModeActions instance)
+        {
+            foreach (var item in m_Wrapper.m_SeedModeActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_SeedModeActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public SeedModeActions @SeedMode => new SeedModeActions(this);
     private int m_DefaultControlSchemeSchemeIndex = -1;
     public InputControlScheme DefaultControlSchemeScheme
     {
@@ -443,5 +593,10 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         void OnScrollMagic(InputAction.CallbackContext context);
         void OnMousePosition(InputAction.CallbackContext context);
         void OnEat(InputAction.CallbackContext context);
+    }
+    public interface ISeedModeActions
+    {
+        void OnUINavigation(InputAction.CallbackContext context);
+        void OnMousePosition(InputAction.CallbackContext context);
     }
 }
