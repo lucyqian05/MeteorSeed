@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d1c8de0f8c76d4bab9400682c93848, type: 3}
+  m_Name: Radish
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Radish
+  <IsStackable>k__BackingField: 1
+  <MaxStackSize>k__BackingField: 99
+  <Image>k__BackingField: {fileID: 8109611079035653238, guid: ca0a6df3c2ef8134a87c633516c4f007,
+    type: 3}
+  <Description>k__BackingField: 
+  modifiersData: []

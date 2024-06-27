@@ -1,34 +1,26 @@
-﻿using Inventory.UI;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
-public class MouseFollower : MonoBehaviour
+public class SeedMouseFollower : MonoBehaviour
 {
-#pragma warning disable 0649
     [SerializeField]
     private Canvas canvas;
 
     [SerializeField]
-    private InventoryItemUI item;
+    private SeedUI seedPrefab;
+
+    [SerializeField]
+    private Image seedImage; 
 
     private PlayerInput playerInput;
     private InputAction controllerInputAction;
 
-#pragma warning restore 0649
-
     public void Awake()
     {
-        item = GetComponentInChildren<InventoryItemUI>();
         playerInput = GetComponent<PlayerInput>();
         controllerInputAction = playerInput.actions["MousePosition"];
-
     }
-
-    public void SetData(Sprite sprite, int quantity)
-    {
-        item.SetData(sprite, quantity);
-    }
-
     void Update()
     {
         Vector2 readValue = controllerInputAction.ReadValue<Vector2>();
@@ -41,6 +33,11 @@ public class MouseFollower : MonoBehaviour
             out position
                 );
         transform.position = canvas.transform.TransformPoint(position);
+    }
+
+    public void SetData(SeedUI draggedSeed)
+    {
+        seedImage.sprite = draggedSeed.seedImage.sprite;
     }
 
     public void Toggle(bool val)

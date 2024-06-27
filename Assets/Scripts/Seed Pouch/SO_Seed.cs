@@ -1,21 +1,24 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-namespace Inventory.Model
+[CreateAssetMenu]
+public class SO_Seed : ScriptableObject
 {
-    [CreateAssetMenu]
-    public class SO_Seed : SO_ItemData, IPlantable, IDestroyableItem
-    {
-        [field: SerializeField]
-        public SO_Plant Plant { get; set; }
 
-        [field: SerializeField]
-        public string Season { get; set; }
-    }
+    [field: SerializeField]
+    public string seedName { get; set; }
 
-    public interface IPlantable
-    {
+    [field: SerializeField]
+    public Sprite seedSprite { get; set; }
 
-    }
+    [field: SerializeField]
+    public SO_Plant plant { get; set; }
+
+    [field: SerializeField]
+    public int buyPrice { get; set; }
+
+    [field: SerializeField]
+    public int sellPrice { get; set; }
+
 }

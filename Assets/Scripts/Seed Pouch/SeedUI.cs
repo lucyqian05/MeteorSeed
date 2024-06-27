@@ -6,17 +6,14 @@ using UnityEngine;
 
 public class SeedUI : MonoBehaviour
 {
-    [SerializeField]
-    private Image seedImage;
+    [field: SerializeField]
+    public SO_Seed seed { get; set; }
 
-    [SerializeField]
-    private string seedName;
+    [field: SerializeField]
+    public Image seedImage;
 
     [SerializeField]
     private int seedQuantity;
-
-    [SerializeField]
-    private SO_Crop crop;
 
     [SerializeField]
     private Image border;
@@ -34,16 +31,31 @@ public class SeedUI : MonoBehaviour
     private Color seedColor;
 
     public event Action<SeedUI> OnSeedClicked,
-        OnSeedDroppedOn, OnSeedBeginDrag, OnSeedEndDrag,
-        OnRightMouseBtnClick;
+        OnSeedDroppedOn, OnSeedBeginDrag, OnSeedEndDrag;
 
     private bool itemDeselected = true;
     private bool empty = true;
 
-    public void SetData(int addedSeed)
+    private void Awake()
     {
-        seedQuantity += addedSeed;
-        
+        seedQuantity = 5;
+        SetData();
+        SetSeedImage();
+    }
+
+    public void SetSeedImage()
+    {
+        seedImage.sprite = seed.seedSprite;
+    }
+
+    public void UpdateQuantity(int changeQuantity)
+    {
+        seedQuantity = seedQuantity + changeQuantity;
+        SetData();
+    }
+
+    private void SetData()
+    {   
         if (seedQuantity == 1)
         {
             quantityUI.SetActive(false);
