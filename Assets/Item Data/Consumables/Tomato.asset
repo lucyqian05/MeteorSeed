@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Name>k__BackingField: Tomato
   <IsStackable>k__BackingField: 1
-  <MaxStackSize>k__BackingField: 1
+  <MaxStackSize>k__BackingField: 99
   <Image>k__BackingField: {fileID: -720902069423347901, guid: ca0a6df3c2ef8134a87c633516c4f007,
     type: 3}
-  <Description>k__BackingField: 
+  <Description>k__BackingField: 'Big splat potential '
   modifiersData: []

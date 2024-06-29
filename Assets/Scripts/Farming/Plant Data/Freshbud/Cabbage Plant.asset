@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38be216a1c052654c82664e656af0875, type: 3}
+  m_Name: Cabbage Plant
+  m_EditorClassIdentifier: 
+  plantName: Cabbage
+  season: 0
+  plantStageSprite:
+  - {fileID: 650087923, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: 129321019, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: 1477780340, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: 1391833497, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: -38554041, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  crop: {fileID: 11400000, guid: d55d743129afa964e9e9d1182c72e00d, type: 2}
+  numberOfCrops: 1
+  <companionPlants>k__BackingField:
+  - {fileID: 11400000, guid: 8e0c70b07522f0f49bc2a554cd345519, type: 2}
+  - {fileID: 11400000, guid: 15ff50ad0f82d8b4d9dae39437f60738, type: 2}
+  <antagonistPlants>k__BackingField:
+  - {fileID: 11400000, guid: d5942fcc1f42bee4a82d83eda98cdbf6, type: 2}
+  daysToGrow: 12
+  daysToRegrow: 0

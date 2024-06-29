@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38be216a1c052654c82664e656af0875, type: 3}
+  m_Name: Soybean Plant
+  m_EditorClassIdentifier: 
+  plantName: Soybean
+  season: 0
+  plantStageSprite:
+  - {fileID: 256775057, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: -393413850, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: -2087108703, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: 119643695, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: 910466991, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  crop: {fileID: 11400000, guid: 1613610b98f3b2444af6ed5b56f51cbb, type: 2}
+  numberOfCrops: 3
+  <companionPlants>k__BackingField:
+  - {fileID: 11400000, guid: d5942fcc1f42bee4a82d83eda98cdbf6, type: 2}
+  <antagonistPlants>k__BackingField:
+  - {fileID: 11400000, guid: 7bf2651b43ab8b3439b9dae104538146, type: 2}
+  daysToGrow: 6
+  daysToRegrow: 2

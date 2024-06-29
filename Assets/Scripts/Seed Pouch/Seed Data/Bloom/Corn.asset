@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cbcb0265d9d9124d8733178128502e2, type: 3}
+  m_Name: Corn
+  m_EditorClassIdentifier: 
+  <seedName>k__BackingField: Corn
+  <seedSprite>k__BackingField: {fileID: 1305072434, guid: 965f3b94411bfbc418bdfd5f5ec048ab,
+    type: 3}
+  <plant>k__BackingField: {fileID: 11400000, guid: ad3e07beeb9b01a489f724d32caf5455,
+    type: 2}
+  <buyPrice>k__BackingField: 0
+  <sellPrice>k__BackingField: 0

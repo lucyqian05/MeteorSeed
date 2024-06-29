@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38be216a1c052654c82664e656af0875, type: 3}
+  m_Name: Sugarcane Plant
+  m_EditorClassIdentifier: 
+  plantName: Sugarcane
+  season: 1
+  plantStageSprite:
+  - {fileID: -1241840409, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  - {fileID: 1142087514, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  - {fileID: -209347113, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  - {fileID: 212754281, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  - {fileID: -1328930581, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  crop: {fileID: 11400000, guid: 81570da11cbf5534daea44b50b511e62, type: 2}
+  numberOfCrops: 0
+  <companionPlants>k__BackingField: []
+  <antagonistPlants>k__BackingField: []
+  daysToGrow: 0
+  daysToRegrow: 0

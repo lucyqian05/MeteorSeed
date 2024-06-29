@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MS_SeedPouches_0
+      name: Soybean
       rect:
         serializedVersion: 2
         x: 0
@@ -105,7 +105,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -118,7 +118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_1
+      name: Tomato
       rect:
         serializedVersion: 2
         x: 24
@@ -126,7 +126,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_2
+      name: Radish
       rect:
         serializedVersion: 2
         x: 48
@@ -147,7 +147,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_3
+      name: Cabbage
       rect:
         serializedVersion: 2
         x: 72
@@ -168,7 +168,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_4
+      name: Hyacinth
       rect:
         serializedVersion: 2
         x: 96
@@ -189,7 +189,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_5
+      name: Poppy
       rect:
         serializedVersion: 2
         x: 0
@@ -210,7 +210,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_6
+      name: Onion
       rect:
         serializedVersion: 2
         x: 24
@@ -231,7 +231,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_7
+      name: Turnip
       rect:
         serializedVersion: 2
         x: 48
@@ -252,7 +252,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_8
+      name: Watermelon
       rect:
         serializedVersion: 2
         x: 72
@@ -273,7 +273,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_9
+      name: Carrot
       rect:
         serializedVersion: 2
         x: 96
@@ -294,7 +294,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,7 +307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_10
+      name: Ginger
       rect:
         serializedVersion: 2
         x: 0
@@ -315,7 +315,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,7 +328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_11
+      name: Sugarcane
       rect:
         serializedVersion: 2
         x: 24
@@ -336,7 +336,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,7 +349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_12
+      name: Taro
       rect:
         serializedVersion: 2
         x: 48
@@ -357,7 +357,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,7 +370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_13
+      name: Garlic
       rect:
         serializedVersion: 2
         x: 72
@@ -378,7 +378,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -391,7 +391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_14
+      name: Bean
       rect:
         serializedVersion: 2
         x: 96
@@ -399,7 +399,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -412,7 +412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_15
+      name: Chili
       rect:
         serializedVersion: 2
         x: 0
@@ -420,7 +420,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -433,7 +433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_16
+      name: Corn
       rect:
         serializedVersion: 2
         x: 24
@@ -441,7 +441,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -454,7 +454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_17
+      name: Squash
       rect:
         serializedVersion: 2
         x: 48
@@ -462,7 +462,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_18
+      name: Blueberry
       rect:
         serializedVersion: 2
         x: 72
@@ -483,7 +483,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -496,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeedPouches_19
+      name: Strawberry
       rect:
         serializedVersion: 2
         x: 96
@@ -504,7 +504,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -527,26 +527,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MS_SeedPouches_0: 176885483
-      MS_SeedPouches_1: -360185754
-      MS_SeedPouches_10: 690374086
-      MS_SeedPouches_11: -1368314908
-      MS_SeedPouches_12: 963795561
-      MS_SeedPouches_13: -1370908389
-      MS_SeedPouches_14: -1956584293
-      MS_SeedPouches_15: -1933581264
-      MS_SeedPouches_16: 1305072434
-      MS_SeedPouches_17: 1869596213
-      MS_SeedPouches_18: 1931874467
-      MS_SeedPouches_19: 1783529258
-      MS_SeedPouches_2: 593214767
-      MS_SeedPouches_3: 694624027
-      MS_SeedPouches_4: -460004573
-      MS_SeedPouches_5: 1114875234
-      MS_SeedPouches_6: -2034548084
-      MS_SeedPouches_7: 1789238596
-      MS_SeedPouches_8: -1790810575
-      MS_SeedPouches_9: -1240512197
+      Bean: -1956584293
+      Blueberry: 1931874467
+      Cabbage: 694624027
+      Carrot: -1240512197
+      Chili: -1933581264
+      Corn: 1305072434
+      Garlic: -1370908389
+      Ginger: 690374086
+      Hyacinth: -460004573
+      Onion: -2034548084
+      Poppy: 1114875234
+      Radish: 593214767
+      Soybean: 176885483
+      Squash: 1869596213
+      Strawberry: 1783529258
+      Sugarcane: -1368314908
+      Taro: 963795561
+      Tomato: -360185754
+      Turnip: 1789238596
+      Watermelon: -1790810575
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,6 +160,7 @@ namespace DateAndTime
                 {
                     day = (Days)1;
                     totalNumWeeks++;
+
                 }
 
                 date++;
@@ -178,8 +179,10 @@ namespace DateAndTime
                 {
                     season = Season.Freshbud;
                     AdvanceYear();
+                    Debug.Log(season);
                 }
                 else season++;
+
             }
 
             private void AdvanceYear()
@@ -279,7 +282,12 @@ namespace DateAndTime
                 return $"{Day} {Date} {Year.ToString("D2")}";
             }
 
-            public string DateInMonthToString()
+            public string DateInSeasonToString()
+            {
+                return $"{Season}";
+            }
+
+            public string DayInWeekToString()
             {
                 return $"{Day}";
             }

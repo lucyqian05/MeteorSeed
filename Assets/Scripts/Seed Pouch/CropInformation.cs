@@ -37,17 +37,23 @@ public class CropInformation : MonoBehaviour
         cropImage.sprite = cropSprite;
         cropName.text = seedName;
 
-        for (int i = 0; i < companionSeeds.Count; i++)
+        if (companionSeeds.Count > 0)
         {
-            companionCrops[i].sprite = companionSeeds[i];
-            GO_comCrops[i].SetActive(true);
+            for (int i = 0; i < companionSeeds.Count; i++)
+            {
+                companionCrops[i].sprite = companionSeeds[i];
+                GO_comCrops[i].SetActive(true);
+            }
         }
-
-        for (int i = 0; i < antagonistSeeds.Count; i++)
+        
+        if (antagonistSeeds.Count > 0)
         {
-            antagonistCrops[i].sprite = antagonistSeeds[i];
-            GO_antCrops[i].SetActive(true);
-        }
+            for (int i = 0; i < antagonistSeeds.Count; i++)
+            {
+                antagonistCrops[i].sprite = antagonistSeeds[i];
+                GO_antCrops[i].SetActive(true);
+            }
+        }   
     }
 
     public void DisableCropInfo()

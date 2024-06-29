@@ -7,7 +7,7 @@ using UnityEngine;
 public class SeedUI : MonoBehaviour
 {
     [field: SerializeField]
-    public SO_Seed seed { get; set; }
+    public SO_Seed seed;
 
     [field: SerializeField]
     public Image seedImage;
@@ -36,7 +36,7 @@ public class SeedUI : MonoBehaviour
     private bool itemDeselected = true;
     private bool empty = true;
 
-    private void Awake()
+    private void Start()
     {
         seedQuantity = 5;
         SetData();

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using System;
 using UnityEngine;
 
@@ -17,11 +15,8 @@ public class SeedPouchUI : MonoBehaviour
     [SerializeField]
     private GameObject sparktip;
 
-
     public event Action OnFreshbud,
         OnBloom, OnGlowlush, OnSparktip;
-
-
     private void DeselectSeasons()
     {
         freshbud.SetActive(false);
@@ -57,4 +52,5 @@ public class SeedPouchUI : MonoBehaviour
         sparktip.SetActive(true);
         OnSparktip?.Invoke();
     }
+
 }

@@ -37,7 +37,7 @@ public class TimeUI : MonoBehaviour
     private void UpdateDateTime(DateTime dateTime)
     {
         timeText.text = dateTime.TimeToString();
-        dayInMonthText.text = dateTime.DateInMonthToString();
+        dayInMonthText.text = dateTime.DayInWeekToString();
         dayText.text = dateTime.DayToString();
 
         int seasonIndex = 1;
@@ -47,16 +47,12 @@ public class TimeUI : MonoBehaviour
             if (dateTime.Season.ToString() == listSeasons[i])
                 seasonIndex = i;
         }
-
-
         seasonUI.sprite = seasonBranch[seasonIndex];
-
     }
 
     private List<string> listSeasons = new List<string>()
     {
         "Bloom",
-        "Crisp",
         "Freshbud",
         "Glowlush",
         "Jubilee",

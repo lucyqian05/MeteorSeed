@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38be216a1c052654c82664e656af0875, type: 3}
+  m_Name: Garlic Plant
+  m_EditorClassIdentifier: 
+  plantName: Garlic
+  season: 1
+  plantStageSprite:
+  - {fileID: -777091423, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  - {fileID: 763951861, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  - {fileID: 1437509947, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  - {fileID: 1615287076, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  - {fileID: -368251044, guid: ec9f0279a98294644ae1db482c0a1ce9, type: 3}
+  crop: {fileID: 11400000, guid: 5fc3c64e68de6504b838c26d9b7cbae9, type: 2}
+  numberOfCrops: 0
+  <companionPlants>k__BackingField: []
+  <antagonistPlants>k__BackingField: []
+  daysToGrow: 0
+  daysToRegrow: 0

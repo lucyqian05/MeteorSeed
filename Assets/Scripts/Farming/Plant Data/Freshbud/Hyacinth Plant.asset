@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38be216a1c052654c82664e656af0875, type: 3}
+  m_Name: Hyacinth Plant
+  m_EditorClassIdentifier: 
+  plantName: Hyacinth
+  season: 0
+  plantStageSprite:
+  - {fileID: -118262578, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: 1238803807, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: 1507297548, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: -1732619103, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: -93349682, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  crop: {fileID: 11400000, guid: cbfe25de447a852488475ce029c52473, type: 2}
+  numberOfCrops: 3
+  <companionPlants>k__BackingField: []
+  <antagonistPlants>k__BackingField: []
+  daysToGrow: 7
+  daysToRegrow: 0

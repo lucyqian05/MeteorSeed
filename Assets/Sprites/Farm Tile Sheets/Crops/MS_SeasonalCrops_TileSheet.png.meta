@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_0
+      name: Strawberry
       rect:
         serializedVersion: 2
         x: 0
@@ -105,7 +105,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -118,7 +118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_1
+      name: Blueberry
       rect:
         serializedVersion: 2
         x: 24
@@ -126,7 +126,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_2
+      name: Hibiscus Hip
       rect:
         serializedVersion: 2
         x: 48
@@ -147,7 +147,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_3
+      name: Rose
       rect:
         serializedVersion: 2
         x: 72
@@ -168,7 +168,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,7 +181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_4
+      name: Ginger
       rect:
         serializedVersion: 2
         x: 0
@@ -189,7 +189,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_5
+      name: Sugarcane
       rect:
         serializedVersion: 2
         x: 24
@@ -210,7 +210,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_6
+      name: Taro
       rect:
         serializedVersion: 2
         x: 48
@@ -231,7 +231,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_7
+      name: Garlic
       rect:
         serializedVersion: 2
         x: 72
@@ -252,7 +252,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_8
+      name: Soybean
       rect:
         serializedVersion: 2
         x: 96
@@ -273,7 +273,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_9
+      name: Cabbage
       rect:
         serializedVersion: 2
         x: 0
@@ -294,7 +294,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,7 +307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_10
+      name: Carrot
       rect:
         serializedVersion: 2
         x: 24
@@ -315,7 +315,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,7 +328,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_11
+      name: Camilla
       rect:
         serializedVersion: 2
         x: 48
@@ -336,7 +336,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,7 +349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_12
+      name: Hyacinth
       rect:
         serializedVersion: 2
         x: 72
@@ -357,7 +357,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,7 +370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_13
+      name: Onion
       rect:
         serializedVersion: 2
         x: 96
@@ -378,7 +378,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -391,7 +391,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_14
+      name: Grape
       rect:
         serializedVersion: 2
         x: 0
@@ -399,7 +399,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -412,7 +412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_15
+      name: Red Bell Pepper
       rect:
         serializedVersion: 2
         x: 24
@@ -420,7 +420,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -433,7 +433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_16
+      name: Lotus Root
       rect:
         serializedVersion: 2
         x: 48
@@ -441,7 +441,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -454,7 +454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_17
+      name: Lotus
       rect:
         serializedVersion: 2
         x: 72
@@ -462,7 +462,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_18
+      name: Lotus Pod
       rect:
         serializedVersion: 2
         x: 96
@@ -483,7 +483,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -496,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_19
+      name: Wheat
       rect:
         serializedVersion: 2
         x: 0
@@ -504,7 +504,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_20
+      name: Rice
       rect:
         serializedVersion: 2
         x: 24
@@ -525,7 +525,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -538,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_21
+      name: Coffee Bean
       rect:
         serializedVersion: 2
         x: 48
@@ -546,7 +546,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -559,7 +559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_22
+      name: Radish
       rect:
         serializedVersion: 2
         x: 72
@@ -567,7 +567,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -580,7 +580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_23
+      name: Passion Fruit
       rect:
         serializedVersion: 2
         x: 96
@@ -588,7 +588,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -601,7 +601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_24
+      name: Beans
       rect:
         serializedVersion: 2
         x: 0
@@ -609,7 +609,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -622,7 +622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_25
+      name: Chili
       rect:
         serializedVersion: 2
         x: 24
@@ -630,7 +630,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -643,7 +643,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_26
+      name: Corn
       rect:
         serializedVersion: 2
         x: 48
@@ -651,7 +651,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -664,7 +664,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_27
+      name: Hibiscus
       rect:
         serializedVersion: 2
         x: 72
@@ -672,7 +672,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -685,7 +685,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_28
+      name: Squash
       rect:
         serializedVersion: 2
         x: 96
@@ -693,7 +693,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -706,7 +706,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_29
+      name: Poppy
       rect:
         serializedVersion: 2
         x: 0
@@ -714,7 +714,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -727,7 +727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_30
+      name: Turnip
       rect:
         serializedVersion: 2
         x: 24
@@ -735,7 +735,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -748,7 +748,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_31
+      name: Watermelon
       rect:
         serializedVersion: 2
         x: 48
@@ -756,7 +756,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -769,7 +769,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_32
+      name: Cucumber
       rect:
         serializedVersion: 2
         x: 72
@@ -777,7 +777,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -790,7 +790,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_33
+      name: Tea
       rect:
         serializedVersion: 2
         x: 96
@@ -798,7 +798,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -811,7 +811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_34
+      name: Pumpkin
       rect:
         serializedVersion: 2
         x: 0
@@ -819,7 +819,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -832,7 +832,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_35
+      name: Casava
       rect:
         serializedVersion: 2
         x: 24
@@ -840,7 +840,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -853,7 +853,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_36
+      name: Spinach
       rect:
         serializedVersion: 2
         x: 48
@@ -861,7 +861,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -874,7 +874,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_37
+      name: Yam
       rect:
         serializedVersion: 2
         x: 72
@@ -882,7 +882,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -895,7 +895,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_38
+      name: Tomato
       rect:
         serializedVersion: 2
         x: 96
@@ -903,7 +903,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -916,7 +916,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_39
+      name: Potato
       rect:
         serializedVersion: 2
         x: 0
@@ -924,7 +924,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -937,7 +937,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_40
+      name: Daikon_0
       rect:
         serializedVersion: 2
         x: 24
@@ -945,7 +945,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -958,7 +958,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_41
+      name: Daikon_1
       rect:
         serializedVersion: 2
         x: 48
@@ -966,7 +966,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -979,7 +979,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_42
+      name: Daikon_2
       rect:
         serializedVersion: 2
         x: 72
@@ -987,7 +987,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1000,7 +1000,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MS_SeasonalCrops_TileSheet_43
+      name: Peas
       rect:
         serializedVersion: 2
         x: 96
@@ -1008,7 +1008,7 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1031,50 +1031,50 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MS_SeasonalCrops_TileSheet_0: 821538838
-      MS_SeasonalCrops_TileSheet_1: -913963429
-      MS_SeasonalCrops_TileSheet_10: 1511661967
-      MS_SeasonalCrops_TileSheet_11: -589123892
-      MS_SeasonalCrops_TileSheet_12: 114421137
-      MS_SeasonalCrops_TileSheet_13: -899690531
-      MS_SeasonalCrops_TileSheet_14: 416063786
-      MS_SeasonalCrops_TileSheet_15: -23049266
-      MS_SeasonalCrops_TileSheet_16: 536956153
-      MS_SeasonalCrops_TileSheet_17: 702278481
-      MS_SeasonalCrops_TileSheet_18: 479489422
-      MS_SeasonalCrops_TileSheet_19: 230641869
-      MS_SeasonalCrops_TileSheet_2: 2017804894
-      MS_SeasonalCrops_TileSheet_20: 1033907568
-      MS_SeasonalCrops_TileSheet_21: 992942762
-      MS_SeasonalCrops_TileSheet_22: 727668859
-      MS_SeasonalCrops_TileSheet_23: -462476869
-      MS_SeasonalCrops_TileSheet_24: -1958796796
-      MS_SeasonalCrops_TileSheet_25: 209223830
-      MS_SeasonalCrops_TileSheet_26: -1995351136
-      MS_SeasonalCrops_TileSheet_27: 2066327875
-      MS_SeasonalCrops_TileSheet_28: -945110372
-      MS_SeasonalCrops_TileSheet_29: -238678663
-      MS_SeasonalCrops_TileSheet_3: 24084179
-      MS_SeasonalCrops_TileSheet_30: -701227570
-      MS_SeasonalCrops_TileSheet_31: 1606826443
-      MS_SeasonalCrops_TileSheet_32: 1298828369
-      MS_SeasonalCrops_TileSheet_33: -1017497347
-      MS_SeasonalCrops_TileSheet_34: -1307852875
-      MS_SeasonalCrops_TileSheet_35: 1410773992
-      MS_SeasonalCrops_TileSheet_36: 1742758487
-      MS_SeasonalCrops_TileSheet_37: -460606672
-      MS_SeasonalCrops_TileSheet_38: 971868462
-      MS_SeasonalCrops_TileSheet_39: -2024625904
-      MS_SeasonalCrops_TileSheet_4: 2039491570
-      MS_SeasonalCrops_TileSheet_40: 1363229841
-      MS_SeasonalCrops_TileSheet_41: -1379587256
-      MS_SeasonalCrops_TileSheet_42: 2048250122
-      MS_SeasonalCrops_TileSheet_43: -1555778075
-      MS_SeasonalCrops_TileSheet_5: 1889272103
-      MS_SeasonalCrops_TileSheet_6: 1436567022
-      MS_SeasonalCrops_TileSheet_7: 45174963
-      MS_SeasonalCrops_TileSheet_8: 24188470
-      MS_SeasonalCrops_TileSheet_9: -521077928
+      Beans: -1958796796
+      Blueberry: -913963429
+      Cabbage: -521077928
+      Camilla: -589123892
+      Carrot: 1511661967
+      Casava: 1410773992
+      Chili: 209223830
+      Coffee Bean: 992942762
+      Corn: -1995351136
+      Cucumber: 1298828369
+      Daikon_0: 1363229841
+      Daikon_1: -1379587256
+      Daikon_2: 2048250122
+      Garlic: 45174963
+      Ginger: 2039491570
+      Grape: 416063786
+      Hibiscus: 2066327875
+      Hibiscus Hip: 2017804894
+      Hyacinth: 114421137
+      Lotus: 702278481
+      Lotus Pod: 479489422
+      Lotus Root: 536956153
+      Onion: -899690531
+      Passion Fruit: -462476869
+      Peas: -1555778075
+      Poppy: -238678663
+      Potato: -2024625904
+      Pumpkin: -1307852875
+      Radish: 727668859
+      Red Bell Pepper: -23049266
+      Rice: 1033907568
+      Rose: 24084179
+      Soybean: 24188470
+      Spinach: 1742758487
+      Squash: -945110372
+      Strawberry: 821538838
+      Sugarcane: 1889272103
+      Taro: 1436567022
+      Tea: -1017497347
+      Tomato: 971868462
+      Turnip: -701227570
+      Watermelon: 1606826443
+      Wheat: 230641869
+      Yam: -460606672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

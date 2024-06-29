@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38be216a1c052654c82664e656af0875, type: 3}
+  m_Name: Watermelon Plant
+  m_EditorClassIdentifier: 
+  plantName: Watermelon
+  season: 0
+  plantStageSprite:
+  - {fileID: -1754735332, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: -763043978, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: 1561273792, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: -30390889, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  - {fileID: -1236737087, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
+  crop: {fileID: 11400000, guid: 7d45e7445c0fa084c87e526e7a4b51c3, type: 2}
+  numberOfCrops: 1
+  <companionPlants>k__BackingField:
+  - {fileID: 11400000, guid: 21a1047d00225b84597eb770780481ed, type: 2}
+  - {fileID: 11400000, guid: 1ff1c50781ff4fd4290b306571712bf4, type: 2}
+  - {fileID: 11400000, guid: 8e0c70b07522f0f49bc2a554cd345519, type: 2}
+  <antagonistPlants>k__BackingField:
+  - {fileID: 11400000, guid: d5942fcc1f42bee4a82d83eda98cdbf6, type: 2}
+  - {fileID: 11400000, guid: 658508080e464fa4a80e85d08f8d17ed, type: 2}
+  daysToGrow: 8
+  daysToRegrow: 2
