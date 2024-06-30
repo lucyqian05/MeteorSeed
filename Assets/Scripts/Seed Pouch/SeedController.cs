@@ -22,6 +22,8 @@ public class SeedController : MonoBehaviour
 
     private string currentSeason = "Freshbud";
 
+    public Action<SeedUI> SeedDropped;
+
     private void Start()
     {
         seedPouchUI.OnFreshbud += SubscribeFreshbud;
@@ -154,9 +156,10 @@ public class SeedController : MonoBehaviour
         seedMouseFollower.Toggle(false);
     }
 
-    private void HandleDroppedOn(SeedUI obj)
+    private void HandleDroppedOn(SeedUI seed)
     {
-        throw new NotImplementedException();
+        SeedDropped?.Invoke(seed);
+        Debug.Log("Seed Dropped in SeedController");
     }
 
 

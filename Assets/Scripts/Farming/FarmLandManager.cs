@@ -1,12 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
 public class FarmLandManager : MonoBehaviour
 {
+
+    [SerializeField]
+    private Tilemap plantTilemap;
 
     [SerializeField]
     private RuleTile agniTile;
@@ -37,6 +37,7 @@ public class FarmLandManager : MonoBehaviour
 
     }
 
+    
     private void SetLandAgni()
     {
         Vector3 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -45,7 +46,12 @@ public class FarmLandManager : MonoBehaviour
 
         if(tile != null)
         {
+            
             farmLand.SetTile(tilePosition, agniTile);
+
+            Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
+            plantTilemap.SetTileFlags(tilePosition, TileFlags.None);
+            plantTilemap.SetColor(tilePosition, clearTile);
         }
     }
 

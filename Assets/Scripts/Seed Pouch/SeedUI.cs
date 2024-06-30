@@ -83,11 +83,6 @@ public class SeedUI : MonoBehaviour
         OnSeedClicked?.Invoke(this);
     }
 
-    public void OnDrop()
-    {
-        OnSeedDroppedOn?.Invoke(this);
-    }
-
     public void OnBeginDrag()
     {
         if (empty)
@@ -98,6 +93,7 @@ public class SeedUI : MonoBehaviour
     public void OnEndDrag()
     {
         OnSeedEndDrag?.Invoke(this);
+        OnSeedDroppedOn?.Invoke(this);
     }
 
     public void Selection()

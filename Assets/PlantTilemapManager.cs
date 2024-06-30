@@ -1,18 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class PlantTilemapManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private SO_PlantTilemap plantDatabase;
+
+    [SerializeField]
+    private Tilemap plantTilemap;
+
+    [SerializeField]
+    private SeedController seedController;
+
+    public void Start()
     {
-        
+        seedController.SeedDropped += HandleSeedDropped;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void HandleSeedDropped(SeedUI seed)
     {
-        
+        Vector3 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3Int tilePosition = plantTilemap.WorldToCell(worldPoint);
+        TileBase tile = plantTilemap.GetTile(tilePosition);
+
+        Sprite seedImage = seed.seedImage.sprite;
+
+        Tile tempTile = ScriptableObject.CreateInstance<Tile>();
+
+        if (tile != null)
+        {
+
+            tempTile.sprite = seedImage;
+
+            plantTilemap.SetTile(tilePosition, tempTile);
+        }
     }
 }
