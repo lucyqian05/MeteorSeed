@@ -159,7 +159,6 @@ public class SeedController : MonoBehaviour
     private void HandleDroppedOn(SeedUI seed)
     {
         SeedDropped?.Invoke(seed);
-        Debug.Log("Seed Dropped in SeedController");
     }
 
 

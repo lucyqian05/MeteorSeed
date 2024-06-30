@@ -5,7 +5,6 @@ using UnityEngine.UI;
 [CreateAssetMenu]
 public class SO_Seed : ScriptableObject
 {
-
     [field: SerializeField]
     public string seedName { get; set; }
 
