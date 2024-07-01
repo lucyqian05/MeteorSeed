@@ -17,6 +17,9 @@ public class FarmLandManager : MonoBehaviour
     [SerializeField]
     private RuleTile biyoTile;
 
+    [SerializeField]
+    private Tile agniTileTag;
+
     private Tilemap farmLand;
     private Magic magic;
     private PlayerInput playerInput;
@@ -49,6 +52,7 @@ public class FarmLandManager : MonoBehaviour
             
             farmLand.SetTile(tilePosition, agniTile);
 
+            plantTilemap.SetTile(tilePosition, agniTileTag);
             Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
             plantTilemap.SetTileFlags(tilePosition, TileFlags.None);
             plantTilemap.SetColor(tilePosition, clearTile);

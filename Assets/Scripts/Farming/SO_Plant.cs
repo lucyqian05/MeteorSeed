@@ -2,6 +2,7 @@ using Inventory.Model;
 using UnityEngine;
 using DateAndTime;
 using System;
+using UnityEngine.Tilemaps;
 
 [CreateAssetMenu]
 public class SO_Plant : ScriptableObject
@@ -38,16 +39,21 @@ public class SO_Plant : ScriptableObject
 
     private int growthCounter = 1; 
     private int reproduceCounter;
-    private bool plantWatered = false;
+    public bool plantWatered = false;
     private int daysUnwatered;
-    private int unwateredPlantDeath = 3; 
+    private int unwateredPlantDeath = 3;
 
     public void Start()
     {
         CalculatePlantStages();
     }
 
-    private void PlantGrowth(TimeManager.DateTime dateTime)
+    public void CheckWatered()
+    {
+        
+    }
+
+    public void PlantGrowth()
     {
         if (!plantWatered)
         {
@@ -57,8 +63,8 @@ public class SO_Plant : ScriptableObject
                 KillPlant();
             }
         }
-        growthCounter++; 
-
+        growthCounter++;
+        plantWatered = false;
     }
 
     private void KillPlant()
@@ -75,17 +81,17 @@ public class SO_Plant : ScriptableObject
 
         plantStageTwo = daysEven;
         plantStageThree = daysEven;
-        plantStageFour = daysEven; 
+        plantStageFour = daysToGrow; 
         
         if(daysRemain == 0)
         {
             return; 
         } else if (daysRemain == 1)
         {
-            plantStageFour++;
+            plantStageTwo++;
         } else if (daysRemain == 2)
         {
-            plantStageFour++;
+            plantStageTwo++;
             plantStageThree++;
         }
     }

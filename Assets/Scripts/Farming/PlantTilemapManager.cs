@@ -5,10 +5,10 @@ using UnityEngine.Tilemaps;
 public class PlantTilemapManager : MonoBehaviour
 {
     [SerializeField]
-    private SO_PlantTilemap plantDatabase;
+    private Tilemap plantTilemap;
 
     [SerializeField]
-    private Tilemap plantTilemap;
+    private Tilemap farmTilemap;
 
     [SerializeField]
     private SeedController seedController;
@@ -33,6 +33,12 @@ public class PlantTilemapManager : MonoBehaviour
     {
         foreach(var item in tempSeedMap)
         {
+
+            plantTilemap.SetTile(item.Key, plantPlaceholder);
+            Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
+            plantTilemap.SetTileFlags(item.Key, TileFlags.None);
+            plantTilemap.SetColor(item.Key, clearTile);
+
             Vector3 cropSpawn = plantTilemap.CellToWorld(new Vector3Int(item.Key.x, item.Key.y, 0));
 
             Plant newCrop = Instantiate(cropPrefab, cropSpawn, Quaternion.identity);
@@ -42,7 +48,11 @@ public class PlantTilemapManager : MonoBehaviour
             SeedUI newSeed = item.Value;
             SO_Plant newPlantData = newSeed.seed.plant;
             newCrop.plantData = newPlantData;
+
+            newCrop.plantLocation = item.Key;
+            newCrop.farmlandTilemap = farmTilemap;
         }
+        tempSeedMap.Clear();
     }
 
     public void SpreadSeed()

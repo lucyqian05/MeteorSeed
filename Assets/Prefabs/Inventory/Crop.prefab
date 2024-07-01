@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4544796059762733867}
   - component: {fileID: 8305852519910883325}
   - component: {fileID: 7202057295401870925}
+  - component: {fileID: -6602210057069561879}
   m_Layer: 20
   m_Name: Crop
   m_TagString: Untagged
@@ -99,3 +100,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantData: {fileID: 0}
+  farmlandTilemap: {fileID: 0}
+  plantLocation: {x: 0, y: 0, z: 0}
+  biyoTile: {fileID: 11400000, guid: 0a3892bc25ef20041b4b1c0e3585bce0, type: 2}
+--- !u!114 &-6602210057069561879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028346061109137987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ff9b61ddf9e40e4b9ec1bd70c63d0fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
