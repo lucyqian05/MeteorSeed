@@ -7,6 +7,8 @@ public class TimeEventManager : MonoBehaviour
 {
     public event Action OnDayChanged;
 
+    private int currentDay = 0;
+
     public void OnEnable()
     {
         TimeManager.OnDateTimeChanged += DayChangeCounter;
@@ -14,16 +16,16 @@ public class TimeEventManager : MonoBehaviour
 
     public void OnDisable()
     {
-        TimeManager.OnDateTimeChanged += DayChangeCounter;
+        TimeManager.OnDateTimeChanged -= DayChangeCounter;
     }
 
     private void DayChangeCounter(TimeManager.DateTime dateTime)
     {
-        int currentDay = 1;
+        int timeManagerDate = dateTime.Date;
 
-        if (currentDay != dateTime.Date)
+        if (currentDay != timeManagerDate)
         {
-            currentDay = dateTime.Date;
+            currentDay = timeManagerDate;
             OnDayChanged?.Invoke();
         }
     }

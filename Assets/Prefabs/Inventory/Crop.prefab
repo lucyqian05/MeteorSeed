@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plantData: {fileID: 0}
+  deadPlant: {fileID: 21300000, guid: 15f72b6df85431f46acd0d558cd1b392, type: 3}
   farmlandTilemap: {fileID: 0}
   plantLocation: {x: 0, y: 0, z: 0}
   biyoTile: {fileID: 11400000, guid: 0a3892bc25ef20041b4b1c0e3585bce0, type: 2}

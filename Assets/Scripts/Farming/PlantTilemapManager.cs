@@ -20,6 +20,9 @@ public class PlantTilemapManager : MonoBehaviour
     private Transform cropsOrganizer;
 
     [SerializeField]
+    private RuleTile agniTile;
+
+    [SerializeField]
     private Plant cropPrefab;
 
     private Dictionary<Vector3Int, SeedUI> tempSeedMap = new Dictionary<Vector3Int, SeedUI>();
@@ -64,7 +67,8 @@ public class PlantTilemapManager : MonoBehaviour
     {
         Vector3 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3Int tilePosition = plantTilemap.WorldToCell(worldPoint);
-        TileBase tile = plantTilemap.GetTile(tilePosition);
+        TileBase plantTile = plantTilemap.GetTile(tilePosition);
+        TileBase farmlandTile = farmTilemap.GetTile(tilePosition);
 
         Color tileColor = plantTilemap.GetColor(tilePosition);
 
@@ -73,7 +77,7 @@ public class PlantTilemapManager : MonoBehaviour
         Tile tempTile = ScriptableObject.CreateInstance<Tile>();
         Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
 
-        if (tile != null && tileColor == clearTile && tile != plantPlaceholder)
+        if (plantTile != null && tileColor == clearTile && plantTile != plantPlaceholder && farmlandTile != agniTile)
         {
             tempTile.sprite = seedImage;
             plantTilemap.SetTile(tilePosition, tempTile);

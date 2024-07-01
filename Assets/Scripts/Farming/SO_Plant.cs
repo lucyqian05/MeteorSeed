@@ -35,22 +35,44 @@ public class SO_Plant : ScriptableObject
     private const int plantStageOne = 2;
     private int plantStageTwo;
     private int plantStageThree;
-    private int plantStageFour; 
+    private int plantStageFour;
 
-    private int growthCounter = 1; 
+    private Sprite currentSprite; 
+
+    public int growthCounter = 1; 
     private int reproduceCounter;
     public bool plantWatered = false;
-    private int daysUnwatered;
-    private int unwateredPlantDeath = 3;
+    public int daysUnwatered;
+    public int unwateredPlantDeath = 3;
 
     public void Start()
     {
         CalculatePlantStages();
     }
 
-    public void CheckWatered()
+    public Sprite GetPlantSprite()
     {
+        if (growthCounter == plantStageSeed)
+        {
+            currentSprite = plantStageSprite[0]; 
+        } 
+        else if (growthCounter == plantStageOne)
+        {
+            currentSprite = plantStageSprite[1];
+        } 
+        else if (growthCounter == plantStageTwo)
+        {
+            currentSprite = plantStageSprite[2];
+        }
+        else if (growthCounter == plantStageThree)
+        {
+            currentSprite = plantStageSprite[3];
+        } else if (growthCounter == plantStageFour)
+        {
+            currentSprite = plantStageSprite[3];
+        }
         
+        return currentSprite;
     }
 
     public void PlantGrowth()
