@@ -17,6 +17,9 @@ public class PlantTilemapManager : MonoBehaviour
     private Tile plantPlaceholder;
 
     [SerializeField]
+    private CropsManager cropsManager;
+
+    [SerializeField]
     private Transform cropsOrganizer;
 
     [SerializeField]
@@ -36,7 +39,6 @@ public class PlantTilemapManager : MonoBehaviour
     {
         foreach(var item in tempSeedMap)
         {
-
             plantTilemap.SetTile(item.Key, plantPlaceholder);
             Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
             plantTilemap.SetTileFlags(item.Key, TileFlags.None);
@@ -54,6 +56,8 @@ public class PlantTilemapManager : MonoBehaviour
 
             newCrop.plantLocation = item.Key;
             newCrop.farmlandTilemap = farmTilemap;
+
+            cropsManager.cropManager.Add(item.Key, newCrop);
         }
         tempSeedMap.Clear();
     }

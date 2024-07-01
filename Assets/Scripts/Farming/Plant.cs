@@ -68,4 +68,9 @@ public class Plant : MonoBehaviour
         Sprite newPlantSprite = plantData.GetPlantSprite();
         plantSpriteRenderer.sprite = newPlantSprite; 
     }
+
+    public void DestroyPlant()
+    {
+        Destroy(gameObject);
+    }
 }

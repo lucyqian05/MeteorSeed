@@ -4,6 +4,8 @@ using UnityEngine.Tilemaps;
 
 public class FarmLandManager : MonoBehaviour
 {
+    [SerializeField]
+    private CropsManager cropManager;
 
     [SerializeField]
     private Tilemap plantTilemap;
@@ -48,14 +50,21 @@ public class FarmLandManager : MonoBehaviour
         TileBase tile = farmLand.GetTile(tilePosition); 
 
         if(tile != null)
-        {
-            
+        {   
             farmLand.SetTile(tilePosition, agniTile);
 
             plantTilemap.SetTile(tilePosition, agniTileTag);
             Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
             plantTilemap.SetTileFlags(tilePosition, TileFlags.None);
             plantTilemap.SetColor(tilePosition, clearTile);
+
+            foreach (var item in cropManager.cropManager)
+            {
+                if (tilePosition == item.Key)
+                {
+                    item.Value.DestroyPlant();
+                }
+            }
         }
     }
 
