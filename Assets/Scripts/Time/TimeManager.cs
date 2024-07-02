@@ -6,7 +6,7 @@ namespace DateAndTime
     public class TimeManager : MonoBehaviour
     {
         [Header("Date & Time Settings")]
-        [Range(1, 20)]
+        [Range(0, 19)]
         public int dateInMonth;
         [Range(1, 6)]
         public int season;
