@@ -13,7 +13,7 @@ public class SO_Plant : ScriptableObject
 #pragma warning disable 0649
 
     [SerializeField]
-    public Season season = new Season();
+    Season season = new Season();
 
     public Sprite[] plantStageSprite;
 
@@ -39,12 +39,16 @@ public class SO_Plant : ScriptableObject
 
     private Sprite currentSprite; 
 
-    public int growthCounter; 
+    public int growthCounter = 1; 
     private int reproduceCounter;
-
-    public bool plantWatered;
+    public bool plantWatered = false;
     public int daysUnwatered;
-    public int unwateredPlantDeath;
+    public int unwateredPlantDeath = 3;
+
+    public void Start()
+    {
+        CalculatePlantStages();
+    }
 
     public Sprite GetPlantSprite()
     {
@@ -63,41 +67,58 @@ public class SO_Plant : ScriptableObject
         else if (growthCounter == plantStageThree)
         {
             currentSprite = plantStageSprite[3];
-        } 
-        else if (growthCounter == plantStageFour)
+        } else if (growthCounter == plantStageFour)
         {
-            currentSprite = plantStageSprite[4];
+            currentSprite = plantStageSprite[3];
         }
-
+        
         return currentSprite;
     }
 
-    public void CalculatePlantStages()
+    public void PlantGrowth()
+    {
+        if (!plantWatered)
+        {
+            daysUnwatered++;
+            if (daysUnwatered == unwateredPlantDeath)
+            {
+                KillPlant();
+            }
+        }
+        growthCounter++;
+        plantWatered = false;
+    }
+
+    private void KillPlant()
+    {
+        //TimeManager.OnDayChanged -= PlantGrowth;
+        //When the plant script is created, the sprite should be updated to be dead
+    }
+
+    private void CalculatePlantStages()
     {
         double dividedDays = (daysToGrow - 2) / 3;
         int daysEven = (int)Math.Round(dividedDays);
         int daysRemain = (daysToGrow - 2) % 3;
 
-        plantStageTwo = plantStageOne + daysEven;
-        plantStageThree = plantStageTwo + daysEven;
-        plantStageFour = daysToGrow;
+        plantStageTwo = daysEven;
+        plantStageThree = daysEven;
+        plantStageFour = daysToGrow; 
         
         if(daysRemain == 0)
         {
             return; 
-        } 
-        else if (daysRemain == 1)
+        } else if (daysRemain == 1)
         {
-            plantStageThree++;
-        } 
-        else if (daysRemain == 2)
+            plantStageTwo++;
+        } else if (daysRemain == 2)
         {
             plantStageTwo++;
             plantStageThree++;
         }
     }
 
-    public enum Season
+    enum Season
     {
         Freshbud,
         Bloom, 

@@ -7,7 +7,7 @@ public class TimeEventManager : MonoBehaviour
 {
     public event Action OnDayChanged;
 
-    private int currentDay = 1;
+    private int currentDay = 0;
 
     public void OnEnable()
     {

@@ -63,8 +63,6 @@ public class FarmLandManager : MonoBehaviour
                 if (tilePosition == item.Key)
                 {
                     item.Value.DestroyPlant();
-                    cropManager.cropManager.Remove(item.Key);
-                    return;
                 }
             }
         }

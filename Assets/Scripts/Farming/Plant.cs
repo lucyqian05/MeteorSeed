@@ -1,21 +1,20 @@
 using System;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using static DateAndTime.TimeManager;
 
 public class Plant : MonoBehaviour
 {
+    [SerializeField]
     public SO_Plant plantData;
 
+    [SerializeField]
     public Sprite deadPlant;
 
     public Tilemap farmlandTilemap;
 
     public Vector3Int plantLocation;
 
-    public RuleTile biyoTile;
-
-    public Item item; 
+    public RuleTile biyoTile; 
 
     private SpriteRenderer plantSpriteRenderer;
 
@@ -26,9 +25,10 @@ public class Plant : MonoBehaviour
         timeEventManager = GetComponent<TimeEventManager>();
         plantSpriteRenderer = GetComponent<SpriteRenderer>();
 
+        timeEventManager.OnDayChanged += CheckWatered;
         timeEventManager.OnDayChanged += Grow;
 
-        SetPlant();
+        SetPlantSprite();
     }
 
     private void CheckWatered()
@@ -39,58 +39,35 @@ public class Plant : MonoBehaviour
             plantData.plantWatered = true;
         }
     }
-    private void CheckSeason(Season currentSeason)
-    {
-
-    }
 
     public void Grow()
     {
-        CheckWatered();
-
         if (!plantData.plantWatered)
         {
             plantData.daysUnwatered++;
-            if(plantData.daysUnwatered == plantData.unwateredPlantDeath)
+            if (plantData.daysUnwatered == plantData.unwateredPlantDeath)
             {
                 KillPlant();
             }
-            return;
         }
 
         plantData.growthCounter++;
-
-        Sprite newPlantSprite = plantData.GetPlantSprite();
-        plantSpriteRenderer.sprite = newPlantSprite;
-
+        SetPlantSprite();
         plantData.plantWatered = false;
-    }
-    
-    public void HarvestCrop()
-    {
-        if (plantData.growthCounter > plantData.daysToGrow)
-        {
-
-        }
     }
 
     private void KillPlant()
     {
+        timeEventManager.OnDayChanged -= CheckWatered;
         timeEventManager.OnDayChanged -= Grow;
         plantSpriteRenderer.sprite = deadPlant; 
     }
 
-    private void SetPlant()
+    private void SetPlantSprite()
     {
-        Sprite newPlantSprite = plantData.plantStageSprite[0];
-        plantSpriteRenderer.sprite = newPlantSprite;
-
-        plantData.growthCounter = 1;
-        plantData.daysUnwatered = 0;
-        plantData.plantWatered = false;
-
-        plantData.CalculatePlantStages();
-}
+        Sprite newPlantSprite = plantData.GetPlantSprite();
+        plantSpriteRenderer.sprite = newPlantSprite; 
+    }
 
     public void DestroyPlant()
     {
