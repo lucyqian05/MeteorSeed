@@ -90,11 +90,6 @@ public class SO_Plant : ScriptableObject
             plantStageTwo++;
             plantStageThree++;
         }
-        Debug.Log(plantStageSeed);
-        Debug.Log(plantStageOne);
-        Debug.Log(plantStageTwo);
-        Debug.Log(plantStageThree);
-        Debug.Log(plantStageFour);
     }
 
     enum Season

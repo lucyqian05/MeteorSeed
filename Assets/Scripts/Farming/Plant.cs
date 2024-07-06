@@ -49,14 +49,20 @@ public class Plant : MonoBehaviour
 
     private void CheckSeason()
     {
-        string season = plantData.GetSeasonString();
+        string plantingSeason = plantData.GetSeasonString();
+        string currentSeason = timeEventManager.currentSeason;
 
-        //get access to dateTime and check the season 
+        if (plantingSeason != currentSeason)
+        {
+            KillPlant();
+        }
+        
     }
 
     public void Grow()
     {
         CheckWatered();
+        CheckSeason();
 
         if (!plantWatered)
         {
