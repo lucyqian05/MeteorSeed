@@ -1,4 +1,5 @@
 using Inventory.Model;
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,14 +7,31 @@ public class PickUpSystem : MonoBehaviour
 {
     [SerializeField]
     private SO_PlayerInventory inventoryData;
+
     private PlayerController playerController;
+    private Magic magic;
+    private PlayerInput playerInput;
+    private InputAction controllerInputAction;
 
     private Item item;
     private bool isInRange = false;
     private void Start()
     {
         playerController = GetComponent<PlayerController>();
-        playerController.OnInteract += PickUp; 
+        magic = GetComponent<Magic>();
+        playerInput = GetComponent<PlayerInput>();
+        controllerInputAction = playerInput.actions["MousePosition"];
+
+        playerController.OnInteract += PickUp;
+        magic.OnAria += AriaItem;
+    }
+
+    private void AriaItem()
+    {
+        if (item != null)
+        {
+            
+        }
     }
 
     private void PickUp(InputAction.CallbackContext context)

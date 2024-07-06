@@ -50,7 +50,6 @@ namespace Inventory.UI
                 uiItem.OnItemDroppedOn += HandleSwap;
                 uiItem.OnItemEndDrag += HandleEndDrag;
                 uiItem.OnItemActionRequested += HandleShowItemActions;
-                uiItem.OnRightMouseBtnClick += HandleShowItemActions;
             }
         }
 

@@ -50,21 +50,32 @@ public class FarmLandManager : MonoBehaviour
         TileBase tile = farmLand.GetTile(tilePosition); 
 
         if(tile != null)
-        {   
-            farmLand.SetTile(tilePosition, agniTile);
-
-            plantTilemap.SetTile(tilePosition, agniTileTag);
+        {
+            Color plantColor = plantTilemap.GetColor(tilePosition);
             Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
-            plantTilemap.SetTileFlags(tilePosition, TileFlags.None);
-            plantTilemap.SetColor(tilePosition, clearTile);
+
+            bool plantOnTile = false;
 
             foreach (var item in cropManager.cropManager)
             {
                 if (tilePosition == item.Key)
                 {
                     item.Value.DestroyPlant();
+                    plantOnTile = true; 
                 }
             }
+
+            if (plantColor != clearTile || plantOnTile)
+            {
+                farmLand.SetTile(tilePosition, agniTile);
+
+                plantTilemap.SetTile(tilePosition, agniTileTag);
+
+                plantTilemap.SetTileFlags(tilePosition, TileFlags.None);
+                plantTilemap.SetColor(tilePosition, clearTile);
+
+                
+            }  
         }
     }
 
@@ -76,7 +87,10 @@ public class FarmLandManager : MonoBehaviour
 
         if (tile != null)
         {
-            farmLand.SetTile(tilePosition, erdeTile);
+            if(tile == agniTile)
+            {
+                farmLand.SetTile(tilePosition, erdeTile);
+            } 
         }
     }
 
@@ -88,7 +102,10 @@ public class FarmLandManager : MonoBehaviour
 
         if (tile != null)
         {
-            farmLand.SetTile(tilePosition, biyoTile);
+            if(tile == erdeTile)
+            {
+                farmLand.SetTile(tilePosition, biyoTile);
+            }           
         }
     }
 }

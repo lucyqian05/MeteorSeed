@@ -26,7 +26,7 @@ namespace Inventory.UI
 
         public event Action<InventoryItemUI> OnItemClicked,
             OnItemDroppedOn, OnItemBeginDrag, OnItemEndDrag,
-            OnItemActionRequested, OnRightMouseBtnClick;
+            OnItemActionRequested;
 
         private bool empty = true;
         private bool itemDeselected = true;
@@ -111,11 +111,7 @@ namespace Inventory.UI
                 return;
 
             PointerEventData pointerData = (PointerEventData)data;
-            if (pointerData.button == PointerEventData.InputButton.Right)
-            {
-                OnRightMouseBtnClick?.Invoke(this);
-            }
-            else
+            if (pointerData.button == PointerEventData.InputButton.Left)
             {
                 OnItemClicked?.Invoke(this);
             }

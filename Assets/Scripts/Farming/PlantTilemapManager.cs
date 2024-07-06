@@ -81,11 +81,25 @@ public class PlantTilemapManager : MonoBehaviour
         Tile tempTile = ScriptableObject.CreateInstance<Tile>();
         Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
 
-        if (plantTile != null && tileColor == clearTile && plantTile != plantPlaceholder && farmlandTile != agniTile)
+        bool seedSet = false;
+
+        foreach (var item in tempSeedMap)
         {
-            tempTile.sprite = seedImage;
-            plantTilemap.SetTile(tilePosition, tempTile);
-            tempSeedMap.Add(tilePosition, seed);
+            if (tilePosition == item.Key)
+            {
+                seedSet = true; 
+            }
+        }
+
+        if (plantTile != null && plantTile != plantPlaceholder && farmlandTile != agniTile)
+        {
+            if(seedSet || tileColor == clearTile)
+            {
+                tempTile.sprite = seedImage;
+                plantTilemap.SetTile(tilePosition, tempTile);
+                tempSeedMap.Remove(tilePosition);
+                tempSeedMap.Add(tilePosition, seed);
+            }        
         }
     }
 }
