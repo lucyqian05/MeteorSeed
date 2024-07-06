@@ -23,6 +23,12 @@ public class TimeEventManager : MonoBehaviour
     {
         int timeManagerDate = dateTime.Date;
 
+        if(currentDay == 0)
+        {
+            currentDay = timeManagerDate;
+            return;
+        }
+
         if (currentDay != timeManagerDate)
         {
             currentDay = timeManagerDate;

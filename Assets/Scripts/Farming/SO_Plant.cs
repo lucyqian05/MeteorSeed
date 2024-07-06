@@ -39,18 +39,13 @@ public class SO_Plant : ScriptableObject
 
     private Sprite currentSprite; 
 
-    public int growthCounter = 1; 
-    private int reproduceCounter;
-    public bool plantWatered = false;
-    public int daysUnwatered;
-    public int unwateredPlantDeath = 3;
-
-    public void Start()
+    public string GetSeasonString()
     {
-        CalculatePlantStages();
+        string plantSeason = season.ToString(); 
+        return plantSeason;
     }
 
-    public Sprite GetPlantSprite()
+    public Sprite GetPlantSprite(int growthCounter)
     {
         if (growthCounter == plantStageSeed)
         {
@@ -67,42 +62,21 @@ public class SO_Plant : ScriptableObject
         else if (growthCounter == plantStageThree)
         {
             currentSprite = plantStageSprite[3];
-        } else if (growthCounter == plantStageFour)
+        } else if (growthCounter >= plantStageFour)
         {
-            currentSprite = plantStageSprite[3];
+            currentSprite = plantStageSprite[4];
         }
-        
         return currentSprite;
     }
 
-    public void PlantGrowth()
-    {
-        if (!plantWatered)
-        {
-            daysUnwatered++;
-            if (daysUnwatered == unwateredPlantDeath)
-            {
-                KillPlant();
-            }
-        }
-        growthCounter++;
-        plantWatered = false;
-    }
-
-    private void KillPlant()
-    {
-        //TimeManager.OnDayChanged -= PlantGrowth;
-        //When the plant script is created, the sprite should be updated to be dead
-    }
-
-    private void CalculatePlantStages()
+    public void CalculatePlantStages()
     {
         double dividedDays = (daysToGrow - 2) / 3;
         int daysEven = (int)Math.Round(dividedDays);
         int daysRemain = (daysToGrow - 2) % 3;
 
-        plantStageTwo = daysEven;
-        plantStageThree = daysEven;
+        plantStageTwo = plantStageOne + daysEven;
+        plantStageThree = plantStageTwo + daysEven;
         plantStageFour = daysToGrow; 
         
         if(daysRemain == 0)
@@ -110,12 +84,17 @@ public class SO_Plant : ScriptableObject
             return; 
         } else if (daysRemain == 1)
         {
-            plantStageTwo++;
+            plantStageThree++;
         } else if (daysRemain == 2)
         {
             plantStageTwo++;
             plantStageThree++;
         }
+        Debug.Log(plantStageSeed);
+        Debug.Log(plantStageOne);
+        Debug.Log(plantStageTwo);
+        Debug.Log(plantStageThree);
+        Debug.Log(plantStageFour);
     }
 
     enum Season
