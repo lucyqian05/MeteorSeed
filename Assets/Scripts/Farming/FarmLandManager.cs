@@ -73,8 +73,6 @@ public class FarmLandManager : MonoBehaviour
 
                 plantTilemap.SetTileFlags(tilePosition, TileFlags.None);
                 plantTilemap.SetColor(tilePosition, clearTile);
-
-                
             }  
         }
     }

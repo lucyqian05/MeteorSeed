@@ -16,14 +16,13 @@ public class Plant : MonoBehaviour
 
     public Vector3Int plantLocation;
 
-    public RuleTile biyoTile; 
+    public RuleTile biyoTile;
 
     private SpriteRenderer plantSpriteRenderer;
 
     private TimeEventManager timeEventManager;
 
     private int growthCounter;
-    private int reproduceCounter;
 
     public bool plantWatered = false;
     public int daysUnwatered;
@@ -46,9 +45,16 @@ public class Plant : MonoBehaviour
     public void Harvest()
     {
         readyForHarvest = false;
-        growthCounter = plantData.GetStageTwoInt();
-        Sprite newPlantSprite = plantData.GetPlantSprite(growthCounter);
-        plantSpriteRenderer.sprite = newPlantSprite;
+        if (plantData.daysToRegrow == 0)
+        {
+            DestroyPlant();
+        } 
+        else
+        {
+            growthCounter = plantData.GetStageTwoInt();
+            Sprite newPlantSprite = plantData.GetPlantSprite(growthCounter);
+            plantSpriteRenderer.sprite = newPlantSprite;
+        } 
     }
 
     public SO_ItemData GetItem()
