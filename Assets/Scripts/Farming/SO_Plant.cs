@@ -18,7 +18,7 @@ public class SO_Plant : ScriptableObject
     public Sprite[] plantStageSprite;
 
     [Header("Crop Information")]
-    public SO_Consumable crop;
+    public SO_ItemData crop;
     public int numberOfCrops;
 
     [field: SerializeField]
@@ -43,6 +43,11 @@ public class SO_Plant : ScriptableObject
     {
         string plantSeason = season.ToString(); 
         return plantSeason;
+    }
+
+    public int GetStageTwoInt()
+    {
+        return plantStageTwo; 
     }
 
     public Sprite GetPlantSprite(int growthCounter)

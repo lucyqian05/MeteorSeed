@@ -20,7 +20,6 @@ public class TimeEventManager : MonoBehaviour
     public void OnDisable()
     {
         TimeManager.OnDateTimeChanged -= DayChangeCounter;
-        TimeManager.OnDateTimeChanged -= SeasonChange;
     }
 
     private void SeasonChange(TimeManager.DateTime dateTime)

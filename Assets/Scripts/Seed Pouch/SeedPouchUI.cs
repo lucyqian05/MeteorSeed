@@ -15,9 +15,6 @@ public class SeedPouchUI : MonoBehaviour
     [SerializeField]
     private GameObject sparktip;
 
-    [SerializeField]
-    private CropInformation cropInformation; 
-
     public event Action OnFreshbud,
         OnBloom, OnGlowlush, OnSparktip;
     private void DeselectSeasons()
@@ -26,7 +23,6 @@ public class SeedPouchUI : MonoBehaviour
         bloom.SetActive(false);
         glowlush.SetActive(false);
         sparktip.SetActive(false);
-        cropInformation.ClearCropInfo();
     }
 
     public void FreshbudTab()

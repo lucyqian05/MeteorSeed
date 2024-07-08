@@ -1,3 +1,4 @@
+using Inventory.Model;
 using System;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -28,6 +29,10 @@ public class Plant : MonoBehaviour
     public int daysUnwatered;
     private const int unwateredPlantDeath = 3;
 
+    public bool readyForHarvest = false;
+
+    public Action<SO_ItemData> CropProduced;
+
     private void Start()
     {
         timeEventManager = GetComponent<TimeEventManager>();
@@ -36,6 +41,25 @@ public class Plant : MonoBehaviour
         timeEventManager.OnDayChanged += Grow;
 
         SetPlant();
+    }
+
+    public void Harvest()
+    {
+        readyForHarvest = false;
+        growthCounter = plantData.GetStageTwoInt();
+        Sprite newPlantSprite = plantData.GetPlantSprite(growthCounter);
+        plantSpriteRenderer.sprite = newPlantSprite;
+    }
+
+    public SO_ItemData GetItem()
+    {
+        SO_ItemData item = plantData.crop;
+        return item;
+    }
+
+    public int GetQuantity()
+    {
+        return plantData.numberOfCrops;
     }
 
     private void CheckWatered()
@@ -58,7 +82,6 @@ public class Plant : MonoBehaviour
         }
         
     }
-
     public void Grow()
     {
         CheckWatered();
@@ -74,14 +97,19 @@ public class Plant : MonoBehaviour
             }
             return;
         }
-
-        if(growthCounter <= plantData.daysToGrow)
+        else if(growthCounter < plantData.daysToGrow)
         {
             growthCounter++;
             Sprite newPlantSprite = plantData.GetPlantSprite(growthCounter);
             plantSpriteRenderer.sprite = newPlantSprite;
             plantWatered = false;
-        }     
+        }
+        
+        if (growthCounter >= plantData.daysToGrow)
+        {
+            readyForHarvest = true;
+            CropProduced?.Invoke(plantData.crop);
+        }
     }
 
     private void KillPlant()

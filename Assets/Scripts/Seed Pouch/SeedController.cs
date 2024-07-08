@@ -1,6 +1,7 @@
 using UnityEngine;
 using System;
 using System.Collections.Generic;
+using DateAndTime;
 
 public class SeedController : MonoBehaviour
 {
@@ -19,11 +20,9 @@ public class SeedController : MonoBehaviour
     [SerializeField]
     private SeedUI[] bloomSeeds;
 
+    private string currentSeason = "Freshbud";
+
     public Action<SeedUI> SeedDropped;
-
-    public TimeEventManager timeEventManager;
-
-    private string currentSeason; 
 
     private void Start()
     {
@@ -31,34 +30,37 @@ public class SeedController : MonoBehaviour
         seedPouchUI.OnBloom += SubscribeBloom;
     }
 
+    public void OnEnable()
+    {
+        TimeManager.OnDateTimeChanged += ChangeToCurrentSeason;
+    }
+
+    public void OnDisable()
+    {
+        TimeManager.OnDateTimeChanged += ChangeToCurrentSeason;
+    }
+    private void ChangeToCurrentSeason(TimeManager.DateTime dateTime)
+    {
+        currentSeason = dateTime.Season.ToString();
+    }
+
     public void OpenToCurrentSeason()
     {
-        currentSeason = timeEventManager.currentSeason;
-        
-        if(currentSeason == "Freshbud")
+        if (currentSeason == "Freshbud")
         {
             SubscribeFreshbud();
-            seedPouchUI.FreshbudTab();
-        }
-        else if(currentSeason == "Bloom")
+        } else if (currentSeason == "Bloom")
         {
             SubscribeBloom();
-            seedPouchUI.BloomTab();
-        }
-        else if (currentSeason == "Glowlush")
+        } else if (currentSeason == "Glowlush")
         {
             SubscribeGlowlush();
-            seedPouchUI.GlowlushTab();
-        }
-        else if (currentSeason == "Sparktip")
+        } else if (currentSeason == "Sparktip")
         {
             SubscribeSparktip();
-            seedPouchUI.SparktipTab();
-        }
-        else
+        } else
         {
             SubscribeFreshbud();
-            seedPouchUI.FreshbudTab();
         }
     }
 
