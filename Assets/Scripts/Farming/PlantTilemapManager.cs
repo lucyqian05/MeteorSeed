@@ -44,9 +44,9 @@ public class PlantTilemapManager : MonoBehaviour
             plantTilemap.SetTileFlags(item.Key, TileFlags.None);
             plantTilemap.SetColor(item.Key, clearTile);
 
-            Vector3 cropWorldPosition = plantTilemap.CellToWorld(new Vector3Int(item.Key.x, item.Key.y, 0));
+            Vector3 plantWorldPosition = plantTilemap.CellToWorld(new Vector3Int(item.Key.x, item.Key.y, 0));
 
-            cropsManager.InstantiatePlant(item.Key, cropWorldPosition, item.Value);            
+            cropsManager.InstantiatePlant(item.Key, plantWorldPosition, item.Value);            
         }
         tempSeedMap.Clear();
     }

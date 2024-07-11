@@ -76,16 +76,11 @@ public class FarmLandManager : MonoBehaviour
             Color plantColor = plantTilemap.GetColor(tilePosition);
             Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
 
-            bool plantOnTile = false;
+            bool plantOnTile = cropManager.CheckPlantOnTile(tilePosition);
 
-            foreach (var item in cropManager.cropManager)
+            if (plantOnTile)
             {
-                if (tilePosition == item.Key)
-                {
-                    cropManager.cropManager.Remove(item.Key);
-                    item.Value.DestroyPlant();
-                    plantOnTile = true; 
-                }
+                cropManager.RemoveCrop(tilePosition);
             }
 
             if (plantColor != clearTile || plantOnTile)
@@ -96,7 +91,7 @@ public class FarmLandManager : MonoBehaviour
 
                 plantTilemap.SetTileFlags(tilePosition, TileFlags.None);
                 plantTilemap.SetColor(tilePosition, clearTile);
-            }  
+            }
         }
     }
 

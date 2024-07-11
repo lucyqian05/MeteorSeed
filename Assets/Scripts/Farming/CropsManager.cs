@@ -32,4 +32,29 @@ public class CropsManager : MonoBehaviour
 
         newCrop.farmlandTilemap = farmTilemap;
     }
+
+    public bool CheckPlantOnTile(Vector3Int plantTilePosition)
+    {
+        bool checkPlantOnTile = false;
+        foreach (var item in cropManager)
+        {
+            if(plantTilePosition == item.Key)
+            {
+                checkPlantOnTile = true;
+            }
+        }
+        return checkPlantOnTile;
+    }
+
+    public void RemoveCrop(Vector3Int plantTilePosition)
+    {
+        foreach (var item in cropManager)
+        {
+            if (plantTilePosition == item.Key)
+            {
+                item.Value.DestroyPlant();
+            }
+        }
+        cropManager.Remove(plantTilePosition);
+    }
 }
