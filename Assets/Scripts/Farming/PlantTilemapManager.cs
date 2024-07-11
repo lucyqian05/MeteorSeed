@@ -11,6 +11,9 @@ public class PlantTilemapManager : MonoBehaviour
     private Tilemap farmTilemap;
 
     [SerializeField]
+    private FarmLandManager farmLandManager;
+
+    [SerializeField]
     private SeedController seedController;
 
     [SerializeField]
@@ -21,9 +24,6 @@ public class PlantTilemapManager : MonoBehaviour
 
     [SerializeField]
     private Transform cropsOrganizer;
-
-    [SerializeField]
-    private RuleTile agniTile;
 
     [SerializeField]
     private Plant cropPrefab;
@@ -44,20 +44,9 @@ public class PlantTilemapManager : MonoBehaviour
             plantTilemap.SetTileFlags(item.Key, TileFlags.None);
             plantTilemap.SetColor(item.Key, clearTile);
 
-            Vector3 cropSpawn = plantTilemap.CellToWorld(new Vector3Int(item.Key.x, item.Key.y, 0));
+            Vector3 cropWorldPosition = plantTilemap.CellToWorld(new Vector3Int(item.Key.x, item.Key.y, 0));
 
-            Plant newCrop = Instantiate(cropPrefab, cropSpawn, Quaternion.identity);
-            newCrop.transform.SetParent(cropsOrganizer);
-            newCrop.transform.position = transform.position + new Vector3(cropSpawn.x + 0.47f, cropSpawn.y + 0.47f, 0);
-
-            SeedUI newSeed = item.Value;
-            SO_Plant newPlantData = newSeed.seed.plant;
-            newCrop.plantData = newPlantData;
-
-            newCrop.plantLocation = item.Key;
-            newCrop.farmlandTilemap = farmTilemap;
-
-            cropsManager.cropManager.Add(item.Key, newCrop);
+            cropsManager.InstantiatePlant(item.Key, cropWorldPosition, item.Value);            
         }
         tempSeedMap.Clear();
     }
@@ -72,7 +61,7 @@ public class PlantTilemapManager : MonoBehaviour
         Vector3 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector3Int tilePosition = plantTilemap.WorldToCell(worldPoint);
         TileBase plantTile = plantTilemap.GetTile(tilePosition);
-        TileBase farmlandTile = farmTilemap.GetTile(tilePosition);
+        string farmTileState = farmLandManager.GetFarmTileState(tilePosition);
 
         Color tileColor = plantTilemap.GetColor(tilePosition);
 
@@ -91,7 +80,7 @@ public class PlantTilemapManager : MonoBehaviour
             }
         }
 
-        if (plantTile != null && plantTile != plantPlaceholder && farmlandTile != agniTile)
+        if (plantTile != null && plantTile != plantPlaceholder && farmTileState != "Agni")
         {
             if(seedSet || tileColor == clearTile)
             {

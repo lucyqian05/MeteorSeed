@@ -24,24 +24,46 @@ public class FarmLandManager : MonoBehaviour
 
     private Tilemap farmLand;
     private Magic magic;
-    private PlayerInput playerInput;
     private GameObject player; 
 
     private void Start()
     {
         farmLand = GetComponent<Tilemap>();
-        playerInput = GetComponent<PlayerInput>();
 
         player = GameObject.FindWithTag("Player");
         magic = player.GetComponent<Magic>();
 
-
         magic.OnAgni += SetLandAgni;
         magic.OnErde += SetLandErde;
         magic.OnBiyo += SetLandBiyo;
-
     }
 
+    public string GetFarmTileState(Vector3Int tilePosition)
+    {
+        TileBase farmTile = farmLand.GetTile(tilePosition);
+        string farmState;
+        if (farmTile != null)
+        {
+            
+            if (farmTile == agniTile)
+            {
+                farmState = "Agni";
+                return farmState;
+            }
+            else if (farmTile == erdeTile)
+            {
+                farmState = "Erde";
+                return farmState;
+            }
+            else if (farmTile == biyoTile)
+            {
+                farmState = "Biyo";
+                return farmState;
+            }
+        }
+        farmState = "Empty";
+        return farmState;
+    }
     
     private void SetLandAgni()
     {
@@ -60,6 +82,7 @@ public class FarmLandManager : MonoBehaviour
             {
                 if (tilePosition == item.Key)
                 {
+                    cropManager.cropManager.Remove(item.Key);
                     item.Value.DestroyPlant();
                     plantOnTile = true; 
                 }
