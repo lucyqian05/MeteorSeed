@@ -12,15 +12,9 @@ public class Plant : MonoBehaviour
     [SerializeField]
     public Sprite deadPlant;
 
-    public Tilemap farmlandTilemap;
-
     public Vector3Int plantLocation;
 
-    public RuleTile biyoTile;
-
     private SpriteRenderer plantSpriteRenderer;
-
-    private TimeEventManager timeEventManager;
 
     private int growthCounter;
 
@@ -34,17 +28,12 @@ public class Plant : MonoBehaviour
 
     private void Start()
     {
-        timeEventManager = GetComponent<TimeEventManager>();
         plantSpriteRenderer = GetComponent<SpriteRenderer>();
-
-        timeEventManager.OnDayChanged += Grow;
-
         SetPlant();
     }
 
     public void Harvest()
     {
-        readyForHarvest = false;
         if (plantData.daysToRegrow == 0)
         {
             DestroyPlant();
@@ -54,7 +43,8 @@ public class Plant : MonoBehaviour
             growthCounter = plantData.GetStageTwoInt();
             Sprite newPlantSprite = plantData.GetPlantSprite(growthCounter);
             plantSpriteRenderer.sprite = newPlantSprite;
-        } 
+        }
+        readyForHarvest = false;
     }
 
     public SO_ItemData GetItem()
@@ -68,42 +58,9 @@ public class Plant : MonoBehaviour
         return plantData.numberOfCrops;
     }
 
-    private void CheckWatered()
-    {
-        TileBase plantTile = farmlandTilemap.GetTile(plantLocation);
-        if (plantTile == biyoTile)
-        {
-            plantWatered = true;
-        }
-    }
-
-    private void CheckSeason()
-    {
-        string plantingSeason = plantData.GetSeasonString();
-        string currentSeason = timeEventManager.currentSeason;
-
-        if (plantingSeason != currentSeason)
-        {
-            KillPlant();
-        }
-        
-    }
     public void Grow()
     {
-        CheckWatered();
-        CheckSeason();
-
-        if (!plantWatered)
-        {
-            daysUnwatered++;
-            if (daysUnwatered >= unwateredPlantDeath)
-            {
-                KillPlant();
-                return;
-            }
-            return;
-        }
-        else if(growthCounter < plantData.daysToGrow)
+        if(growthCounter < plantData.daysToGrow)
         {
             growthCounter++;
             Sprite newPlantSprite = plantData.GetPlantSprite(growthCounter);
@@ -118,9 +75,17 @@ public class Plant : MonoBehaviour
         }
     }
 
-    private void KillPlant()
+    public void Unwatered()
     {
-        timeEventManager.OnDayChanged -= Grow;
+        daysUnwatered++;
+        if (daysUnwatered >= unwateredPlantDeath)
+        {
+            KillPlant();
+            return;
+        }
+    }
+    public void KillPlant()
+    {
         plantSpriteRenderer.sprite = deadPlant; 
     }
 

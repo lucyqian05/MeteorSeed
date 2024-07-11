@@ -4,35 +4,57 @@ using UnityEngine.Tilemaps;
 
 public class PlantTilemapManager : MonoBehaviour
 {
+    [Header("Tilemap")]
+
     [SerializeField]
     private Tilemap plantTilemap;
 
-    [SerializeField]
-    private Tilemap farmTilemap;
+    [Header("Managers")]
 
     [SerializeField]
     private FarmLandManager farmLandManager;
 
     [SerializeField]
+    private CropsManager cropsManager;
+
+    [SerializeField]
     private SeedController seedController;
+
+    [Header("Tiles")]
 
     [SerializeField]
     private Tile plantPlaceholder;
 
     [SerializeField]
-    private CropsManager cropsManager;
-
-    [SerializeField]
-    private Transform cropsOrganizer;
-
-    [SerializeField]
-    private Plant cropPrefab;
+    private Tile noPlantPlaceholder;
 
     private Dictionary<Vector3Int, SeedUI> tempSeedMap = new Dictionary<Vector3Int, SeedUI>();
+
+    Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
 
     public void Start()
     {
         seedController.SeedDropped += HandleSeedDropped;
+    }
+
+    public bool CheckClearTile(Vector3Int tilePosition)
+    {
+        bool plantClear = false;
+        Color plantColor = plantTilemap.GetColor(tilePosition);
+
+        if(plantColor == clearTile)
+        {
+            plantClear = true;
+            return plantClear;
+        }
+        return plantClear;
+    }
+
+    public void SetNoPlantPlaceholder(Vector3Int tilePosition)
+    {
+        plantTilemap.SetTile(tilePosition, noPlantPlaceholder);
+        plantTilemap.SetTileFlags(tilePosition, TileFlags.None);
+        plantTilemap.SetColor(tilePosition, clearTile);
     }
 
     public void InstantiatePlant()

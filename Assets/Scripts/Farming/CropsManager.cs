@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
@@ -5,7 +6,10 @@ using UnityEngine.Tilemaps;
 public class CropsManager : MonoBehaviour
 {
     [SerializeField]
-    private Tilemap farmTilemap;
+    private FarmLandManager farmLandManager;
+
+    [SerializeField]
+    private TimeEventManager timeEventManager;
 
     [SerializeField]
     private Plant cropPrefab;
@@ -15,6 +19,62 @@ public class CropsManager : MonoBehaviour
 
     [SerializeField]
     public Dictionary<Vector3Int, Plant> cropManager = new Dictionary<Vector3Int, Plant>();
+
+    private bool waterCheck = false;
+    private bool seasonCheck = false;
+
+    private void Start()
+    {
+        timeEventManager.OnDayChanged += GrowAllCrops;
+    }
+
+    private void GrowAllCrops()
+    {
+        foreach (var item in cropManager)
+        {
+            Vector3Int plantLocation = item.Key;
+            Plant plant = item.Value;
+
+            CheckWatered(plantLocation);
+            CheckSeason(plant);
+
+            if (!seasonCheck)
+            {
+                plant.KillPlant();
+            }
+            else if (!waterCheck)
+            {
+                plant.Unwatered();
+            }
+            else
+            {
+                plant.Grow();
+            }
+
+            waterCheck = false;
+            seasonCheck = false;
+        }
+    }
+
+    private void CheckWatered(Vector3Int plantLocation)
+    {
+        string farmlandTile = farmLandManager.GetFarmTileState(plantLocation);
+        if (farmlandTile == "Biyo")
+        {
+            waterCheck = true;
+        }
+    }
+
+    private void CheckSeason(Plant plant)
+    {
+        string plantingSeason = plant.plantData.GetSeasonString();
+        string currentSeason = timeEventManager.currentSeason;
+
+        if(plantingSeason == currentSeason)
+        {
+            seasonCheck = true;
+        }
+    }
 
     public void InstantiatePlant(Vector3Int plantTilePosition, Vector3 plantWorldPosition, SeedUI seed)
     {
@@ -29,8 +89,6 @@ public class CropsManager : MonoBehaviour
         newCrop.plantLocation = plantTilePosition;
 
         cropManager.Add(plantTilePosition, newCrop);
-
-        newCrop.farmlandTilemap = farmTilemap;
     }
 
     public bool CheckPlantOnTile(Vector3Int plantTilePosition)

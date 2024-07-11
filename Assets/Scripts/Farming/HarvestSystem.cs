@@ -14,10 +14,10 @@ public class HarvestSystem : MonoBehaviour
     private CropsManager cropManager;
 
     [SerializeField]
-    private Tilemap plantTilemap;
+    private PlantTilemapManager plantTilemapManager;
 
     [SerializeField]
-    private Tile agniTileTag;
+    private Tile noPlantPlaceholder;
 
     private PlayerController playerController;
     private PlayerInput playerInput;
@@ -47,42 +47,37 @@ public class HarvestSystem : MonoBehaviour
 
     private void Harvest(InputAction.CallbackContext context)
     {
-        if (plant != null)
+        if (plant != null && isInRange == true)
         {
-            if (isInRange == true)
+            if (plant.readyForHarvest)
             {
-                if (plant.readyForHarvest)
+                //Handles adding the crop to the inventory
+                SO_ItemData crop = plant.GetItem();
+                int quantity = plant.GetQuantity();
+                int remainder = inventoryData.AddItem(crop, quantity);
+
+                if (remainder > 0)
                 {
-                    SO_ItemData crop = plant.GetItem();
-                    int quantity = plant.GetQuantity();
-                    int remainder = inventoryData.AddItem(crop, quantity);
-                    
-                    if (remainder > 0)
+                    for (int i = 0; i < remainder; i++)
                     {
-                        for (int i = 0; i < remainder; i++)
-                        {
-                            Vector3Int transform = plant.plantLocation;
-                            Item cropItem = Instantiate(item, transform, Quaternion.identity);
-                            cropItem.InventoryItem = crop;
-                            item.Quantity = 1;
-                        }
+                        Vector3Int transform = plant.plantLocation;
+                        Item cropItem = Instantiate(item, transform, Quaternion.identity);
+                        cropItem.InventoryItem = crop;
+                        item.Quantity = 1;
                     }
+                }
+                
+                //handles what happens to the plant if it doesn't regrow. It shouldn't be handled here. It should be decided inside the Plant
+                //Logic for destroying the crop should rest in the crop manager so that it can be completely removed
+                //Logic for whether plant regrows or not should be handled in Plant 
+                if (plant.plantData.daysToRegrow == 0)
+                {
+                    Vector3Int plantLocation = plant.plantLocation;
 
-                    if (plant.plantData.daysToRegrow == 0)
-                    {
-                        //To remove the plant from the crop manager 
-                        Vector3Int plantLocation = plant.plantLocation;
-                        cropManager.cropManager.Remove(plantLocation);
-
-                        //to set the plant tile map so that new plants can be put on
-                        Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
-                        plantTilemap.SetTile(plantLocation, agniTileTag);
-                        plantTilemap.SetTileFlags(plantLocation, TileFlags.None);
-                        plantTilemap.SetColor(plantLocation, clearTile);
-                    }
-                    //Removes the game object if it does not regrow. If it does, it resets the growthCounter 
-                    plant.Harvest();
-                }              
+                    cropManager.RemoveCrop(plantLocation);
+                    plantTilemapManager.SetNoPlantPlaceholder(plantLocation);
+                }
+                plant.Harvest();
             }
         }
     }

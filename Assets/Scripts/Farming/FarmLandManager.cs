@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
 public class FarmLandManager : MonoBehaviour
@@ -8,7 +7,7 @@ public class FarmLandManager : MonoBehaviour
     private CropsManager cropManager;
 
     [SerializeField]
-    private Tilemap plantTilemap;
+    private PlantTilemapManager plantTilemapManager;
 
     [SerializeField]
     private RuleTile agniTile;
@@ -18,9 +17,6 @@ public class FarmLandManager : MonoBehaviour
 
     [SerializeField]
     private RuleTile biyoTile;
-
-    [SerializeField]
-    private Tile agniTileTag;
 
     private Tilemap farmLand;
     private Magic magic;
@@ -44,7 +40,6 @@ public class FarmLandManager : MonoBehaviour
         string farmState;
         if (farmTile != null)
         {
-            
             if (farmTile == agniTile)
             {
                 farmState = "Agni";
@@ -73,9 +68,8 @@ public class FarmLandManager : MonoBehaviour
 
         if(tile != null)
         {
-            Color plantColor = plantTilemap.GetColor(tilePosition);
-            Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
 
+            bool plantClear = plantTilemapManager.CheckClearTile(tilePosition);
             bool plantOnTile = cropManager.CheckPlantOnTile(tilePosition);
 
             if (plantOnTile)
@@ -83,14 +77,11 @@ public class FarmLandManager : MonoBehaviour
                 cropManager.RemoveCrop(tilePosition);
             }
 
-            if (plantColor != clearTile || plantOnTile)
+            if (!plantClear || plantOnTile)
             {
                 farmLand.SetTile(tilePosition, agniTile);
 
-                plantTilemap.SetTile(tilePosition, agniTileTag);
-
-                plantTilemap.SetTileFlags(tilePosition, TileFlags.None);
-                plantTilemap.SetColor(tilePosition, clearTile);
+                plantTilemapManager.SetNoPlantPlaceholder(tilePosition);
             }
         }
     }
