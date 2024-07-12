@@ -58,6 +58,7 @@ public class SeedUI : MonoBehaviour
             empty = true;
             seedImage.color = emptySeed;
         }
+        SetQuantity();
     }
 
     public void OnPointerClick(BaseEventData data)
@@ -103,7 +104,7 @@ public class SeedUI : MonoBehaviour
         seedImage.sprite = seed.seedSprite;
     }
 
-    public void SetQuantity()
+    private void SetQuantity()
     {
         quantityTxt.text = seed.quantity.ToString();
     }

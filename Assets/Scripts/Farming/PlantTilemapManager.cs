@@ -124,7 +124,7 @@ public class PlantTilemapManager : MonoBehaviour
                 seedController.AddTempSeedData(seed);
                 
                 seed.seed.UpdateQuantity(-1);
-                seed.SetQuantity();
+                seed.SetData();
             }        
         }
     }

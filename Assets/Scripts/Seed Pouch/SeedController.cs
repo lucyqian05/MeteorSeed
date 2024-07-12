@@ -55,7 +55,7 @@ public class SeedController : MonoBehaviour
         {
             SeedUI seed = item.Key;
             seed.seed.quantity = item.Value;
-            seed.SetQuantity();
+            seed.SetData();
         }
         tempSeedQuantityHold.Clear();
     }
