@@ -13,9 +13,6 @@ public class SeedUI : MonoBehaviour
     public Image seedImage;
 
     [SerializeField]
-    private int seedQuantity;
-
-    [SerializeField]
     private Image border;
 
     [SerializeField]
@@ -38,24 +35,11 @@ public class SeedUI : MonoBehaviour
 
     private void Start()
     {
-        seedQuantity = 5;
-        SetData();
         SetSeedImage();
     }
-
-    public void SetSeedImage()
+    public void SetData()
     {
-        seedImage.sprite = seed.seedSprite;
-    }
-
-    public void UpdateQuantity(int changeQuantity)
-    {
-        seedQuantity = seedQuantity + changeQuantity;
-        SetData();
-    }
-
-    private void SetData()
-    {   
+        int seedQuantity = seed.quantity;
         if (seedQuantity == 1)
         {
             quantityUI.SetActive(false);
@@ -114,4 +98,13 @@ public class SeedUI : MonoBehaviour
         border.enabled = false;
     }
 
+    private void SetSeedImage()
+    {
+        seedImage.sprite = seed.seedSprite;
+    }
+
+    public void SetQuantity()
+    {
+        quantityTxt.text = seed.quantity.ToString();
+    }
 }

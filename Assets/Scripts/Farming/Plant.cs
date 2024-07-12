@@ -34,9 +34,9 @@ public class Plant : MonoBehaviour
 
     public void Harvest()
     {
-        if (plantData.daysToRegrow == 0)
+        if (!plantData.doesRegrow)
         {
-            DestroyPlant();
+            return;
         } 
         else
         {

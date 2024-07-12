@@ -24,10 +24,48 @@ public class SeedController : MonoBehaviour
 
     public Action<SeedUI> SeedDropped;
 
+    public Dictionary<SeedUI, int> tempSeedQuantityHold = new Dictionary<SeedUI, int>();
+
     private void Start()
     {
+        SetSeedQuantities();
+
         seedPouchUI.OnFreshbud += SubscribeFreshbud;
         seedPouchUI.OnBloom += SubscribeBloom;
+    }
+
+    private void SetSeedQuantities()
+    {
+        for (int i = 0; i < freshbudSeeds.Length; i++)
+        {
+            freshbudSeeds[i].seed.quantity = 5;
+            freshbudSeeds[i].SetData();
+        }
+
+        for (int i = 0; i < bloomSeeds.Length; i++)
+        {
+            bloomSeeds[i].seed.quantity = 5;
+            bloomSeeds[i].SetData();
+        }
+    }
+
+    public void QuitSeedMode()
+    {
+        foreach (var item in tempSeedQuantityHold)
+        {
+            SeedUI seed = item.Key;
+            seed.seed.quantity = item.Value;
+            seed.SetQuantity();
+        }
+        tempSeedQuantityHold.Clear();
+    }
+
+    public void AddTempSeedData(SeedUI seed)
+    {
+        if (tempSeedQuantityHold.ContainsKey(seed))
+            return; 
+
+        tempSeedQuantityHold.Add(seed, seed.seed.quantity);
     }
 
     public void OnEnable()
@@ -37,7 +75,7 @@ public class SeedController : MonoBehaviour
 
     public void OnDisable()
     {
-        TimeManager.OnDateTimeChanged += ChangeToCurrentSeason;
+        TimeManager.OnDateTimeChanged -= ChangeToCurrentSeason;
     }
     private void ChangeToCurrentSeason(TimeManager.DateTime dateTime)
     {
@@ -73,7 +111,7 @@ public class SeedController : MonoBehaviour
             freshbudSeeds[i].OnSeedBeginDrag += HandleSeedSelection;
             freshbudSeeds[i].OnSeedBeginDrag += HandleDragging;
             freshbudSeeds[i].OnSeedEndDrag += HandleEndDrag;
-            freshbudSeeds[i].OnSeedDroppedOn += HandleDroppedOn;  
+            freshbudSeeds[i].OnSeedDroppedOn += HandleDroppedOn;
         }
     }
 

@@ -30,4 +30,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d5942fcc1f42bee4a82d83eda98cdbf6, type: 2}
   - {fileID: 11400000, guid: 658508080e464fa4a80e85d08f8d17ed, type: 2}
   daysToGrow: 8
-  daysToRegrow: 2
+  doesRegrow: 0

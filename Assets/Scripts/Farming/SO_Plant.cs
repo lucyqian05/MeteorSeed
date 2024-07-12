@@ -29,7 +29,7 @@ public class SO_Plant : ScriptableObject
 
     [Header("Growth Information")]
     public int daysToGrow;
-    public int daysToRegrow;
+    public bool doesRegrow;
 
     private const int plantStageSeed = 1;
     private const int plantStageOne = 2;

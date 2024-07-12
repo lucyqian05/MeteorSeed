@@ -51,7 +51,7 @@ public class HarvestSystem : MonoBehaviour
         {
             if (plant.readyForHarvest)
             {
-                //Handles adding the crop to the inventory
+                //adds item to inventory and handles remainder if inventory is full 
                 SO_ItemData crop = plant.GetItem();
                 int quantity = plant.GetQuantity();
                 int remainder = inventoryData.AddItem(crop, quantity);
@@ -67,13 +67,10 @@ public class HarvestSystem : MonoBehaviour
                     }
                 }
                 
-                //handles what happens to the plant if it doesn't regrow. It shouldn't be handled here. It should be decided inside the Plant
-                //Logic for destroying the crop should rest in the crop manager so that it can be completely removed
-                //Logic for whether plant regrows or not should be handled in Plant 
-                if (plant.plantData.daysToRegrow == 0)
+                //handles what happens to the plant after the item is added to inventory
+                if (!plant.plantData.doesRegrow)
                 {
                     Vector3Int plantLocation = plant.plantLocation;
-
                     cropManager.RemoveCrop(plantLocation);
                     plantTilemapManager.SetNoPlantPlaceholder(plantLocation);
                 }

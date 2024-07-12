@@ -11,6 +11,8 @@ public class SO_Seed : ScriptableObject
     [field: SerializeField]
     public Sprite seedSprite { get; set; }
 
+    public int quantity;
+
     [field: SerializeField]
     public SO_Plant plant { get; set; }
 
@@ -19,5 +21,10 @@ public class SO_Seed : ScriptableObject
 
     [field: SerializeField]
     public int sellPrice { get; set; }
+
+    public void UpdateQuantity(int changeQuantity)
+    {
+        quantity = quantity + changeQuantity;
+    }
 
 }

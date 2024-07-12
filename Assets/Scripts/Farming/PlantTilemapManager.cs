@@ -71,6 +71,16 @@ public class PlantTilemapManager : MonoBehaviour
             cropsManager.InstantiatePlant(item.Key, plantWorldPosition, item.Value);            
         }
         tempSeedMap.Clear();
+        seedController.tempSeedQuantityHold.Clear();
+    }
+
+    public void CancelSeed()
+    {
+        foreach (var item in tempSeedMap)
+        {
+            SetNoPlantPlaceholder(item.Key);
+        }
+        tempSeedMap.Clear();
     }
 
     public void SpreadSeed()
@@ -110,6 +120,11 @@ public class PlantTilemapManager : MonoBehaviour
                 plantTilemap.SetTile(tilePosition, tempTile);
                 tempSeedMap.Remove(tilePosition);
                 tempSeedMap.Add(tilePosition, seed);
+
+                seedController.AddTempSeedData(seed);
+                
+                seed.seed.UpdateQuantity(-1);
+                seed.SetQuantity();
             }        
         }
     }
