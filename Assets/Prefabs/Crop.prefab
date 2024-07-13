@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7202057295401870925}
   - component: {fileID: -6602210057069561879}
   - component: {fileID: 5619685698738033516}
+  - component: {fileID: 7346248227569113089}
   m_Layer: 20
   m_Name: Crop
   m_TagString: Untagged
@@ -81,7 +82,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.125, y: 1.0416666}
+  m_Size: {x: 1, y: 0.9583333}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -101,9 +102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plantData: {fileID: 0}
   deadPlant: {fileID: 21300000, guid: 15f72b6df85431f46acd0d558cd1b392, type: 3}
-  farmlandTilemap: {fileID: 0}
   plantLocation: {x: 0, y: 0, z: 0}
-  biyoTile: {fileID: 11400000, guid: 0a3892bc25ef20041b4b1c0e3585bce0, type: 2}
   plantWatered: 0
   daysUnwatered: 0
   readyForHarvest: 0
@@ -122,6 +121,51 @@ MonoBehaviour:
   currentSeason: none
 --- !u!61 &5619685698738033516
 BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028346061109137987}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.14729433}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 0.9583333}
+    newSize: {x: 1, y: 0.9583333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.7054113}
+  m_EdgeRadius: 0
+--- !u!60 &7346248227569113089
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -152,16 +196,28 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.14729433}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.125, y: 1.0416666}
-    newSize: {x: 1.125, y: 1.0416666}
+    oldSize: {x: 1, y: 0.9583333}
+    newSize: {x: 1, y: 0.9583333}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.7054113}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.17354043, y: 0.6473628}
+      - {x: -0.145035, y: 0.65838027}
+      - {x: -0.21247377, y: 0.19428289}
+      - {x: -0.6494372, y: 0.17311428}
+      - {x: -0.6899934, y: -0.09769392}
+      - {x: -0.20796512, y: -0.11807114}
+      - {x: -0.17047076, y: -0.5301891}
+      - {x: 0.18074062, y: -0.54763395}
+      - {x: 0.21702936, y: -0.12771147}
+      - {x: 0.73876613, y: -0.12740478}
+      - {x: 0.7131315, y: 0.18379611}
+      - {x: 0.21012577, y: 0.19089001}
+  m_UseDelaunayMesh: 0

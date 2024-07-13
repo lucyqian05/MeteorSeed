@@ -1,5 +1,6 @@
 using Inventory.Model;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using static DateAndTime.TimeManager;
@@ -17,6 +18,7 @@ public class Plant : MonoBehaviour
     private SpriteRenderer plantSpriteRenderer;
 
     private int growthCounter;
+    public int ratingCounter = 0; 
 
     public bool plantWatered = false;
     public int daysUnwatered;
@@ -24,10 +26,13 @@ public class Plant : MonoBehaviour
 
     public bool readyForHarvest = false;
 
+    private PolygonCollider2D polyCollider; 
+
     public Action<SO_ItemData> CropProduced;
 
     private void Start()
     {
+        polyCollider = GetComponent<PolygonCollider2D>();
         plantSpriteRenderer = GetComponent<SpriteRenderer>();
         SetPlant();
     }
@@ -75,9 +80,52 @@ public class Plant : MonoBehaviour
         }
     }
 
+    public void RateAdjacentCrops()
+    {
+        SO_Plant[] companions = plantData.companionPlants;
+        SO_Plant[] antagonists = plantData.antagonistPlants;
+
+        //I haven't used ContactFilter so I'm not going to try to learn it right now. It filters which colliders to listen to. 
+        ContactFilter2D contactFilter = new ContactFilter2D().NoFilter();
+
+        List<Collider2D> results = new List<Collider2D>(); 
+        polyCollider.OverlapCollider(contactFilter, results);
+
+        for (int i = 0; i < results.Count; i++)
+        {
+            Collider2D neighboringPlantColliders = results[i];
+            GameObject neighborPlantGO = neighboringPlantColliders.gameObject;
+            Plant neighborPlant = neighborPlantGO.GetComponent<Plant>();
+            SO_Plant so_NeighborPlant = neighborPlant.plantData;
+
+            if(companions != null)
+            {
+                for (int j = 0; j < companions.Length; j++)
+                {
+                    if (companions[j] == so_NeighborPlant)
+                    {
+                        ratingCounter++;
+                    }
+                }
+            }
+            
+            if (antagonists != null)
+            {
+                for (int jj = 0; jj < antagonists.Length; jj++)
+                {
+                    if (antagonists[jj] == so_NeighborPlant)
+                    {
+                        ratingCounter--;
+                    }
+                }
+            }
+        }
+    }
+
     public void Unwatered()
     {
         daysUnwatered++;
+        ratingCounter--;
         if (daysUnwatered >= unwateredPlantDeath)
         {
             KillPlant();

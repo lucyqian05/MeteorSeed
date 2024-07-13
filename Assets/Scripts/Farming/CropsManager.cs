@@ -35,6 +35,8 @@ public class CropsManager : MonoBehaviour
             Vector3Int plantLocation = item.Key;
             Plant plant = item.Value;
 
+            plant.RateAdjacentCrops();
+
             CheckWatered(plantLocation);
             CheckSeason(plant);
 

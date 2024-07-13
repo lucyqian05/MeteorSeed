@@ -17,8 +17,10 @@ public class SO_Plant : ScriptableObject
 
     public Sprite[] plantStageSprite;
 
-    [Header("Crop Information")]
     public SO_ItemData crop;
+
+    [Header("Crop Information")]
+    public SO_ItemData[] crops;
     public int numberOfCrops;
 
     [field: SerializeField]
