@@ -110,12 +110,13 @@ public class Plant : MonoBehaviour
     {
         SO_Plant[] companions = plantData.companionPlants;
         SO_Plant[] antagonists = plantData.antagonistPlants;
+        
 
         //I haven't used ContactFilter so I'm not going to try to learn it right now. It filters which colliders to listen to. 
         ContactFilter2D contactFilter = new ContactFilter2D().NoFilter();
-
         List<Collider2D> results = new List<Collider2D>(); 
         polyCollider.OverlapCollider(contactFilter, results);
+        Debug.Log(polyCollider.OverlapCollider(contactFilter, results));
 
         if (results != null)
             for (int i = 0; i < results.Count; i++)
@@ -147,6 +148,7 @@ public class Plant : MonoBehaviour
                     }
                 }
             }
+        results.Clear();
 
     }
 
