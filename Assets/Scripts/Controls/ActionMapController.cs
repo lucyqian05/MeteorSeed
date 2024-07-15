@@ -13,7 +13,6 @@ public class ActionMapController : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         playerController = GetComponent<PlayerController>();
         seedModeController = GetComponent<SeedModeController>();
-
     }
 
     public void EnablePlayerController()
@@ -22,7 +21,7 @@ public class ActionMapController : MonoBehaviour
         playerController.OnEnable();
 
         playerInput.actions.FindActionMap("Seed Mode").Disable();
-        //seedModeController.OnDisable();
+        seedModeController.OnDisable();
 
     }
 
@@ -32,7 +31,7 @@ public class ActionMapController : MonoBehaviour
         playerController.OnDisable();
 
         playerInput.actions.FindActionMap("Seed Mode").Enable();
-        //seedModeController.OnEnable();
+        seedModeController.OnEnable();
     }
 
 

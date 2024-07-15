@@ -165,7 +165,7 @@ namespace DateAndTime
 
                 date++;
 
-                if (date % 21 == 0)
+                if (date % 26 == 0)
                 {
                     AdvanceSeason();
                     date = 1;

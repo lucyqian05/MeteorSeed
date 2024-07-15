@@ -1,8 +1,7 @@
 using Inventory.Model;
 using UnityEngine;
-using DateAndTime;
 using System;
-using UnityEngine.Tilemaps;
+using System.Collections.Generic;
 
 [CreateAssetMenu]
 public class SO_Plant : ScriptableObject
@@ -17,10 +16,10 @@ public class SO_Plant : ScriptableObject
 
     public Sprite[] plantStageSprite;
 
-    public SO_ItemData crop;
+    public SO_ItemData so_Crop;
 
     [Header("Crop Information")]
-    public SO_ItemData[] crops;
+    public SO_ItemData[] ratedCrops;
     public int numberOfCrops;
 
     [field: SerializeField]
@@ -31,7 +30,9 @@ public class SO_Plant : ScriptableObject
 
     [Header("Growth Information")]
     public int daysToGrow;
-    public bool doesRegrow;
+
+    [SerializeField]
+    private bool doesRegrow = false;
 
     private const int plantStageSeed = 1;
     private const int plantStageOne = 2;
@@ -50,6 +51,37 @@ public class SO_Plant : ScriptableObject
     public int GetStageTwoInt()
     {
         return plantStageTwo; 
+    }
+
+    public List<Sprite> GetCompanionSprites()
+    {
+        List<Sprite> companionSprite = new List<Sprite>();
+        for (int i = 0; i < companionPlants.Length; i++)
+        {
+            Sprite comSprite;
+
+            comSprite = companionPlants[i].ratedCrops[1].Image;
+            companionSprite.Add(comSprite);
+        }
+        return companionSprite;
+    }
+
+    public List<Sprite> GetAntagonistSprites()
+    {
+        List<Sprite> antagonistSprite = new List<Sprite>();
+        for (int i = 0; i < companionPlants.Length; i++)
+        {
+            Sprite antSprite;
+
+            antSprite = antagonistPlants[i].ratedCrops[1].Image;
+            antagonistSprite.Add(antSprite);
+        }
+        return antagonistSprite;
+    }
+
+    public bool GetIfPlantRegrows()
+    {
+        return doesRegrow;
     }
 
     public Sprite GetPlantSprite(int growthCounter)

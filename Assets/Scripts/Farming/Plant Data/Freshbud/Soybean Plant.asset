@@ -20,8 +20,8 @@ MonoBehaviour:
   - {fileID: -2087108703, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
   - {fileID: 119643695, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
   - {fileID: 910466991, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
-  crop: {fileID: 11400000, guid: 1613610b98f3b2444af6ed5b56f51cbb, type: 2}
-  crops:
+  so_Crop: {fileID: 11400000, guid: dc96d3d0691919e42b47d7802702f49f, type: 2}
+  ratedCrops:
   - {fileID: 11400000, guid: 1613610b98f3b2444af6ed5b56f51cbb, type: 2}
   - {fileID: 11400000, guid: dc96d3d0691919e42b47d7802702f49f, type: 2}
   - {fileID: 11400000, guid: e7046ded5465b2542bf1547852894e2e, type: 2}

@@ -20,7 +20,13 @@ MonoBehaviour:
   - {fileID: 1477780340, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
   - {fileID: 1391833497, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
   - {fileID: -38554041, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
-  crop: {fileID: 11400000, guid: d55d743129afa964e9e9d1182c72e00d, type: 2}
+  so_Crop: {fileID: 11400000, guid: d55d743129afa964e9e9d1182c72e00d, type: 2}
+  ratedCrops:
+  - {fileID: 11400000, guid: be7b5e2cdbce01142bc405a3fff69b21, type: 2}
+  - {fileID: 11400000, guid: d55d743129afa964e9e9d1182c72e00d, type: 2}
+  - {fileID: 11400000, guid: 2d71504be4c8ce445ac7106b0ff61583, type: 2}
+  - {fileID: 11400000, guid: 58c894d2f7c4e724d8a576cedeeb94fb, type: 2}
+  - {fileID: 11400000, guid: 49ffdfe3ae7f04a46b3b9bba3e686315, type: 2}
   numberOfCrops: 1
   <companionPlants>k__BackingField:
   - {fileID: 11400000, guid: 8e0c70b07522f0f49bc2a554cd345519, type: 2}
@@ -28,4 +34,4 @@ MonoBehaviour:
   <antagonistPlants>k__BackingField:
   - {fileID: 11400000, guid: d5942fcc1f42bee4a82d83eda98cdbf6, type: 2}
   daysToGrow: 12
-  daysToRegrow: 0
+  doesRegrow: 0

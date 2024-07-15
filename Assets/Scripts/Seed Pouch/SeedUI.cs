@@ -101,7 +101,8 @@ public class SeedUI : MonoBehaviour
 
     private void SetSeedImage()
     {
-        seedImage.sprite = seed.seedSprite;
+        if(seed.seedSprite != null)
+            seedImage.sprite = seed.seedSprite;
     }
 
     private void SetQuantity()

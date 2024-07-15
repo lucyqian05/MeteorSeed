@@ -32,6 +32,7 @@ public class CropsManager : MonoBehaviour
     {
         foreach (var item in cropManager)
         {
+            Debug.Log(item.Value.plantData.name);
             Vector3Int plantLocation = item.Key;
             Plant plant = item.Value;
 

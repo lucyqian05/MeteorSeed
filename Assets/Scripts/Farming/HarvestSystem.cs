@@ -47,12 +47,15 @@ public class HarvestSystem : MonoBehaviour
 
     private void Harvest(InputAction.CallbackContext context)
     {
+
         if (plant != null && isInRange == true)
         {
-            if (plant.readyForHarvest)
+            bool harvestTime = plant.readyForHarvest;
+
+            if (harvestTime)
             {
                 //adds item to inventory and handles remainder if inventory is full 
-                SO_ItemData crop = plant.GetItem();
+                SO_ItemData crop = plant.GetRatedCrop();
                 int quantity = plant.GetQuantity();
                 int remainder = inventoryData.AddItem(crop, quantity);
 
@@ -66,13 +69,14 @@ public class HarvestSystem : MonoBehaviour
                         item.Quantity = 1;
                     }
                 }
-                
+
                 //handles what happens to the plant after the item is added to inventory
-                if (!plant.plantData.doesRegrow)
+                bool doesRegrow = plant.plantData.GetIfPlantRegrows();
+                if (!doesRegrow)
                 {
                     Vector3Int plantLocation = plant.plantLocation;
-                    cropManager.RemoveCrop(plantLocation);
                     plantTilemapManager.SetNoPlantPlaceholder(plantLocation);
+                    cropManager.RemoveCrop(plantLocation);
                 }
                 plant.Harvest();
             }
@@ -83,6 +87,7 @@ public class HarvestSystem : MonoBehaviour
     {
         plant = collision.GetComponent<Plant>();
         isInRange = true;
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)

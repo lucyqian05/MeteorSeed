@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63d1c8de0f8c76d4bab9400682c93848, type: 3}
-  m_Name: Hyacinth
+  m_Name: Watermelon_5Galaxy
   m_EditorClassIdentifier: 
-  <Name>k__BackingField: Hyacinth
+  <Name>k__BackingField: Watermelon
   <IsStackable>k__BackingField: 1
   <MaxStackSize>k__BackingField: 99
-  <Image>k__BackingField: {fileID: 1653636751500457230, guid: ca0a6df3c2ef8134a87c633516c4f007,
+  <Image>k__BackingField: {fileID: -1911069507, guid: c06e4c389c4daca44b47a3482ba9e918,
     type: 3}
-  <Description>k__BackingField: Flower in flower in flowers and purple
+  <Description>k__BackingField: 
   modifiersData: []

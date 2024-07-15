@@ -20,7 +20,13 @@ MonoBehaviour:
   - {fileID: 1561273792, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
   - {fileID: -30390889, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
   - {fileID: -1236737087, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
-  crop: {fileID: 11400000, guid: 7d45e7445c0fa084c87e526e7a4b51c3, type: 2}
+  so_Crop: {fileID: 11400000, guid: 7d45e7445c0fa084c87e526e7a4b51c3, type: 2}
+  ratedCrops:
+  - {fileID: 11400000, guid: 62827b16ff28eab48b3a740ac7077187, type: 2}
+  - {fileID: 11400000, guid: 7d45e7445c0fa084c87e526e7a4b51c3, type: 2}
+  - {fileID: 11400000, guid: 72f436397c5fc5141a3e80627fc35518, type: 2}
+  - {fileID: 11400000, guid: b3410e1060428674caeca94d04512e78, type: 2}
+  - {fileID: 11400000, guid: 42aa4627a95dbdf4b943c1176d03dd10, type: 2}
   numberOfCrops: 1
   <companionPlants>k__BackingField:
   - {fileID: 11400000, guid: 21a1047d00225b84597eb770780481ed, type: 2}

@@ -256,6 +256,15 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Right Click"",
+                    ""type"": ""Button"",
+                    ""id"": ""dcd1e514-bd5a-418c-8d66-c82d2b0bd8c4"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -324,6 +333,17 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
                     ""action"": ""UINavigation"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ecc607c8-57c9-44b7-9c3e-3ce88a55a7a9"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Right Click"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -361,6 +381,7 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
         m_SeedMode = asset.FindActionMap("Seed Mode", throwIfNotFound: true);
         m_SeedMode_UINavigation = m_SeedMode.FindAction("UINavigation", throwIfNotFound: true);
         m_SeedMode_MousePosition = m_SeedMode.FindAction("MousePosition", throwIfNotFound: true);
+        m_SeedMode_RightClick = m_SeedMode.FindAction("Right Click", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -526,12 +547,14 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     private List<ISeedModeActions> m_SeedModeActionsCallbackInterfaces = new List<ISeedModeActions>();
     private readonly InputAction m_SeedMode_UINavigation;
     private readonly InputAction m_SeedMode_MousePosition;
+    private readonly InputAction m_SeedMode_RightClick;
     public struct SeedModeActions
     {
         private @PlayerControls m_Wrapper;
         public SeedModeActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @UINavigation => m_Wrapper.m_SeedMode_UINavigation;
         public InputAction @MousePosition => m_Wrapper.m_SeedMode_MousePosition;
+        public InputAction @RightClick => m_Wrapper.m_SeedMode_RightClick;
         public InputActionMap Get() { return m_Wrapper.m_SeedMode; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -547,6 +570,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @MousePosition.started += instance.OnMousePosition;
             @MousePosition.performed += instance.OnMousePosition;
             @MousePosition.canceled += instance.OnMousePosition;
+            @RightClick.started += instance.OnRightClick;
+            @RightClick.performed += instance.OnRightClick;
+            @RightClick.canceled += instance.OnRightClick;
         }
 
         private void UnregisterCallbacks(ISeedModeActions instance)
@@ -557,6 +583,9 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
             @MousePosition.started -= instance.OnMousePosition;
             @MousePosition.performed -= instance.OnMousePosition;
             @MousePosition.canceled -= instance.OnMousePosition;
+            @RightClick.started -= instance.OnRightClick;
+            @RightClick.performed -= instance.OnRightClick;
+            @RightClick.canceled -= instance.OnRightClick;
         }
 
         public void RemoveCallbacks(ISeedModeActions instance)
@@ -598,5 +627,6 @@ public partial class @PlayerControls: IInputActionCollection2, IDisposable
     {
         void OnUINavigation(InputAction.CallbackContext context);
         void OnMousePosition(InputAction.CallbackContext context);
+        void OnRightClick(InputAction.CallbackContext context);
     }
 }

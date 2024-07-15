@@ -28,8 +28,6 @@ public class Plant : MonoBehaviour
 
     private PolygonCollider2D polyCollider; 
 
-    public Action<SO_ItemData> CropProduced;
-
     private void Start()
     {
         polyCollider = GetComponent<PolygonCollider2D>();
@@ -39,8 +37,10 @@ public class Plant : MonoBehaviour
 
     public void Harvest()
     {
-        if (!plantData.doesRegrow)
+        bool doesRegrow = plantData.GetIfPlantRegrows();
+        if (!doesRegrow)
         {
+            DestroyPlant();
             return;
         } 
         else
@@ -52,10 +52,37 @@ public class Plant : MonoBehaviour
         readyForHarvest = false;
     }
 
-    public SO_ItemData GetItem()
+    public SO_ItemData GetRatedCrop()
     {
-        SO_ItemData item = plantData.crop;
-        return item;
+        int daysToGrow = plantData.daysToGrow;
+        SO_ItemData bronzeCrop = plantData.ratedCrops[1];
+
+        if (ratingCounter < 0)
+        {
+            SO_ItemData leadCrop = plantData.ratedCrops[0];
+            return leadCrop;
+        }
+        else if ( 0 <= ratingCounter && ratingCounter < daysToGrow )
+        {
+            return bronzeCrop;
+        }
+        else if (daysToGrow <= ratingCounter && ratingCounter < daysToGrow*2)
+        {
+            SO_ItemData silverCrop = plantData.ratedCrops[2];
+            return silverCrop;
+
+        }
+        else if (daysToGrow*2 <= ratingCounter && ratingCounter < daysToGrow*3)
+        {
+            SO_ItemData goldCrop = plantData.ratedCrops[3];
+            return goldCrop;
+        }
+        else if (daysToGrow * 3 <= ratingCounter)
+        {
+            SO_ItemData galaxyCrop = plantData.ratedCrops[4];
+            return galaxyCrop;
+        }
+        return bronzeCrop;
     }
 
     public int GetQuantity()
@@ -76,7 +103,6 @@ public class Plant : MonoBehaviour
         if (growthCounter >= plantData.daysToGrow)
         {
             readyForHarvest = true;
-            CropProduced?.Invoke(plantData.crop);
         }
     }
 
@@ -91,35 +117,37 @@ public class Plant : MonoBehaviour
         List<Collider2D> results = new List<Collider2D>(); 
         polyCollider.OverlapCollider(contactFilter, results);
 
-        for (int i = 0; i < results.Count; i++)
-        {
-            Collider2D neighboringPlantColliders = results[i];
-            GameObject neighborPlantGO = neighboringPlantColliders.gameObject;
-            Plant neighborPlant = neighborPlantGO.GetComponent<Plant>();
-            SO_Plant so_NeighborPlant = neighborPlant.plantData;
+        if (results != null)
+            for (int i = 0; i < results.Count; i++)
+            {
+                Collider2D neighboringPlantColliders = results[i];
+                GameObject neighborPlantGO = neighboringPlantColliders.gameObject;
+                Plant neighborPlant = neighborPlantGO.GetComponent<Plant>();
+                SO_Plant so_NeighborPlant = neighborPlant.plantData;
 
-            if(companions != null)
-            {
-                for (int j = 0; j < companions.Length; j++)
+                if (companions != null)
                 {
-                    if (companions[j] == so_NeighborPlant)
+                    for (int j = 0; j < companions.Length; j++)
                     {
-                        ratingCounter++;
+                        if (companions[j] == so_NeighborPlant)
+                        {
+                            ratingCounter++;
+                        }
+                    }
+                }
+
+                if (antagonists != null)
+                {
+                    for (int jj = 0; jj < antagonists.Length; jj++)
+                    {
+                        if (antagonists[jj] == so_NeighborPlant)
+                        {
+                            ratingCounter--;
+                        }
                     }
                 }
             }
-            
-            if (antagonists != null)
-            {
-                for (int jj = 0; jj < antagonists.Length; jj++)
-                {
-                    if (antagonists[jj] == so_NeighborPlant)
-                    {
-                        ratingCounter--;
-                    }
-                }
-            }
-        }
+
     }
 
     public void Unwatered()

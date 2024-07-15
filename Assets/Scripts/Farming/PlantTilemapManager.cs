@@ -1,5 +1,8 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
 public class PlantTilemapManager : MonoBehaviour
@@ -28,13 +31,21 @@ public class PlantTilemapManager : MonoBehaviour
     [SerializeField]
     private Tile noPlantPlaceholder;
 
+    private SeedModeController seedModeController;
+    private GameObject player;
+
     private Dictionary<Vector3Int, SeedUI> tempSeedMap = new Dictionary<Vector3Int, SeedUI>();
 
     Color clearTile = new Color(1.0f, 1.0f, 1.0f, 0f);
 
     public void Start()
     {
+        player = GameObject.FindWithTag("Player");
+        seedModeController = player.GetComponent<SeedModeController>();
+
         seedController.SeedDropped += HandleSeedDropped;
+
+        seedModeController.OnRightClick += RemoveSeed;
     }
 
     public bool CheckClearTile(Vector3Int tilePosition)
@@ -88,6 +99,25 @@ public class PlantTilemapManager : MonoBehaviour
         tempSeedMap.Clear(); 
     }
 
+    private void RemoveSeed(InputAction.CallbackContext obj)
+    {
+        Vector3 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3Int tilePosition = plantTilemap.WorldToCell(worldPoint);
+        foreach (var item in tempSeedMap)
+        {
+            if (item.Key == tilePosition)
+            {
+                SeedUI oldSeed = tempSeedMap[item.Key];
+                oldSeed.seed.UpdateQuantity(+1);
+                oldSeed.SetData();
+
+                SetNoPlantPlaceholder(item.Key);
+                tempSeedMap.Remove(item.Key);
+                return;
+            }
+        }
+    }
+
     public void HandleSeedDropped(SeedUI seed)
     {
         Vector3 worldPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -114,7 +144,25 @@ public class PlantTilemapManager : MonoBehaviour
 
         if (plantTile != null && plantTile != plantPlaceholder && farmTileState != "Agni")
         {
-            if(seedSet || tileColor == clearTile)
+            if(seedSet)
+            {
+                SeedUI oldSeed = tempSeedMap[tilePosition];
+                oldSeed.seed.UpdateQuantity(+1);
+                oldSeed.SetData();
+
+                tempTile.sprite = seedImage;
+                plantTilemap.SetTile(tilePosition, tempTile);
+
+                tempSeedMap.Remove(tilePosition);
+                tempSeedMap.Add(tilePosition, seed);
+
+                seedController.AddTempSeedData(seed);
+                
+                seed.seed.UpdateQuantity(-1);
+                seed.SetData();
+            }
+                
+            if(tileColor == clearTile)
             {
                 tempTile.sprite = seedImage;
                 plantTilemap.SetTile(tilePosition, tempTile);

@@ -77,15 +77,15 @@ SpriteRenderer:
   m_SortingLayerID: 2126855281
   m_SortingLayer: 2
   m_SortingOrder: 10
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1004498586, guid: 5de70827cef5ef649a45f6f492cc5223, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 0.9583333}
+  m_Size: {x: 0.7916667, y: 0.6666667}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &7202057295401870925
@@ -103,6 +103,7 @@ MonoBehaviour:
   plantData: {fileID: 0}
   deadPlant: {fileID: 21300000, guid: 15f72b6df85431f46acd0d558cd1b392, type: 3}
   plantLocation: {x: 0, y: 0, z: 0}
+  ratingCounter: 0
   plantWatered: 0
   daysUnwatered: 0
   readyForHarvest: 0
@@ -126,7 +127,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028346061109137987}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -151,18 +152,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.14729433}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.9583333}
-    newSize: {x: 1, y: 0.9583333}
+    oldSize: {x: 0.7916667, y: 0.6666667}
+    newSize: {x: 0.7916667, y: 0.6666667}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.7054113}
+  m_Size: {x: 0.9, y: 0.9}
   m_EdgeRadius: 0
 --- !u!60 &7346248227569113089
 PolygonCollider2D:
@@ -200,8 +201,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.9583333}
-    newSize: {x: 1, y: 0.9583333}
+    oldSize: {x: 0.7916667, y: 0.6666667}
+    newSize: {x: 0.7916667, y: 0.6666667}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

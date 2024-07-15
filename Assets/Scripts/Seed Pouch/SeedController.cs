@@ -157,8 +157,8 @@ public class SeedController : MonoBehaviour
 
     private void HandleSeedSelection(SeedUI seedUI)
     {
-        Sprite seedSprite = seedUI.seed.plant.crop.Image;
-        string seedName = seedUI.seed.plant.crop.Name;
+        Sprite seedSprite = seedUI.seed.plant.so_Crop.Image;
+        string seedName = seedUI.seed.plant.so_Crop.Name;
         List<Sprite> companionSprite = new List<Sprite>();
         List<Sprite> antagonistSprite = new List<Sprite>();
 
@@ -169,7 +169,7 @@ public class SeedController : MonoBehaviour
         {
             Sprite comSprite;
 
-            comSprite = seedUI.seed.plant.companionPlants[i].crop.Image;
+            comSprite = seedUI.seed.plant.companionPlants[i].so_Crop.Image;
             companionSprite.Add(comSprite);
         }
 
@@ -177,7 +177,7 @@ public class SeedController : MonoBehaviour
         {
             Sprite antSprite;
 
-            antSprite = seedUI.seed.plant.antagonistPlants[i].crop.Image;
+            antSprite = seedUI.seed.plant.antagonistPlants[i].so_Crop.Image;
             antagonistSprite.Add(antSprite);
         }
 
