@@ -64,17 +64,17 @@ public class CropsManager : MonoBehaviour
         {
             int totalRate = 0;
 
-            Vector3Int upperCrop = item.Key + Vector3Int.up;
-            Vector3Int downCrop = item.Key + Vector3Int.down;
-            Vector3Int leftCrop = item.Key + Vector3Int.left;
-            Vector3Int rightCrop = item.Key + Vector3Int.right;
+            Vector3Int upperTile = item.Key + Vector3Int.up;
+            Vector3Int lowerTile = item.Key + Vector3Int.down;
+            Vector3Int leftTile = item.Key + Vector3Int.left;
+            Vector3Int rightTile = item.Key + Vector3Int.right;
 
             Vector3Int[] adjacentCrops =
             {
-                upperCrop,
-                downCrop,
-                leftCrop,
-                rightCrop
+                upperTile,
+                lowerTile,
+                leftTile,
+                rightTile
             };
             
             SO_Plant[] companions = item.Value.plantData.companionPlants;
@@ -82,32 +82,31 @@ public class CropsManager : MonoBehaviour
 
             for (int i = 0; i < adjacentCrops.Length; i++)
             {
-                if(adjacentCrops[i] != null)
+                if (cropManager.ContainsKey(adjacentCrops[i]))
                 {
                     for (int j = 0; j < companions.Length; j++)
                     {
-                        if (cropManager[adjacentCrops[i]] == companions[j])
+                        if (companions != null)
                         {
-                            totalRate++;
+                            if (cropManager[adjacentCrops[i]].plantData == companions[j])
+                            {
+                                totalRate++;
+                            }
                         }
                     }
-                }
-            }
 
-            for (int k = 0; k < adjacentCrops.Length; k++)
-            {
-                if (adjacentCrops[k] != null)
-                {
-                    for (int l = 0; l < antagonists.Length; l++)
+                    for (int k = 0; k < antagonists.Length; k++)
                     {
-                        if (cropManager[adjacentCrops[k]] == antagonists[l])
+                        if(antagonists != null)
                         {
-                            totalRate--;
-                        }
+                            if (cropManager[adjacentCrops[i]].plantData == antagonists[k])
+                            {
+                                totalRate--;
+                            }
+                        } 
                     }
                 }
             }
-
             item.Value.ratingCounter += totalRate; 
         }
     }
