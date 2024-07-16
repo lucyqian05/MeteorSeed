@@ -1,5 +1,4 @@
 using Inventory.Model;
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
@@ -21,33 +20,37 @@ public class HarvestSystem : MonoBehaviour
 
     private PlayerController playerController;
     private PlayerInput playerInput;
-    //private InputAction controllerInputAction;
 
     public Item item;
     private Plant plant; 
-    private bool isInRange = false;
+    private bool isInRange;
     private void Start()
     {
         playerController = GetComponent<PlayerController>();
         playerInput = GetComponent<PlayerInput>();
-        //controllerInputAction = playerInput.actions["MousePosition"];
-
-        plant = GetComponent<Plant>();
 
         playerController.OnInteract += Harvest;
     }
 
-    private void AriaItem()
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (item != null)
+        if (collision.gameObject.CompareTag("Crop"))
         {
-
+            isInRange = true;
+            plant = collision.GetComponent<Plant>();
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Crop"))
+        {
+            isInRange = false;
+        }          
     }
 
     private void Harvest(InputAction.CallbackContext context)
     {
-
         if (plant != null && isInRange == true)
         {
             bool harvestTime = plant.readyForHarvest;
@@ -81,17 +84,5 @@ public class HarvestSystem : MonoBehaviour
                 plant.Harvest();
             }
         }
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        plant = collision.GetComponent<Plant>();
-        isInRange = true;
-
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        isInRange = false;
     }
 }

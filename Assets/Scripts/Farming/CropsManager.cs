@@ -30,12 +30,13 @@ public class CropsManager : MonoBehaviour
 
     private void GrowAllCrops()
     {
+        RateCrops(); 
+
         foreach (var item in cropManager)
         {
             Vector3Int plantLocation = item.Key;
             Plant plant = item.Value;
 
-            plant.RateAdjacentCrops();
             CheckWatered(plantLocation);
             CheckSeason(plant);
 
@@ -54,6 +55,60 @@ public class CropsManager : MonoBehaviour
 
             waterCheck = false;
             seasonCheck = false;
+        }
+    }
+
+    private void RateCrops()
+    {
+        foreach (var item in cropManager)
+        {
+            int totalRate = 0;
+
+            Vector3Int upperCrop = item.Key + Vector3Int.up;
+            Vector3Int downCrop = item.Key + Vector3Int.down;
+            Vector3Int leftCrop = item.Key + Vector3Int.left;
+            Vector3Int rightCrop = item.Key + Vector3Int.right;
+
+            Vector3Int[] adjacentCrops =
+            {
+                upperCrop,
+                downCrop,
+                leftCrop,
+                rightCrop
+            };
+            
+            SO_Plant[] companions = item.Value.plantData.companionPlants;
+            SO_Plant[] antagonists = item.Value.plantData.antagonistPlants;
+
+            for (int i = 0; i < adjacentCrops.Length; i++)
+            {
+                if(adjacentCrops[i] != null)
+                {
+                    for (int j = 0; j < companions.Length; j++)
+                    {
+                        if (cropManager[adjacentCrops[i]] == companions[j])
+                        {
+                            totalRate++;
+                        }
+                    }
+                }
+            }
+
+            for (int k = 0; k < adjacentCrops.Length; k++)
+            {
+                if (adjacentCrops[k] != null)
+                {
+                    for (int l = 0; l < antagonists.Length; l++)
+                    {
+                        if (cropManager[adjacentCrops[k]] == antagonists[l])
+                        {
+                            totalRate--;
+                        }
+                    }
+                }
+            }
+
+            item.Value.ratingCounter += totalRate; 
         }
     }
 

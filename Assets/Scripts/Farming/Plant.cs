@@ -26,6 +26,9 @@ public class Plant : MonoBehaviour
 
     public bool readyForHarvest = false;
 
+    public ContactFilter2D contactFilter = new ContactFilter2D();
+    private List<Collider2D> results = new List<Collider2D>();
+
     private PolygonCollider2D polyCollider; 
 
     private void Start()
@@ -106,51 +109,48 @@ public class Plant : MonoBehaviour
         }
     }
 
-    public void RateAdjacentCrops()
-    {
-        SO_Plant[] companions = plantData.companionPlants;
-        SO_Plant[] antagonists = plantData.antagonistPlants;
-        
+    //public void RateAdjacentCrops()
+    //{
+    //    SO_Plant[] companions = plantData.companionPlants;
+    //    SO_Plant[] antagonists = plantData.antagonistPlants;
 
-        //I haven't used ContactFilter so I'm not going to try to learn it right now. It filters which colliders to listen to. 
-        ContactFilter2D contactFilter = new ContactFilter2D().NoFilter();
-        List<Collider2D> results = new List<Collider2D>(); 
-        polyCollider.OverlapCollider(contactFilter, results);
-        Debug.Log(polyCollider.OverlapCollider(contactFilter, results));
+    //    results.Clear(); 
+    //    polyCollider.OverlapCollider(contactFilter, results);
 
-        if (results != null)
-            for (int i = 0; i < results.Count; i++)
-            {
-                Collider2D neighboringPlantColliders = results[i];
-                GameObject neighborPlantGO = neighboringPlantColliders.gameObject;
-                Plant neighborPlant = neighborPlantGO.GetComponent<Plant>();
-                SO_Plant so_NeighborPlant = neighborPlant.plantData;
+    //    if (results != null)
+    //    {
+    //        for (int i = 0; i < results.Count; i++)
+    //        {
+    //            Collider2D neighboringPlantColliders = results[i];
+    //            GameObject neighborPlantGO = neighboringPlantColliders.gameObject;
+    //            Plant neighborPlant = neighborPlantGO.GetComponent<Plant>();
+    //            //Debug.Log(neighborPlant.plantLocation);
+    //            SO_Plant so_NeighborPlant = neighborPlant.plantData;
 
-                if (companions != null)
-                {
-                    for (int j = 0; j < companions.Length; j++)
-                    {
-                        if (companions[j] == so_NeighborPlant)
-                        {
-                            ratingCounter++;
-                        }
-                    }
-                }
+    //            if (companions != null)
+    //            {
+    //                for (int j = 0; j < companions.Length; j++)
+    //                {
+    //                    if (companions[j] == so_NeighborPlant)
+    //                    {
+    //                        ratingCounter++;
+    //                    }
+    //                }
+    //            }
 
-                if (antagonists != null)
-                {
-                    for (int jj = 0; jj < antagonists.Length; jj++)
-                    {
-                        if (antagonists[jj] == so_NeighborPlant)
-                        {
-                            ratingCounter--;
-                        }
-                    }
-                }
-            }
-        results.Clear();
-
-    }
+    //            if (antagonists != null)
+    //            {
+    //                for (int k = 0; k < antagonists.Length; k++)
+    //                {
+    //                    if (antagonists[k] == so_NeighborPlant)
+    //                    {
+    //                        ratingCounter--;
+    //                    }
+    //                }
+    //            }
+    //        }
+    //    }
+    //}
 
     public void Unwatered()
     {
@@ -179,6 +179,7 @@ public class Plant : MonoBehaviour
 
     public void DestroyPlant()
     {
+        polyCollider.enabled = false;
         Destroy(gameObject);
     }
 }
