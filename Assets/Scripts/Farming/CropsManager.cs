@@ -58,52 +58,64 @@ public class CropsManager : MonoBehaviour
         }
     }
 
+    private List<Plant> getValidAdjacentCrops(Vector3Int plantLocation) {
+       List<Plant> adjacentPlants = new List<Plant>();
+
+        // Possible directions
+        Vector3Int[] directions = new Vector3Int[] {
+            Vector3Int.up,
+            Vector3Int.down,
+            Vector3Int.left,
+            Vector3Int.right
+        };
+
+        // Iterate over each direction and check if the adjacent tile is valid
+        foreach (var direction in directions) {
+            Vector3Int adjacentTile = plantLocation + direction;
+            // cropManager containing tile means it's valid
+            if (cropManager.TryGetValue(adjacentTile, out Plant adjacentPlant))
+            {
+                adjacentPlants.Add(adjacentPlant);
+            }
+        }
+
+        return adjacentPlants;
+    }
+
     private void RateCrops()
     {
         foreach (var item in cropManager)
         {
             int totalRate = 0;
+            Vector3Int plantLocation = item.Key;
+            List<Plant> adjacentCrops = getValidAdjacentCrops(plantLocation);
 
-            Vector3Int upperTile = item.Key + Vector3Int.up;
-            Vector3Int lowerTile = item.Key + Vector3Int.down;
-            Vector3Int leftTile = item.Key + Vector3Int.left;
-            Vector3Int rightTile = item.Key + Vector3Int.right;
+            PlantData plantData = item.Value.plantData;
+            SO_Plant[] companions = plantData.companionPlants;
+            SO_Plant[] antagonists = plantData.antagonistPlants;
 
-            Vector3Int[] adjacentCrops =
+            foreach (Plant currentAdjacent in adjacentCrops)
             {
-                upperTile,
-                lowerTile,
-                leftTile,
-                rightTile
-            };
-            
-            SO_Plant[] companions = item.Value.plantData.companionPlants;
-            SO_Plant[] antagonists = item.Value.plantData.antagonistPlants;
-
-            for (int i = 0; i < adjacentCrops.Length; i++)
-            {
-                if (cropManager.ContainsKey(adjacentCrops[i]))
+                if (companions != null) 
                 {
-                    for (int j = 0; j < companions.Length; j++)
+                    foreach (var companion in companions)
                     {
-                        if (companions != null)
+                        if (currentAdjacent.plantData == companion)
                         {
-                            if (cropManager[adjacentCrops[i]].plantData == companions[j])
-                            {
-                                totalRate++;
-                            }
+                            totalRate++;
                         }
+                    
                     }
+                }
 
-                    for (int k = 0; k < antagonists.Length; k++)
-                    {
-                        if(antagonists != null)
+                if (antagonists != null) {
+                    foreach (var antagonist in antagonists)
+                    {  
+                        if (currentAdjacent.plantData == antagonist )
                         {
-                            if (cropManager[adjacentCrops[i]].plantData == antagonists[k])
-                            {
-                                totalRate--;
-                            }
-                        } 
+                            totalRate--;
+                        }
+                    
                     }
                 }
             }
